@@ -8,3 +8,7 @@ body {
     width: 1440px;
     background-color: black;
 }
+
+.container {
+    padding: 20px 28px 1px 28px;
+}
