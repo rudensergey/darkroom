@@ -10,5 +10,12 @@ body {
 }
 
 .container {
-    padding: 20px 28px 1px 28px;
+    height: 50px;
+    padding: 20px 28px 0px 28px;
+}
+
+.shadow {
+    height: 1px;
+    width: 1440px;
+    background-color: red;
 }
