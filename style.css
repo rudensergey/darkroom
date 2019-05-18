@@ -1,0 +1,10 @@
+body {
+    margin: 0px;
+    width: 1440px;
+}
+
+.header-space {
+    height: 70px;
+    width: 1440px;
+    background-color: black;
+}
