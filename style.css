@@ -12,6 +12,10 @@ body {
 .container {
     height: 50px;
     padding: 20px 28px 0px 28px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
 .shadow {
@@ -19,3 +23,14 @@ body {
     width: 1440px;
     background-color: red;
 }
+
+.header-buttons {
+    height: 58px;
+    width: 455px;
+    background-color: bisque;
+    position: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
