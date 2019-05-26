@@ -25,7 +25,7 @@ body {
 }
 
 .header-buttons {
-    height: 58px;
+    height: 50px;
     width: 455px;
     background-color: bisque;
     position: right;
@@ -37,29 +37,30 @@ body {
 /* menu block */
 
 .menu-explore {
-    height: 58px;
+    height: 50px;
     width: 86px;
     text-align: center;
 }
 
 .menu-cart {
-    height: 58px;
+    height: 50px;
     width: 63px;
     text-align: center;
 }
 
 .menu-login {
-    height: 58px;
+    height: 50px;
     width: 112px;
     text-align: center;
 }
 
 .menu-gallery {
-    height: 58px;
+    height: 50px;
     width: 192px;
     text-align: center;
 }
 
-#menu-link {
-    margin: 4px auto 20px auto;
+.menu-explore a {
+    display: block;
+    margin: 4px 0px 20px 0px;
 }
