@@ -81,11 +81,45 @@ body {
     width: 41px;
     margin: 1px auto;
     padding: 6px 18px 7px 18px;
+    color: rgb(136, 136, 136);
 
     border: 2px;
     border-style: solid;
     border-color: rgb(136, 136, 136);
     border-radius: 4px;
 
+    transition-property: color, border-color;
+    transition-duration: 0.35s;
+
     display: block;
+}
+
+#menu-login:hover {
+    color: rgb(168, 207, 194);
+    border-color: rgb(168, 207, 194);
+}
+
+#menu-gallery {
+    height: 20px;
+    width: 120.5px;
+    margin: 1px auto;
+    padding: 6px 18px 7px 18px;
+    color: white;
+    opacity: 1;
+
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(168, 207, 194);
+    border-radius: 4px;
+    background-color: rgb(168, 207, 194);
+
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.35s;
+
+    display: block;
+}
+
+#menu-gallery:hover{
+    opacity: 0.9;
 }
