@@ -34,3 +34,32 @@ body {
     justify-content: space-between;
 }
 
+/* menu block */
+
+.menu-explore {
+    height: 58px;
+    width: 86px;
+    text-align: center;
+}
+
+.menu-cart {
+    height: 58px;
+    width: 63px;
+    text-align: center;
+}
+
+.menu-login {
+    height: 58px;
+    width: 112px;
+    text-align: center;
+}
+
+.menu-gallery {
+    height: 58px;
+    width: 192px;
+    text-align: center;
+}
+
+#menu-link {
+    margin: 4px auto 20px auto;
+}
