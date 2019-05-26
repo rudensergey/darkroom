@@ -9,6 +9,14 @@ body {
     height: 70px;
     width: 1440px;
     background-color: white;
+
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
 }
 
 .container {
@@ -22,12 +30,6 @@ body {
 
 .logo {
     margin-top: 5px;
-}
-
-.header-shadow {
-    height: 1px;
-    width: 1440px;
-    background-color: rgb(236, 236, 236);
 }
 
 .header-buttons {
