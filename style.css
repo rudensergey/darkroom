@@ -32,8 +32,6 @@ body {
     border-color: rgb(236, 236, 236);
 
     position: fixed;
-    top: 0;
-    right: 0;
     z-index: 1;
 }
 
@@ -170,17 +168,12 @@ body {
     z-index: -2;
 }
 
-.slide-show-content {
-    width: 100vw;  
-    height: 100vh;
-    padding-top: 20vh;
-}
-
-.content {
-    margin: 200px auto;
-    padding: 20px;
-    width: 50%;
-    background: white;
+.slider-content {
+    margin: 0px auto;
+    margin-top:4px;
+    padding: 187px 98px 273px 98px;
+    width: auto;
+    height: 189px;
 }
 
 .color {
