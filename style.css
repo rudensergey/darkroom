@@ -6,12 +6,11 @@ body {
     margin: 0px;
     max-width: 1920px;
     min-width: 800px;
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 100vh;
-    perspective: 1px;
-    transform-style: preserve-3d;
+
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -23,21 +22,20 @@ body {
     width: 100%;
     background-color: white;
 
+    border-style: solid;
+    border-color: rgb(236, 236, 236);
     border-top-width: 0px;
     border-left-width: 0px;
     border-right-width: 0px;
     border-bottom-width: 1px;
 
-    border-style: solid;
-    border-color: rgb(236, 236, 236);
-
     position: fixed;
-    z-index: 1;
 }
 
 .container {
     height: 40px;
     padding: 15px 28px 0px 28px;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -94,8 +92,6 @@ body {
 
 /* creating new effect */
 
-/* ending */
-
 #menu-login {
     height: 20px;
     width: 41px;
@@ -146,39 +142,3 @@ body {
 
 /* slider */
 
-.parallax-wrapper {
-     width: 100vw;
-     height: 100vh;
-     padding-top: 20vh;
-     margin-top: -60px;
-     box-sizing: border-box;
-     transform-style: preserve-3d;
-}
-
-.parallax-wrapper::before {
-    content: "";
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-image: url("https://www.darkroom.tech/wp-content/uploads/2018/07/darkroom-hero.jpg");
-    background-size: cover;
-    position: absolute;
-    transform: translateZ(-1px) scale(2);
-    z-index: -2;
-}
-
-.slider-content {
-    margin: 0px auto;
-    margin-top:4px;
-    padding: 187px 98px 273px 98px;
-    width: auto;
-    height: 189px;
-}
-
-.color {
-    width: inherit;
-    height: inherit;
-    color: aqua;
-    z-index: -1;
-}
