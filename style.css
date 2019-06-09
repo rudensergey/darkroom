@@ -3,6 +3,11 @@ body {
     max-width: 1920px;
     min-width: 800px;
     display: flex;
+<<<<<<< HEAD
+=======
+    flex-wrap: wrap;
+    flex-direction: column;
+>>>>>>> 9239b22... add underline and start to create a hover effect for this text
 }
 
 /* menu block */
@@ -76,6 +81,25 @@ body {
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
+}
+
+/* WORKING ON TEXT UNDERLINE EFFECT */
+
+.menu-explore-underline {
+    width: 54px;
+    height: 2px;
+    background-color: rgb(168, 207, 194);
+
+    transform: rotateY(90deg);
+
+    margin: 0px auto;
+}
+
+#menu-explore-underline {
+    margin: 9px 0px 5px 0px;
+
+    display: flex;
+    justify-content: center;
 }
 
 /* creating new effect */
