@@ -90,7 +90,7 @@ body {
     height: 2px;
     background-color: rgb(168, 207, 194);
 
-    transform: rotateY(90deg);
+    transform: rotateY(deg);
 
     margin: 0px auto;
 }
