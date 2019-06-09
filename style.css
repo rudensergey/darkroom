@@ -1,7 +1,3 @@
-html {
-    overflow: hidden;
-}
-
 body {
     margin: 0px;
     max-width: 1920px;
@@ -10,9 +6,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
-    overflow-x: hidden;
-    overflow-y: auto;
 }
 
 /* menu block */
@@ -88,6 +81,25 @@ body {
     font-size: 16px;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
+}
+
+/* WORKING ON TEXT UNDERLINE EFFECT */
+
+.menu-explore-underline {
+    width: 54px;
+    height: 2px;
+    background-color: rgb(168, 207, 194);
+
+    transform: rotateY(90deg);
+
+    margin: 0px auto;
+}
+
+#menu-explore-underline {
+    margin: 9px 0px 5px 0px;
+
+    display: flex;
+    justify-content: center;
 }
 
 /* creating new effect */
