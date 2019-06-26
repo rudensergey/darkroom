@@ -85,24 +85,39 @@ body {
 
 /* WORKING ON TEXT UNDERLINE EFFECT */
 
-.menu-explore-underline {
-    width: 54px;
-    height: 2px;
-    background-color: rgb(168, 207, 194);
-
-    transform: rotateY(deg);
-
-    margin: 0px auto;
+.menu-underlined-explore::after {
+content: "";
+display: block;
+height: 2px;
+background: rgb(168, 207, 194);
+width: 0;
+transition: width 0.35s;
+margin: auto;
+margin-top: 5px;
+transition-timing-function: ease;
+}
+  
+.menu-underlined-explore:hover::after {
+width: 54px;
 }
 
-#menu-explore-underline {
-    margin: 9px 0px 5px 0px;
-
-    display: flex;
-    justify-content: center;
+.menu-underlined-cart::after {
+content: "";
+display: block;
+height: 2px;
+background: rgb(168, 207, 194);
+width: 0;
+transition: width 0.35s;
+margin: auto;
+margin-top: 5px;
+transition-timing-function: ease;
+}
+      
+.menu-underlined-cart:hover::after {
+width: 34px;
 }
 
-/* creating new effect */
+/* END */
 
 #menu-login {
     height: 20px;
