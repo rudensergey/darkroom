@@ -32,56 +32,36 @@ body {
     width: 455px;
     margin-top: 1px;
     background-color:white;
-    position: right;
+
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .menu-explore {
     height: 40px;
     width: 86px;
     text-align: center;
-
-    display: block;
-    margin: 9px 0px 20px 0px;
-    color: rgb(136, 136, 136);
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
 }
 
 .menu-cart {
     height: 40px;
     width: 63px;
     text-align: center;
-
-    display: block;
-    margin: 9px 0px 20px 0px;
-    color: rgb(136, 136, 136);
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
 }
 
 .menu-login {
     height: 40px;
     width: 112px;
     text-align: center;
-
-    display: block;
-    margin: 9px 0px 20px 0px;
-    color: rgb(136, 136, 136);
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
 }
 
 .menu-gallery {
     height: 40px;
     width: 192px;
     text-align: center;
+}
 
+.menu-text {
     display: block;
     margin: 9px 0px 20px 0px;
     color: rgb(136, 136, 136);
