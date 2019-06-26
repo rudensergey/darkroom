@@ -2,37 +2,25 @@ body {
     margin: 0px;
     max-width: 1920px;
     min-width: 800px;
+
     display: flex;
-<<<<<<< HEAD
-=======
+
     flex-wrap: wrap;
     flex-direction: column;
->>>>>>> 9239b22... add underline and start to create a hover effect for this text
 }
 
 /* menu block */
 
-.header-space {
-    height: 70px;
-    width: 100%;
-    background-color: white;
-
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 1px;
-
-    border-style: solid;
-    border-color: rgb(236, 236, 236);
-}
-
-.container {
+.header {
     height: 40px;
-    padding: 15px 28px 0px 28px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    width: 1384px;
+    padding: 15px 28px 15px 28px;
+    border-bottom: solid 1px rgb(236, 236, 236);
+
     justify-content: space-between;
+
+    display: flex;
+    position: fixed;
 }
 
 .logo {
@@ -54,27 +42,7 @@ body {
     height: 40px;
     width: 86px;
     text-align: center;
-}
 
-.menu-cart {
-    height: 40px;
-    width: 63px;
-    text-align: center;
-}
-
-.menu-login {
-    height: 40px;
-    width: 112px;
-    text-align: center;
-}
-
-.menu-gallery {
-    height: 40px;
-    width: 192px;
-    text-align: center;
-}
-
-.menu-button {
     display: block;
     margin: 9px 0px 20px 0px;
     color: rgb(136, 136, 136);
@@ -83,28 +51,80 @@ body {
     text-decoration: none;
 }
 
-/* WORKING ON TEXT UNDERLINE EFFECT */
+.menu-cart {
+    height: 40px;
+    width: 63px;
+    text-align: center;
 
-.menu-explore-underline {
-    width: 54px;
+    display: block;
+    margin: 9px 0px 20px 0px;
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.menu-login {
+    height: 40px;
+    width: 112px;
+    text-align: center;
+
+    display: block;
+    margin: 9px 0px 20px 0px;
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+.menu-gallery {
+    height: 40px;
+    width: 192px;
+    text-align: center;
+
+    display: block;
+    margin: 9px 0px 20px 0px;
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+
+/* UNDERLINE EFFECT */
+
+.menu-underlined-explore::after {
+    content: "";
+    display: block;
     height: 2px;
-    background-color: rgb(168, 207, 194);
-
-    transform: rotateY(90deg);
-
-    margin: 0px auto;
+    background: rgb(168, 207, 194);
+    width: 0;
+    transition: width 0.35s;
+    margin: auto;
+    margin-top: 5px;
+    transition-timing-function: ease;
+}
+  
+.menu-underlined-explore:hover::after {
+    width: 54px;
 }
 
-#menu-explore-underline {
-    margin: 9px 0px 5px 0px;
-
-    display: flex;
-    justify-content: center;
+.menu-underlined-cart::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: rgb(168, 207, 194);
+    width: 0;
+    transition: width 0.35s;
+    margin: auto;
+    margin-top: 5px;
+    transition-timing-function: ease;
+}
+      
+.menu-underlined-cart:hover::after {
+    width: 34px;
 }
 
-/* creating new effect */
-
-/* ending */
+/* END */
 
 #menu-login {
     height: 20px;
