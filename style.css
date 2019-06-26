@@ -44,7 +44,6 @@ body {
 
 .menu-cart {
     width: 63px;
-    
 }
 
 .menu-login {
@@ -67,7 +66,7 @@ body {
 
 /* UNDERLINE EFFECT */
 
-.menu-underlined-explore::after {
+.menu-underlined::after {
     content: "";
     display: block;
     height: 2px;
@@ -81,18 +80,6 @@ body {
   
 .menu-underlined-explore:hover::after {
     width: 54px;
-}
-
-.menu-underlined-cart::after {
-    content: "";
-    display: block;
-    height: 2px;
-    background: rgb(168, 207, 194);
-    width: 0;
-    transition: width 0.35s;
-    margin: auto;
-    margin-top: 5px;
-    transition-timing-function: ease;
 }
       
 .menu-underlined-cart:hover::after {
