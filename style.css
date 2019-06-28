@@ -139,19 +139,28 @@ body {
 /* ADD NEW CONTAINER OF SERVICES WITH CSS GRID */
 
 .item {
-    background-color: blanchedalmond;
+    background-color: gray;
 
     display: grid;
     grid-template-columns: 2fr 10fr 2fr;
-    grid-template-rows: 2fr 3fr 7fr 2fr;
+    grid-template-rows: 2fr 45px 7fr 2fr;
 }
 
 .item h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: white;
+    font-weight: 200px;
+
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
 
 .item p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: white;
+
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
@@ -162,16 +171,26 @@ body {
 
     display: grid;
     grid-template-columns: repeat(3, minmax(266px, 640px));
-    grid-template-rows: 49px 56px 266px 266px;
+    grid-template-rows: 49px 56px 333px 333px;
 
     justify-items: center;
 }
 
 .services-topic {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    color: #515151;
+
     grid-column: span 3;
 }
 
 .services-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+
+    color: #676767;
+
     grid-column: span 3;
 }
 
