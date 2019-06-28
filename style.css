@@ -135,3 +135,83 @@ body {
 #menu-gallery:hover{
     opacity: 0.9;
 }
+
+/* ADD NEW CONTAINER OF SERVICES WITH CSS GRID */
+
+.item {
+    background-color: blanchedalmond;
+
+    display: grid;
+    grid-template-columns: 2fr 10fr 2fr;
+    grid-template-rows: 2fr 3fr 7fr 2fr;
+}
+
+.item h1 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.item p {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.services-container {
+    max-width: 1920px;
+    min-width: 800px;
+
+    display: grid;
+    grid-template-columns: repeat(3, minmax(266px, 640px));
+    grid-template-rows: 49px 56px 266px 266px;
+
+    justify-items: center;
+}
+
+.services-topic {
+    grid-column: span 3;
+}
+
+.services-text {
+    grid-column: span 3;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+.services-topic {
+    grid-area: topic;
+}
+
+.services-text {
+    grid-area: under-topic;
+}
+
+.item-lustre {
+    grid-area: lustre;
+}
+
+.item-canvas {
+    grid-area: canvas;
+}
+
+.item-framing {
+    grid-area: framing;
+}
+
+.item-metal {
+    grid-area: metal;
+}
+
+.item-framed {
+    grid-area: framed;
+}
+
+*/
