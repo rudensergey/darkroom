@@ -253,7 +253,7 @@ a,
 
 /* PSEUDO CLASS FOR ITEMS */
 
-.item-opacity-effect::after {
+.item-oe::after {
     content: "";
     display: block;
     height: 100%;
@@ -272,12 +272,14 @@ a,
     grid-row: 1 / -1;
 }
 
-.item-opacity-effect-after:hover::after {
+.item-oea:hover::after {
     opacity: 0.1;
 }
 
 /* SHORTCUTS
 
+item-oe - item-opacity-effect
+item-oea - item-opacity-effect-after
 item-uf - item-underline-effect
 item-uea - itemu-underline-effect-after
 
