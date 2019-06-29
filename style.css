@@ -215,43 +215,34 @@ a,
     grid-column: span 3;
 }
 
-
-
-
-
-
-
-
-
-
-/*
-
-.services-topic {
-    grid-area: topic;
-}
-
-.services-text {
-    grid-area: under-topic;
-}
-
 .item-lustre {
-    grid-area: lustre;
+    background-position: center;
+    background-image: url(./Media/lustre.jpg);
+    background-size: cover;
 }
 
 .item-canvas {
-    grid-area: canvas;
+    background-position: center;
+    background-image: url(./Media/canvas.jpg);
+    background-size: cover;
 }
 
 .item-framing {
-    grid-area: framing;
+    background-position: center;
+    background-image: url(./Media/framing.jpg);
+    background-size: cover;
 }
 
 .item-metal {
-    grid-area: metal;
+    background-position: center;
+    background-image: url(./Media/metal.png);
+    background-size: cover;
 }
 
 .item-framed {
-    grid-area: framed;
+    background-position: center;
+    background-image: url(./Media/framed.png);
+    background-size: cover;
 }
 
-*/
+/* PSEUDO CLASS FOR ITEMS */
