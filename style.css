@@ -160,6 +160,8 @@ a,
     grid-template-columns: 13% 74% 13%;
     grid-template-rows: 64px 43px 7fr 2fr;
     align-items: start;
+
+    overflow-y: hidden;
 }
 
 .item h1 {
@@ -253,18 +255,27 @@ a,
 
 /* PSEUDO CLASS FOR ITEMS */
 
+/* SHORTCUTS
+
+item-oe - item-opacity-effect
+item-oea - item-opacity-effect-after
+item-uf - item-underline-effect
+item-uea - itemu-underline-effect-after
+
+*/
+
 .item-oe::after {
     content: "";
     display: block;
     height: 100%;
     width: 100%;
-    background: black;
+    background: rgb(51, 51, 51);
+    padding-top: 12px;
+    padding-bottom: -12px;
 
-    transform: scale(1.0);
-
-    opacity: 0.3;
+    opacity: 0.5;
     
-    transition: opacity 0.35s;
+    transition: opacity 0.45s;
     transition-timing-function: ease;
     z-index: 0;
     
@@ -273,31 +284,24 @@ a,
 }
 
 .item-oea:hover::after {
-    opacity: 0.1;
+    opacity: 0.2;
 }
-
-/* SHORTCUTS
-
-item-oe - item-opacity-effect
-item-oea - item-opacity-effect-after
-item-uf - item-underline-effect
-item-uea - itemu-underline-effect-after
-
-
   
-.item-ue::after {
+.item-ue::before {
     content: "";
     display: block;
-    height: 100%;
+    height: 6px;
     background: rgb(168, 207, 194);
-    width: 100%;
-    transition: width 0.35s;
-    margin: auto;
+    width: 0;
+    transition: width 0.45s;
+    margin-right: auto;
     transition-timing-function: ease;
+
+    z-index: 2;
+
     grid-column: 1 / -1;
-    grid-row: 1 / -1;
 }
   
-.item-uea:hover::after {
-    width: 54px;
+.item-uea:hover::before {
+    width: 100%;
 }
