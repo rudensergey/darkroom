@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     max-width: 1920px;
-    min-width: 1000px;
+    min-width: 400px;
 
     display: flex;
 
@@ -153,9 +153,10 @@ a,
 /* ADD NEW CONTAINER OF SERVICES WITH CSS GRID */
 
 .item {
-
+    
+    width: 100%;
     background-color: gray;
-
+    
     display: grid;
     grid-template-columns: 13% 74% 13%;
     grid-template-rows: 64px 43px 7fr 2fr;
@@ -194,9 +195,6 @@ a,
 }
 
 .services-container {
-    max-width: 1920px;
-    min-width: 800px;
-
     display: grid;
     grid-template-columns: repeat(3, minmax(333px, 640px));
     grid-template-rows: 56px 53px 424px 424px;
@@ -294,4 +292,22 @@ item-uea - itemu-underline-effect-after
 
 .item:hover img {
     transform: scale(1.2);
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1000px) {
+    .services-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 56px 53px repeat(5, 400px); 
+        grid-auto-flow: row;
+    }
+
+    .services-topic {
+        grid-column: span 1;
+    }
+
+    .services-text {
+        grid-column: span 1;
+    }
 }
