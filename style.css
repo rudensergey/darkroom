@@ -42,6 +42,7 @@ a,
 
 .logo {
     margin-top: 5px;
+    height: 30px;
 }
 
 .header-buttons {
@@ -297,9 +298,34 @@ item-uea - itemu-underline-effect-after
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 1000px) {
+
+    /* HEADER */
+
+    .header {
+        height: 63px;
+        width: 100%;
+        padding: 15px 18px 15px 18px;
+    }    
+
+    .logo {
+        height: 24px;
+        margin-top: 4px;
+    }
+
+    .header-buttons {
+        height: 40px;
+        width: 455px;
+        margin-top: -3px;
+
+        display: none;
+    }
+
+
+    /* CONTAINER */
+
     .services-container {
         grid-template-columns: 1fr;
-        grid-template-rows: 56px 53px repeat(5, 400px); 
+        grid-template-rows: 56px 53px repeat(5, 430px); 
         grid-auto-flow: row;
     }
 
