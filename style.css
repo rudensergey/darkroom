@@ -154,11 +154,48 @@ a,
 /* FIRST IMAGE START */
 
 .screen-container {
-    position: inherit;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100%;
+
+    /* JUST FOR TESTS */
+    
+    background-image: url(./Media/screen.jpg);
+    background-position: center;
+    background-size: cover;
+
+    display: grid;
+    grid-template-columns: 98px 1fr 98px;
+    grid-template-rows: 153px 64px 1fr;
 }
 
-.screen-container img {
-    width: 100%;
+.screen-container h6 {
+    margin: 0px;
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    font-size: 40px;
+    color: white;
+}
+
+.screen-container p {
+    margin: 0px;
+
+    grid-column: 2 / 3;
+    grid-row: 3;
+
+    font-size: 26px;
+    color: white;
+}
+
+.aspect-ration {
+    padding-bottom: 42%;
+    width: 0px;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
 }
 
 
@@ -345,6 +382,9 @@ item-uea - itemu-underline-effect-after
         display: none;
     }
 
+    .aspect-ration {
+        padding-bottom: 55%;
+    }
 
     /* CONTAINER */
 
