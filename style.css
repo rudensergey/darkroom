@@ -151,6 +151,21 @@ a,
     opacity: 0.9;
 }
 
+/* FIRST IMAGE START */
+
+.screen-container {
+    position: inherit;
+}
+
+.screen-container img {
+    width: 100%;
+}
+
+
+
+
+
+
 /* ADD NEW CONTAINER OF SERVICES WITH CSS GRID */
 
 .item {
