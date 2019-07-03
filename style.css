@@ -166,7 +166,7 @@ a,
     background-size: cover;
 
     display: grid;
-    grid-template-columns: 98px 1fr 98px;
+    grid-template-columns: 98px 1fr;
     grid-template-rows: 144px 64px 64px 1fr;
 }
 
@@ -411,8 +411,26 @@ item-uea - itemu-underline-effect-after
         display: none;
     }
 
+    /* SCREEN CONTAINER */
+
+    .screen-container {
+        display: grid;
+        grid-template-columns: 7% 1fr;
+        grid-template-rows: 20% 20% 20% 1fr;
+    }
+
     .aspect-ration {
         padding-bottom: 55%;
+    }
+
+    .screen-container h6 {
+        font-size: 30px;
+    }
+    
+    .screen-container p {
+        margin: 0px;
+    
+        font-size: 15px;
     }
 
     /* CONTAINER */
