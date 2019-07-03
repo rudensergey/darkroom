@@ -415,8 +415,10 @@ item-uea - itemu-underline-effect-after
 
     .screen-container {
         display: grid;
-        grid-template-columns: 7% 1fr;
-        grid-template-rows: 20% 20% 20% 1fr;
+        grid-template-columns: 1px 1fr 1px;
+        grid-template-rows: 1fr min-content 10px min-content 10px 1fr;
+
+        justify-items: center;
     }
 
     .aspect-ration {
@@ -425,13 +427,24 @@ item-uea - itemu-underline-effect-after
 
     .screen-container h6 {
         font-size: 30px;
+        grid-column: 2;
+        grid-row: 2;
     }
     
     .screen-container p {
         margin: 0px;
     
         font-size: 15px;
+
+        grid-column: 2;
+        grid-row: 4;
     }
+
+    .screen-button {
+        grid-column: 2 / 3;
+        grid-row: 6;
+    }
+    
 
     /* CONTAINER */
 
