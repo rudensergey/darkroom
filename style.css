@@ -24,7 +24,7 @@ a,
     margin-bottom: 0px;
 }
 
-/* MENU BLOCK */
+/* MENU BLOCK ############################################################*/
 
 .header {
     height: 70px;
@@ -153,14 +153,12 @@ a,
     opacity: 0.9;
 }
 
-/* FIRST IMAGE START */
+/* FIRST IMAGE START ######################################################*/
 
 .screen-container {
     margin-top: 70px;
     width: 100%;
     height: 100%;
-
-    /* JUST FOR TESTS */
     
     background-image: url(./Media/screen.jpg);
     background-position: center;
@@ -247,7 +245,7 @@ a,
     bottom: 5px;
 }
 
-/* (1) HOW DOES IT WORK BLOCK */
+/* (1) HOW DOES IT WORK BLOCK ##########################################*/
 
 .workblock-container {
     width: 100%;
@@ -281,16 +279,14 @@ a,
     grid-row: 2 / 3;
 }
 
-/* STYLE FOR PICTURE */
-
 .workblock-container-pictures-pic:before {
-    position: relative;
-    top: -33%;
-    right: 15%;
-
     content: "";
     display: block;
     height: 100%;
+    
+    position: relative;
+    top: -33%;
+    right: 15%;
 
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
@@ -304,10 +300,10 @@ a,
     position: relative;
     top: -73%;
     left: 25%;
+    height: 100%;
 
     content: "";
     display: block;
-    height: 100%;
 
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
@@ -356,23 +352,24 @@ a,
 }
 
 .workblock-container-text h2 {
-    grid-column: 2 / -1;
-    grid-row: 2 / 3;
-
     font-size: 32px;
     color: rgb(81, 81, 81);
+
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
 }
 
 .workblock-container-text .image {
     width: 45px;
+
     justify-items: start;
     grid-column: 2 / 3;
 }
 
 .workblock-container-text h6 {
-    grid-column: 3 / 4;
     font-size: 18px;
     color: rgb(68, 68, 68);
+    grid-column: 3 / 4;
 }
 
 .workblock-container-text p {
@@ -418,14 +415,14 @@ a,
     grid-row: 16;
 }
 
-/* ADD NEW CONTAINER OF SERVICES WITH CSS GRID */
+/* CONTAINER OF SERVICES WITH CSS GRID ##########################*/
 
 .item {
-    
+    display: grid;
+
     width: 100%;
     background-color: gray;
     
-    display: grid;
     grid-template-columns: 13% 74% 13%;
     grid-template-rows: 64px 43px 1fr;
     align-items: start;
@@ -504,6 +501,7 @@ item-uea - itemu-underline-effect-after
 .item-oe::after {
     content: "";
     display: block;
+    
     height: 100%;
     width: 100%;
     padding-top: 12px;
@@ -528,6 +526,7 @@ item-uea - itemu-underline-effect-after
     height: 6px;
     width: 0;
     margin-right: auto;
+    
     background: rgb(168, 207, 194);
     
     content: "";
@@ -564,7 +563,7 @@ item-uea - itemu-underline-effect-after
     transform: scale(1.2);
 }
 
-/* RESPONSIVE DESIGN */
+/* RESPONSIVE DESIGN ####################################################*/
 
 .square {
     padding-bottom: 90%;
@@ -601,6 +600,7 @@ item-uea - itemu-underline-effect-after
 
     .screen-container {
         display: grid;
+
         grid-template-columns: 1px 1fr 1px;
         grid-template-rows: 1fr min-content 10px min-content 10px 1fr;
 
@@ -634,10 +634,10 @@ item-uea - itemu-underline-effect-after
     /* (1) HOW DOES IT WORK BLOCK */
 
     .workblock-container {
-        margin-bottom: 60px;
-
         width: 100%;
         height: auto;
+        margin-bottom: 60px;
+        
         grid-template-columns: 1fr 393px 1fr;
         grid-template-rows: min-content;
     }
@@ -686,8 +686,8 @@ item-uea - itemu-underline-effect-after
     }
 
     .square {
-        padding-bottom: 50%;
         width: 0px;
+        padding-bottom: 50%;
     
         grid-column: 1 / -1;
         grid-row: 1 / -1;
