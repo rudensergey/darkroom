@@ -281,6 +281,42 @@ a,
     grid-row: 2 / 3;
 }
 
+/* STYLE FOR PICTURE */
+
+.workblock-container-pictures-pic:before {
+    position: relative;
+    top: -33%;
+    right: 15%;
+
+    content: "";
+    display: block;
+    height: 100%;
+
+    box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
+
+    background-image: url(./Media/1/1.png);
+    background-size: cover;
+
+    z-index: 2;
+}
+
+.workblock-container-pictures-pic:after {
+    position: relative;
+    top: -73%;
+    left: 25%;
+
+    content: "";
+    display: block;
+    height: 100%;
+
+    box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
+
+    background-image: url(./Media/1/2.png);
+    background-size: cover;
+
+    z-index: 1;
+}
+
 .workblock-container .aspect-ration {
     padding-bottom: 67%;
     width: 0px;
@@ -598,11 +634,11 @@ item-uea - itemu-underline-effect-after
     /* (1) HOW DOES IT WORK BLOCK */
 
     .workblock-container {
-        margin-bottom: 50px;
+        margin-bottom: 60px;
 
         width: 100%;
         height: auto;
-        grid-template-columns: 10% 60% 30%;
+        grid-template-columns: 1fr 393px 1fr;
         grid-template-rows: min-content;
     }
 
@@ -626,7 +662,7 @@ item-uea - itemu-underline-effect-after
 
         opacity: 0.8;
 
-        grid-template-columns: 13px 80px 1fr;
+        grid-template-columns: 13px 80px 300px;
         grid-template-rows: 10% 70px repeat(8, 34px 26px); 
         grid-column: 2 / 3;
         grid-row: 1;
