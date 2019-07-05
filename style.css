@@ -247,36 +247,56 @@ a,
     bottom: 5px;
 }
 
-/* HOW DOES IT WORK BLOCK */
+/* (1) HOW DOES IT WORK BLOCK */
 
 .workblock-container {
     width: 100%;
-    height: 100%;
+    height: auto;
 
     display: grid;
     grid-template-columns: 98px 1fr 1fr 98px;
-    grid-template-rows: 
+    grid-template-rows: 1fr;
 }
+
+/* PICTIRE BLOCK */
 
 .workblock-container-pictures {
     width: 100%;
     height: 100%;
 
     grid-column: 2 / 3;
+    grid-row: 1;
     display: grid;
-    grid-template-columns: 20% 1fr 20%;
-    grid-template-rows: 20% 60% 20%; 
+    grid-template-columns: 20% 58% 22%;
+    grid-template-rows: 1fr min-content 1fr;
 }
 
 .workblock-container-pictures-pic {
     width: 100%;
     height: 100%;
 
-    background-image: url(./Media/1/1.png);
+    background-color: rgb(241, 241, 241);
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
+
+.workblock-container .aspect-ration {
+    padding-bottom: 67%;
+    width: 0px;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.workblock-container-pictures .aspect-ration {
+    padding-bottom: 151%;
+    width: 0px;
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
 
 /* TEXT BLOCK */
 
@@ -292,6 +312,7 @@ a,
     grid-template-columns: 13px 80px 1fr;
     grid-template-rows: 224px 70px repeat(8, 34px 26px); 
     grid-column: 3 / 4;
+    grid-row: 1;
 }
 
 .workblock-container-text * {
@@ -360,10 +381,6 @@ a,
 .text-sleep {
     grid-row: 16;
 }
-
-
-
-
 
 /* ADD NEW CONTAINER OF SERVICES WITH CSS GRID */
 
@@ -577,9 +594,46 @@ item-uea - itemu-underline-effect-after
         grid-column: 2 / 3;
         grid-row: 6;
     }
+
+    /* (1) HOW DOES IT WORK BLOCK */
+
+    .workblock-container {
+        margin-bottom: 50px;
+
+        width: 100%;
+        height: auto;
+        grid-template-columns: 10% 60% 30%;
+        grid-template-rows: min-content;
+    }
+
+    /* PICTIRE BLOCK */
+
+    .workblock-container-pictures {
+        width: 0px;
+        height: 0px;
+
+        visibility: hidden;
+    }
+
+
+    /* TEXT BLOCK */
+
+    .workblock-container-text {
+        display: grid;
+
+        width: 100%;
+        height: 100%;
+
+        opacity: 0.8;
+
+        grid-template-columns: 13px 80px 1fr;
+        grid-template-rows: 10% 70px repeat(8, 34px 26px); 
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
     
 
-    /* CONTAINER */
+    /* CONTAINER - ITEMS */
 
     .services-container {
         grid-template-columns: 1fr;
