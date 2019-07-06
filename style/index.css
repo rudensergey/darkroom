@@ -1,0 +1,35 @@
+@import url(./style.css);
+@import url(./1.header.css);
+@import url(./2.firstscreen.css);
+@import url(./3.workblock.css);
+@import url(./4.dashboardblock.css);
+@import url(./8.itemsblock.css);
+
+@import url(./mobile.css);
+
+body {
+    margin: 0px;
+    max-width: 1920px;
+    min-width: 400px;
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li,
+.m-font {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
