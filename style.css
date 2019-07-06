@@ -559,6 +559,25 @@ li,
 
     font-size: 16px;
     color: rgb(103, 103, 103);
+    z-index: 2;
+}
+
+.dashboard-container-text li:after {
+    position: relative;
+    height: 50%;
+    width: 16px;
+    left: -37px;
+    bottom: 17px;
+
+    opacity: 0.8;
+
+    content: "";
+    display: block;
+
+    background-image: url(./Media/2/done.png);
+    background-size: cover;
+
+    z-index: 3;
 }
 
 /* BUTTTON IN DASHBOARD */
@@ -573,14 +592,14 @@ li,
     color: white;
     font-weight: 400;
     text-decoration: none;
-    background-color: rgb(168, 207, 194);
+    background-color: rgb(158, 196, 183);
     opacity: 1;
     box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
 
     bottom: 0px;
     position: relative;
 
-    transition-property: opacity, bottom, box-shadow, background-color;
+    transition-property: opacity, bottom, box-shadow, color, background-color;
     transition-duration: 0.25s;
     transition-timing-function: ease;
 
@@ -592,12 +611,11 @@ li,
 
 .dashboard-container-text .screen-button:hover {
     opacity: 1;
-    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.500);
-    background-color: gb(168, 207, 194)
+    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.300);
+    background-color: rgb(168, 207, 194);
 
     bottom: 5px;
 }
-
 
 /* CONTAINER OF SERVICES WITH CSS GRID ##########################*/
 
@@ -786,12 +804,12 @@ item-uea - itemu-underline-effect-after
         display: grid;
 
         grid-template-columns: 1px 1fr 1px;
-        grid-template-rows: 1fr min-content 10px min-content 10px 1fr;
+        grid-template-rows: 1fr min-content 10px min-content 30px 1fr;
 
         justify-items: center;
     }
 
-    .aspect-ration {
+    .screen-container .aspect-ration {
         padding-bottom: 55%;
     }
 
@@ -810,7 +828,7 @@ item-uea - itemu-underline-effect-after
         grid-row: 4;
     }
 
-    .screen-button {
+    .screen-container .screen-button {
         grid-column: 2 / 3;
         grid-row: 6;
     }
@@ -857,38 +875,56 @@ item-uea - itemu-underline-effect-after
     .dashboard-container {
         width: 100%;
         height: auto;
-        margin-bottom: 60px;
+        margin-top: 40px;
         
         grid-template-columns: 1fr 393px 1fr;
-        grid-template-rows: min-content;
+        grid-template-rows: 1fr 15% 500px 10%;
     }
 
     /* PICTIRE BLOCK */
 
     .dashboard-container-pictures {
-        width: 0px;
-        height: 0px;
+        width: 100%;
+        height: 100%;
 
-        visibility: hidden;
+        grid-column: 2 / 3;
+        grid-row: 1;
     }
 
 
     /* TEXT BLOCK */
 
     .dashboard-container-text {
-        display: grid;
-
-        width: 100%;
-        height: 100%;
-
-        opacity: 0.8;
-
         grid-template-columns: 13px 80px 300px;
-        grid-template-rows: 10% 70px repeat(8, 34px 26px); 
+        grid-template-rows: 70px repeat(5, 34px 26px); 
         grid-column: 2 / 3;
-        grid-row: 1;
+        grid-row: 3;
+    }
+
+    .dashboard-container-text h2 {
+        font-size: 32px;
+        color: rgb(81, 81, 81);
+    
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
     }
     
+    .dashboard-container-text h6 {
+        grid-column: 1 / -1;
+        grid-row: 2 / 3;
+    }
+    
+    .dashboard-container-text ul {
+        margin: 0px 0px 0px 26px;
+        padding: 0px;
+    
+        grid-column: 2 / -1;
+        grid-row: 4 / 5
+    }
+
+    .dashboard-container-text .screen-button {
+        grid-row: 9;
+    }
 
     /* CONTAINER - ITEMS */
 
