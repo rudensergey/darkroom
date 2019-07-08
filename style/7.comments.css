@@ -62,10 +62,11 @@
 
     display: grid;
     grid-template-columns: 2% 1fr 2%;
-    grid-template-rows: min-content 20px min-content 10px min-content min-content 1fr ;
+    grid-template-rows: min-content 40px min-content 18px 22px min-content 1fr ;
 
     grid-column: 3 / 4;
     grid-row: 1;
+    justify-items: center;
 }
 
 .comments-slide .quote-text {
@@ -85,21 +86,42 @@
     grid-row: 1 / 2;
 }
 
+.comments-slide .quote-arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    background-color: rgb(59, 66, 75);
+
+    position: relative;
+    top: -34px;
+    transform: rotateZ(45deg);
+
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+
 .comments-slide img {
+    display: grid;
     width: 70px;
     height: 70px;
     border-radius: 35px;
 
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: 3;
+}
+
+.comments-slide :nth-child(4),
+.comments-slide :nth-child(5) {
+    grid-column: 2 / 3;
+    opacity: 0.7;
 }
 
 .comments-slide .name {
-    grid-column: 2 / 3;
     grid-row: 5 / 6;
+    font-size: 16px;
 }
 
 .comments-slide .profession {
-    grid-column: 2 / 3;
     grid-row: 6 / 7;
+    font-size: 14px;
 }
