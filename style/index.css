@@ -38,3 +38,13 @@ li,
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
