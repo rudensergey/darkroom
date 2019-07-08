@@ -84,9 +84,7 @@
     padding: 6px 18px 7px 18px;
     color: rgb(136, 136, 136);
 
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(136, 136, 136);
+    border: 2px solid rgb(136, 136, 136);
     border-radius: 4px;
 
     transition-property: color, border-color;
@@ -104,13 +102,10 @@
     height: 20px;
     width: 120.5px;
     margin: 1px auto;
-    padding: 6px 18px 7px 18px;
+    padding: 8px 20px 9px 20px;
     color: white;
     opacity: 1;
 
-    border: 2px;
-    border-style: solid;
-    border-color: rgb(168, 207, 194);
     border-radius: 4px;
     background-color: rgb(168, 207, 194);
 
