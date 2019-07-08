@@ -1,8 +1,3 @@
-
-::-webkit-scrollbar { 
-    display: none; 
-}
-
 .comments-block {
     width: 100%;
     height: min-content;
@@ -151,4 +146,15 @@
 .comments-slide .profession {
     grid-row: 6 / 7;
     font-size: 14px;
+}
+
+/* NOT ZOOM SLIDE */
+
+#notzoom-text {
+    background-color: white;
+    color: rgb(59, 66, 75);
+}
+
+#notzoom-slide {
+    opacity: 0.3;
 }
