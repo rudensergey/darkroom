@@ -87,7 +87,7 @@
     display: grid;
 
     min-width: 400px;
-    max-width: auto;
+    max-width: 1000px;
     height: 100%;
 
     opacity: 0.8;

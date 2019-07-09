@@ -1,10 +1,10 @@
-@import url(./style.css);
 @import url(./1.header.css);
 @import url(./2.firstscreen.css);
 @import url(./3.workblock.css);
 @import url(./4.dashboardblock.css);
 @import url(./5.easypeasy.css);
 @import url(./6.profits.css);
+@import url(./7.comments.css);
 @import url(./8.itemsblock.css);
 
 
@@ -36,4 +36,14 @@ li,
     font-weight: 300;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
