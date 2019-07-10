@@ -7,9 +7,34 @@
 @import url(./7.comments.css);
 @import url(./8.itemsblock.css);
 
-
 @import url(./mobile.css);
 @import url(./keyframes.css);
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Fonts/Quicksand-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Fonts/Quicksand-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Fonts/Quicksand-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Fonts/Quicksand-Bold.ttf) format('truetype');
+    font-weight: 700;
+}
 
 body {
     margin: 0px;
