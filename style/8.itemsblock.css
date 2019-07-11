@@ -49,22 +49,12 @@
     justify-items: center;
 }
 
-.services-topic {
-    margin: 0px;
-
-    font-size: 32px;
-    color: #515151;
-    
+.services-container h1 {
     grid-column: span 3;
     align-items: start;
 }
 
-.services-text {
-    margin: 0px;
-
-    font-size: 16px;
-    color: #676767;
-
+.services-container h2 {
     grid-column: span 3;
 }
 

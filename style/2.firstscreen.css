@@ -54,34 +54,17 @@
     grid-row: 1 / -1;
 }
 
-.screen-container .screen-button {
-    height: 19px;
-    width: 108px;
-    padding: 15px 22px 15px 22px;
-    border-radius: 4px;
-
-    font-size: 14px;
-    color: white;
-    font-weight: 400;
-    text-decoration: none;
+.screen-container .position-button {
     background-color: rgb(168, 207, 194);
     opacity: 0.8;
-    box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
 
-    bottom: 0px;
-    position: relative;
-
-    transition-property: opacity, bottom, box-shadow;
-    transition-duration: 0.25s;
-    transition-timing-function: ease;
-
-    z-index: 3;
-
+    transition-property: opacity, bottom;
+    
     grid-column: 2 / 3;
     grid-row: 4;
 }
 
-.screen-container .screen-button:hover {
+.screen-container .create-button:hover {
     opacity: 1;
     box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.500);
 

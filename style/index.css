@@ -6,6 +6,7 @@
 @import url(./6.profits.css);
 @import url(./7.comments.css);
 @import url(./8.itemsblock.css);
+@import url(./9.darkroom+.css);
 
 @import url(./mobile.css);
 @import url(./keyframes.css);
@@ -71,4 +72,46 @@ li,
 body {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.title {
+    font-size: 32px;
+    color: #515151;
+}
+
+.description {
+    font-size: 16px;
+    color: #676767;
+}
+
+.create-button {
+    height: 19px;
+    width: 108px;
+    padding: 15px 22px 15px 22px;
+    border-radius: 4px;
+
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgb(158, 196, 183);
+    opacity: 1;
+    box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
+
+    bottom: 0px;
+    position: relative;
+
+    transition-property: opacity, bottom, box-shadow, color, background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+
+    z-index: 3;
+}
+
+.create-button:hover {
+    opacity: 1;
+    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.300);
+    background-color: rgb(168, 207, 194);
+
+    bottom: 5px;
 }
