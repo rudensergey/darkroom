@@ -1,0 +1,93 @@
+.darkroom-podcasts {
+    height: 100%;
+    width: 100%;
+    padding: 67px 0px 100px 0px;
+
+    display: grid;
+    grid-template-columns: 98px 1fr 2.8% 1fr 2.8% 1fr 98px; 
+    grid-template-rows: 56px min-content 47px 1fr 40px min-content;
+
+    justify-items: center;
+}
+
+.darkroom-podcasts .position-button {
+    grid-column: 1 / -1;
+    grid-row: 7;
+
+    text-align: center;
+}
+
+/* PODCAST STRUCTURE */
+
+.podcast {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 17% 66% 17%;
+    grid-template-rows: min-content 11% 22px 5% min-content 1fr 47px;
+
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+
+    overflow: hidden;
+}
+
+.podcast .aspect-ration {
+    padding-bottom: 67%;
+    width: 0px;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+.podcast img {
+    height: 100%;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+}
+
+.podcast a {
+    position: absolute;
+}
+
+.podcast .aspect-ration-second {
+    padding-bottom: 67%;
+    width: 0px;
+
+    grid-column: 1 / -1;
+    grid-row: 2 / -1;
+}
+
+.podcast .date {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.podcast h5 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.podcast .text {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.podcast .author {
+    grid-column: 1 / -1;
+    grid-row: 6 / 7;
+}
+
+/* TEXT BLOCK */
+
+.darkroom-podcasts h3 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.darkroom-podcasts p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
