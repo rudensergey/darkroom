@@ -22,10 +22,14 @@
 .podcast {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
+
+    box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.100);
+    border-radius: 4px;
 
     display: grid;
     grid-template-columns: 17% 66% 17%;
-    grid-template-rows: min-content 11% 22px 5% min-content 1fr 47px;
+    grid-template-rows: min-content 10% min-content 1% min-content 2% min-content 1fr 47px;
 
     grid-column: 2 / 3;
     grid-row: 4 / 5;
@@ -34,7 +38,7 @@
 }
 
 .podcast .aspect-ration {
-    padding-bottom: 67%;
+    padding-bottom: 66%;
     width: 0px;
 
     grid-column: 1 / -1;
@@ -42,18 +46,43 @@
 }
 
 .podcast img {
-    height: 100%;
+    height: 103%;
 
     grid-column: 1 / -1;
     grid-row: 1 / 2;
 }
 
-.podcast a {
+.podcast .link {
+    height: 12px;
+    width: 130px;
+    margin: 20px 0px 0px 20px;
+    padding: 2px 10px 6px 10px;
+    
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    
+    text-decoration: none;
+
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    background-color: rgb(158, 196, 183, 0);
+
+    transition-property: background-color, border;
+    transition-duration: 0.3s;
+    animation-timing-function: ease;
+
     position: absolute;
 }
 
+.podcast .link:hover {
+    border: 2px solid rgb(158, 196, 183);
+    background-color: rgb(158, 196, 183);
+
+}
+
 .podcast .aspect-ration-second {
-    padding-bottom: 67%;
+    padding-bottom: 128%;
     width: 0px;
 
     grid-column: 1 / -1;
@@ -61,23 +90,43 @@
 }
 
 .podcast .date {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
 
-.podcast h5 {
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
-}
+.podcast .title {
+    font-size: 20px;
+    color: rgb(153, 153, 153);
+    line-height: 30px;
 
-.podcast .text {
     grid-column: 2 / 3;
     grid-row: 5 / 6;
 }
 
+.podcast .text {
+    font-size: 14px;
+    color: rgb(136, 136, 136);
+    line-height: 26px;
+
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+
 .podcast .author {
+    height: 47px;
+    border-top: 1px solid rgba(128, 128, 128, 0.1);
+
     grid-column: 1 / -1;
-    grid-row: 6 / 7;
+    grid-row: 9 / 10;
+}
+
+.podcast .author a {
+    font-size: 14px;
+    color: rgb(185, 185, 185);
+    text-decoration: none;
 }
 
 /* TEXT BLOCK */
