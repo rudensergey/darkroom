@@ -61,12 +61,10 @@
 /* PSEUDO CLASS FOR ITEMS */
 
 /* SHORTCUTS
-
 item-oe - item-opacity-effect
 item-oea - item-opacity-effect-after
 item-uf - item-underline-effect
 item-uea - itemu-underline-effect-after
-
 */
 
 .item-oe::after {
