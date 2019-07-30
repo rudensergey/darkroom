@@ -1,0 +1,111 @@
+.darkroom-container {
+    height: 100%;
+    width: 100%;
+    padding-top: 67px;
+
+    display: grid;
+    grid-template-columns: 22.5% 26% 3% 26% 22.5%; 
+    grid-template-rows: 56px min-content 60px 1fr 50px min-content;
+
+    justify-items: center;
+}
+
+.darkroom-container-free {
+    height: 100%;
+    width: 100%;
+
+    grid-column: 2 / 3;
+    grid-row: 4;
+}
+
+.darkroom-container-plus {
+    height: 100%;
+    width: 100%;
+
+    grid-column: 4 / 5;
+    grid-row: 4;
+}
+
+.darkroom-container-style {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 50px 174px 63px 1fr 50px;
+
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.darkroom-container-style::before {
+    height: 7px;
+    width: 100%;
+
+    content: "";
+    grid-column: 1 / -1;
+    grid-row: 1;
+
+    background-color: rgb(168, 207, 194);
+}
+
+.darkroom-container a {
+    grid-column: 1 / -1;
+    grid-row: 7;
+}
+
+/* TEXT BLOCK */
+
+.darkroom-container h3 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.darkroom-container p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.darkroom-container-style h3 {
+    height: 24px;
+
+    display: block;
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.darkroom-container-style .free::before {
+    content: "";
+    width: 200px;
+    height: 124px;
+    margin: 0px auto 0px auto;
+
+    display: block;
+    background-size: cover;
+    background-image: url(../Media/9/basic-stack-01.png);
+}
+
+.darkroom-container-style .plus::before {
+    content: "";
+    width: 200px;
+    height: 124px;
+    margin: 0px auto 0px auto; 
+
+    display: block;
+    background-size: cover;
+    background-image: url(../Media/9/pro-stack-01.png);
+}
+
+.darkroom-container-style h4 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.darkroom-container-style ul {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+.darkroom-container-style li {
+    list-style: none;
+}
