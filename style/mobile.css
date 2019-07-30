@@ -1,14 +1,7 @@
 @media (max-width: 1150px) {
     .darkroom-container {
-        height: 100%;
-        width: 100%;
-        padding: 67px 0px 100px 0px;
-    
-        display: grid;
         grid-template-columns: 1fr 70% 1fr; 
         grid-template-rows: 56px min-content 63px 1fr 50px min-content 0px 40px 1fr 50px min-content 0px 20px 40px;
-
-        justify-items: center;
     }
 
     .darkroom-container-free {

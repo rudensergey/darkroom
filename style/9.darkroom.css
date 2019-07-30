@@ -38,10 +38,10 @@
     width: 100%;
 
     content: "";
+    background-color: rgb(168, 207, 194);
+
     grid-column: 1 / -1;
     grid-row: 1;
-
-    background-color: rgb(168, 207, 194);
 }
 
 .darkroom-container a {
@@ -70,7 +70,6 @@
     color: rgb(81, 81, 81);
 
     text-align: center;
-
     display: block;
 
     grid-column: 2 / 3;
@@ -114,12 +113,11 @@
 
 .darkroom-container-style ul {
     width: 100%;
+    padding: 0px;
+    margin: 0px;
 
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-
-    padding: 0px;
-    margin: 0px;
 }
 
 .darkroom-container-style li {
