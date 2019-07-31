@@ -275,3 +275,12 @@
     opacity: 1;
 }
 
+.view-all-posts a {
+    height: 50px;
+    width: 173px;
+
+    position: absolute;
+
+    z-index: 3;
+}
+
