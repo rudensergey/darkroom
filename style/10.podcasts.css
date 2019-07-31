@@ -108,7 +108,6 @@
 .podcast .link:hover {
     border: 2px solid rgb(158, 196, 183);
     background-color: rgb(158, 196, 183);
-
 }
 
 .podcast .aspect-ration-second {
@@ -240,7 +239,7 @@
 
 .view-all-posts p {
     height: 18px;
-    widows: 100px;
+    width: 100px;
     position: relative;
     right: 0px;
 
@@ -260,12 +259,12 @@
     top: 14px;
     right: 40px;
     height: 25px;
-    widows: 25px;
+    width: 25px;
 
     position: absolute;
     opacity: 0;
 
-    transition-property: right opacity;
+    transition-property: right, opacity;
     transition-duration: 0.3s;
     animation-timing-function: ease-in;
 }

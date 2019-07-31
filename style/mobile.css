@@ -17,6 +17,10 @@
     .darkroom-container a {
         grid-row: 13;
     }
+
+    .darkroom-container {
+        padding: 67px 0px 30px 0px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -310,9 +314,7 @@
     /* PODCASTS */
 
     .darkroom-podcasts {
-        height: 100%;
-        width: 100%;
-        padding: 67px 0px 100px 0px;
+        padding: 0px 0px 100px 0px;
     
         display: grid;
         grid-template-columns: 98px 1fr 98px; 
