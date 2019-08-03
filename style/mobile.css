@@ -170,7 +170,8 @@
         grid-row: 4 / 5
     }
 
-    .dashboard-container-text .screen-button {
+    .dashboard-container-text .position-button {
+        grid-column: 1 / -1;
         grid-row: 9;
     }
 
@@ -226,9 +227,9 @@
         grid-row: 4 / 5
     }
 
-    .easypeasy-container-text .screen-button {
-        grid-row: 6;
+    .easypeasy-container-text .position-button {
         grid-column: 1;
+        grid-row: 5;
     }
 
     /* PROFITS BLOCK */
