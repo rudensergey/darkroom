@@ -334,6 +334,10 @@
         grid-column: 1 / -1;
         grid-row: 3;
     }
+
+    .podcast {
+        align-items: end;
+    }
     
     /* PODCAST STRUCTURE */
     
@@ -359,6 +363,10 @@
     .view-all-posts p {
         grid-column: 1 / -1;
         grid-row: 1 / -1;
+    }
+
+    .podcast .aspect-ration-second {
+        display: none;
     }
     
 }

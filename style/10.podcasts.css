@@ -39,11 +39,9 @@
 
     display: grid;
     grid-template-columns: 17% 66% 17%;
-    grid-template-rows: min-content 10% min-content 1% min-content 2% min-content 1fr 47px;
+    grid-template-rows: min-content 70px min-content 10px min-content 20px max-content 20px 1fr;
 
     align-items: center;
-
-    overflow: scroll;
 }
 
 .podcast .biglink {
@@ -57,27 +55,33 @@
 }
 
 .podcast .aspect-ration {
-    padding-bottom: 66%;
+    padding-bottom: 63%;
     width: 0px;
 
     grid-column: 1 / -1;
     grid-row: 1 / 2;
 }
 
-.podcast img {
-    height: 103%;
-
+.podcast .img-container {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
-    
-    transform: scale(1);
+
+    overflow: hidden;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.podcast .img-container img {
+    width: 100%;
+
+    transform: scale(1.04);
 
     transition-property: transform;
     transition-duration: 0.3s;
 }
 
-.podcast:hover img {
-    transform: scale(1.05);
+.podcast:hover .img-container img {
+    transform: scale(1.07);
 }
 
 .podcast .link {
@@ -149,19 +153,19 @@
     flex-direction: row;
     justify-content: left;
 
-    height: 47px;
+    height: 45px;
     width: 100%;
     border-top: 1px solid rgba(128, 128, 128, 0.1);
 
     grid-column: 1 / -1;
-    grid-row: 9 / 10;
 
-    align-content: center;
+    align-content: end;
     align-items: center;
 }
 
 .podcast .author a {
     width: 160px;
+    margin: 15px 0px 15px 0px;
 
     font-size: 12px;
     font-weight: 400;
