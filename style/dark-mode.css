@@ -1,0 +1,79 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #060A0F !important;
+    }
+
+    .header {
+        border-bottom: solid 1px #35393F;
+        background-color: #24272B;
+    }
+
+    .menu-text {
+        color: white;
+    }
+    
+    .dark-mode-button {
+        color: rgb(255, 255, 255);
+        background-color: #35393F;
+    }
+        
+    .dark-mode-button:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(36, 36, 36);
+    }
+
+    .dark-mode-button::after {
+        background-image: url(../Media/Sun.png);
+    }
+
+    /* UNDERLINE EFFECT */
+    
+    .menu-underlined::after {
+        background: #79CAB5;
+    }
+
+    /* END */
+    
+    #menu-login {
+        color: rgb(255, 255, 255); 
+        border: 2px solid rgb(255, 255, 255);
+    }
+    
+    #menu-login:hover {
+        color: #79CAB5;
+        border-color: #79CAB5;
+    }
+    
+    #menu-gallery {
+        color: rgb(255, 255, 255);
+        background-color: #79CAB5;
+    }
+
+
+
+
+
+
+    /* FIRST SCREEN BLOCK */
+    .screen-container:after {
+        background-image: linear-gradient(to top right, rgb(36, 39, 43), rgb(211, 211, 211));
+    }
+    
+    .screen-container h6 {
+        color: rgb(255, 255, 255);
+    }
+    
+    .screen-container p {
+        color: white;
+    }
+    
+    .screen-container .position-button {
+        background-color: #79CAB5;
+    }
+    
+    .screen-container .create-button:hover {
+        opacity: 1;
+        box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.500);
+
+    }
+}
