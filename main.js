@@ -1,5 +1,1 @@
-let darkModeButton = document.getElementById('activate-button');
-
-darkModeButton.onclick = () => {
-    alert('Hello world!');
-}
+let darkModeButton = document.getElementById('activate-button');a
