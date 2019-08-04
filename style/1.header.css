@@ -21,7 +21,7 @@
 
 .header-buttons {
     height: 40px;
-    width: 455px;
+    width: 540px;
     margin-top: 1px;
 
     display: flex;
@@ -52,6 +52,66 @@
     text-decoration: none;
     text-align: center;
 }
+
+.dark-mode-button {
+    height: 20px;
+    width: auto;
+    margin: 1px auto;
+    padding: 8px 20px 9px 20px;
+    color: rgb(27, 27, 27);
+    opacity: 1;
+
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+
+    opacity: 1;
+    transform: translateY(0px);
+    transition-property: padding, opacity, background-color, color, transform;
+    transition-duration: 0.5s;
+    animation-timing-function: 0,.51,1,.21;
+    user-select: none;
+    cursor: pointer;
+
+    display: block;
+}
+    
+.dark-mode-button:hover {
+    opacity: 0.9;
+    background-color: rgb(34, 34, 34);
+    color: rgb(254, 255, 195);
+    padding: 8px 25px 9px 15px;
+}
+
+.dark-mode-button:active {
+    transform: translateY(2px);
+}
+
+.dark-mode-button::after {
+    content: "";
+    position: absolute;
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+
+    background-image: url(../Media/moon.png);
+    background-size: cover;
+
+    transform: translateX(0px);
+    opacity: 0;
+
+    transition-duration: 0.5s;
+    transition-property: transform, opacity;
+
+    animation-timing-function: 0,.51,1,.21;
+}
+
+.dark-mode-button:hover::after {
+    transform: translateX(3px);
+    opacity: 1;
+}
+
+
+
 
 /* UNDERLINE EFFECT */
 
