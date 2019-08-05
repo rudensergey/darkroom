@@ -282,4 +282,27 @@
     #notzoom-slide {
         opacity: 0.3;
     }
+
+    .item {
+        background-color: gray;
+    }
+    
+    .item h1 {
+        color: white;
+    }
+    
+    .item p {
+        color: white;
+    }
+
+    
+    /* PSEUDO CLASS FOR ITEMS */
+    
+    .item-oe::after {
+        background: #24272B;
+    }
+      
+    .item-ue::before {
+        background: #52AA91;
+    }
 }
