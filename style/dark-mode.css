@@ -51,10 +51,9 @@
 
 
 
-
-
-
+    
     /* FIRST SCREEN BLOCK */
+
     .screen-container:after {
         background-image: linear-gradient(to top right, rgb(36, 39, 43), rgb(211, 211, 211));
     }
@@ -75,5 +74,37 @@
         opacity: 1;
         box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.500);
 
+    }
+
+
+
+
+    /* WORKBLOCK */
+    
+    .workblock-container-pictures-pic {
+        background-color: #35393F;
+    }
+    
+    .workblock-container-pictures-pic:before {
+        background-image: url(../Media/1/1-dark.png);
+    }
+    
+    .workblock-container-pictures-pic:after {
+        background-image: url(../Media/1/2-dark.png);
+    }
+    
+    /* TEXT BLOCK */
+    
+    .workblock-container-text h2 {
+        color: white;
+    }
+    
+    .workblock-container-text h6 {
+        color: white;
+    }
+    
+    .workblock-container-text p {
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
     }
 }
