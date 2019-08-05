@@ -305,4 +305,51 @@
     .item-ue::before {
         background: #52AA91;
     }
+
+
+
+
+    /* DARKROOM+ */
+
+    .darkroom-container-style {
+        border: 1px solid #35393F;
+    }
+    
+    .darkroom-container-style::before {
+        background-color: #79CAB5;
+    }
+    
+    .darkroom-container a {
+        color: #79CAB5;
+    }
+    
+    /* TEXT BLOCK */
+    
+    .darkroom-container p {
+        opacity: 0.7;
+    }
+    
+    .darkroom-container-style h3 {
+        color: rgb(255, 255, 255);
+    }
+    
+    .darkroom-container-style .free::before {
+        opacity: 0.7;
+        background-image: url(../Media/9/basic-stack-01-dark.png);
+    }
+    
+    .darkroom-container-style .plus::before {
+        opacity: 0.7;
+        background-image: url(../Media/9/pro-stack-01-dark.png);
+    }
+    
+    .darkroom-container-style h4 {
+        opacity: 1;
+        color: white;
+    }
+
+    .darkroom-container-style ul {
+        color: white;
+        opacity: 0.7;
+    }
 }
