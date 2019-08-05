@@ -352,4 +352,84 @@
         color: white;
         opacity: 0.7;
     }
+
+
+
+
+    /* PODCASTS */
+    
+    /* PODCAST STRUCTURE */
+
+    .podcast {
+        box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.100);
+    }
+
+    .podcast .link {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        background-color: rgb(158, 196, 183, 0);
+    }
+
+    .podcast .link:hover {
+        border: 2px solid #52AA91;
+        background-color: #52AA91;
+    }
+
+    .podcast .date {
+        color: rgb(153, 153, 153);
+    }
+
+    .podcast .title {
+        color: rgb(153, 153, 153);
+    }
+
+    .podcast .text {
+        color: rgb(136, 136, 136);
+    }
+
+    .podcast .author {
+        border-top: 1px solid rgba(128, 128, 128, 0.1);
+    }
+
+    .podcast .author a {
+        color: rgb(185, 185, 185);
+    }
+
+    .podcast .author::before {
+        background-image: url(../Media/10/author-na.png);
+    }
+
+    .podcast .author:hover::before {
+        background-image: url(../Media/10/author-a.png);
+    }
+
+    /* TEXT BLOCK */
+
+    .darkroom-podcasts h3 {
+        color: white;
+    }
+
+    .darkroom-podcasts p {
+        opacity: 0.7;
+    }
+
+    .view-all-posts {
+        color: white;
+        background-color: #52AA91;
+        opacity: 1;
+        box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
+    }
+
+    .view-all-posts:hover {
+        opacity: 1;
+        background-color: #52AA91;
+    }
+
+    .view-all-posts p {
+        color: white;
+    }
+
+    .view-all-posts:hover img {
+        right: 22px;
+        opacity: 1;
+    }
 }
