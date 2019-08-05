@@ -14,13 +14,14 @@
     }
 
     .title {
-        font-size: 32px;
-        color: #515151;
+        font-size: 32px !important;
+        color: #ffffff !important;
     }
     
     .description {
         font-size: white !important;
         color: white !important;
+        opacity: 0.7;
     }
 
     .header {
@@ -242,5 +243,43 @@
     .profits-container-text h6 {
         color: white;
         opacity: 0.7;
+    }
+
+
+
+
+    /* COMMENTS BLOCK */
+    
+    .comments-slide .quote-text {
+        background-color: #35393F;
+        color: rgb(255, 255, 255);
+    }
+    
+    .comments-slide .quote-text:before {
+        color: black;
+    }
+    
+    .comments-slide .quote-arrow {
+        background-color: #35393F;
+    }
+    
+    .comments-slide .name {
+        color: white;
+    }
+    
+    .comments-slide .profession {
+        color: white;
+        opacity: 0.7;
+    }
+    
+    /* NOT ZOOM SLIDE */
+    
+    #notzoom-text {
+        background-color: white;
+        color: rgb(59, 66, 75);
+    }
+    
+    #notzoom-slide {
+        opacity: 0.3;
     }
 }
