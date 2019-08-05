@@ -125,6 +125,7 @@
     
     .workblock-container-text h6 {
         color: white;
+        opacity: 0.7;
     }
     
     .workblock-container-text p {
@@ -162,6 +163,7 @@
     
     .dashboard-container-text h6 {
         color: white;
+        opacity: 0.7;
     }
     
     .dashboard-container-text ul {
@@ -207,5 +209,38 @@
     
     .easypeasy-container-text h6 {
         color: white;
+        opacity: 0.7;
+    }
+
+
+
+
+    /* PROFITS DESERVE BLOCK */
+
+    .profits-container-pictures-pic {
+        background-color: #35393F;
+    }
+    
+    .profits-container-pictures-pic:before {
+        background-image: url(../Media/4/1-dark.png);
+    }
+    
+    .profits-container-pictures-pic:after {
+        background-image: url(../Media/4/2-dark.png);
+    }
+    
+    /* TEXT BLOCK */
+    
+    .profits-container-text {
+        opacity: 0.9;
+    }
+    
+    .profits-container-text h2 {
+        color: white;
+    }
+    
+    .profits-container-text h6 {
+        color: white;
+        opacity: 0.7;
     }
 }
