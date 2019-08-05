@@ -1,6 +1,26 @@
 @media (prefers-color-scheme: dark) {
+
     body {
         background-color: #060A0F !important;
+    }
+
+    .create-button {
+        color: white !important;
+        background-color: #79CAB5 !important;
+    }
+    
+    .create-button:hover {
+        background-color: #79CAB5 !important;
+    }
+
+    .title {
+        font-size: 32px;
+        color: #515151;
+    }
+    
+    .description {
+        font-size: white !important;
+        color: white !important;
     }
 
     .header {
@@ -51,7 +71,7 @@
 
 
 
-    
+
     /* FIRST SCREEN BLOCK */
 
     .screen-container:after {
@@ -92,11 +112,16 @@
     .workblock-container-pictures-pic:after {
         background-image: url(../Media/1/2-dark.png);
     }
+
+    .workblock-container-text {
+        opacity: 0.9;
+    }
     
     /* TEXT BLOCK */
     
     .workblock-container-text h2 {
         color: white;
+        opacity: 1;
     }
     
     .workblock-container-text h6 {
@@ -106,5 +131,50 @@
     .workblock-container-text p {
         color: rgb(255, 255, 255);
         opacity: 0.8;
+    }
+
+
+
+
+    /* DASHBOARD */
+
+    .dashboard-container-pictures-pic {
+        background-color: #35393F;
+    }
+    
+    .dashboard-container-pictures-pic:before {
+        background-image: url(../Media/2/1-dark.png);
+    }
+    
+    .dashboard-container-pictures-pic:after {
+        background-image: url(../Media/2/2-dark.png);
+    }
+    
+    /* TEXT BLOCK */
+    
+    .dashboard-container-text {
+        color: white;
+        opacity: 0.9;
+    }
+    
+    .dashboard-container-text h2 {
+        color: white;
+    }
+    
+    .dashboard-container-text h6 {
+        color: white;
+    }
+    
+    .dashboard-container-text ul {
+        color: white;
+    }
+    
+    .dashboard-container-text li {
+        color: white;
+    }
+    
+    .dashboard-container-text li:after {
+        background-image: url(../Media/2/done-dark.png);
+        opacity: 1;
     }
 }
