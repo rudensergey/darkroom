@@ -1,0 +1,461 @@
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #060A0F !important;
+    }
+
+    .create-button {
+        color: white !important;
+        background-color: #79CAB5 !important;
+    }
+    
+    .create-button:hover {
+        background-color: #79CAB5 !important;
+    }
+
+    .title {
+        font-size: 32px !important;
+        color: #ffffff !important;
+    }
+    
+    .description {
+        font-size: white !important;
+        color: white !important;
+        opacity: 0.7;
+    }
+
+    .header {
+        border-bottom: solid 1px #35393F;
+        background-color: #24272B;
+    }
+
+    .menu-text {
+        color: white;
+    }
+    
+    .dark-mode-button {
+        color: rgb(255, 255, 255);
+        background-color: #35393F;
+    }
+        
+    .dark-mode-button:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(36, 36, 36);
+    }
+
+    .dark-mode-button::after {
+        background-image: url(../Media/Sun.png);
+    }
+
+    /* UNDERLINE EFFECT */
+    
+    .menu-underlined::after {
+        background: #79CAB5;
+    }
+
+    /* END */
+    
+    #menu-login {
+        color: rgb(255, 255, 255); 
+        border: 2px solid rgb(255, 255, 255);
+    }
+    
+    #menu-login:hover {
+        color: #79CAB5;
+        border-color: #79CAB5;
+    }
+    
+    #menu-gallery {
+        color: rgb(255, 255, 255);
+        background-color: #79CAB5;
+    }
+
+
+
+
+    /* FIRST SCREEN BLOCK */
+
+    .screen-container:after {
+        background-image: linear-gradient(to top right, rgb(36, 39, 43), rgb(211, 211, 211));
+    }
+    
+    .screen-container h6 {
+        color: rgb(255, 255, 255);
+    }
+    
+    .screen-container p {
+        color: white;
+    }
+    
+    .screen-container .position-button {
+        background-color: #79CAB5;
+    }
+    
+    .screen-container .create-button:hover {
+        opacity: 1;
+        box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.500);
+    }
+
+
+
+
+    /* WORKBLOCK */
+    
+    .workblock-container-pictures-pic {
+        background-color: #35393F;
+    }
+    
+    .workblock-container-pictures-pic:before {
+        background-image: url(../Media/1/1-dark.png);
+    }
+    
+    .workblock-container-pictures-pic:after {
+        background-image: url(../Media/1/2-dark.png);
+    }
+
+    .workblock-container-text {
+        opacity: 0.9;
+    }
+    
+    /* TEXT BLOCK */
+    
+    .workblock-container-text h2 {
+        color: white;
+        opacity: 1;
+    }
+    
+    .workblock-container-text h6 {
+        color: white;
+        opacity: 0.7;
+    }
+    
+    .workblock-container-text p {
+        color: rgb(255, 255, 255);
+        opacity: 0.8;
+    }
+
+
+
+
+    /* DASHBOARD */
+
+    .dashboard-container-pictures-pic {
+        background-color: #35393F;
+    }
+    
+    .dashboard-container-pictures-pic:before {
+        background-image: url(../Media/2/1-dark.png);
+    }
+    
+    .dashboard-container-pictures-pic:after {
+        background-image: url(../Media/2/2-dark.png);
+    }
+    
+    /* TEXT BLOCK */
+    
+    .dashboard-container-text {
+        color: white;
+        opacity: 0.9;
+    }
+    
+    .dashboard-container-text h2 {
+        color: white;
+    }
+    
+    .dashboard-container-text h6 {
+        color: white;
+        opacity: 0.7;
+    }
+    
+    .dashboard-container-text ul {
+        color: white;
+    }
+    
+    .dashboard-container-text li {
+        color: white;
+    }
+    
+    .dashboard-container-text li:after {
+        background-image: url(../Media/2/done-dark.png);
+        opacity: 1;
+    }
+
+
+
+
+
+    /* EASYPEASY */
+    
+    .easypeasy-container-pictures-pic {
+        background-color: #35393F;
+    }
+    
+    .easypeasy-container-pictures-pic:before {
+        background-image: url(../Media/3/1-dark.png);
+    }
+    
+    .easypeasy-container-pictures-pic:after {
+        background-image: url(../Media/3/2-dark.png);
+    }
+    
+    /* TEXT BLOCK */
+    
+    .easypeasy-container-text {
+        opacity: 0.9;
+    }
+    
+    .easypeasy-container-text h2 {
+        color: white;
+    }
+    
+    .easypeasy-container-text h6 {
+        color: white;
+        opacity: 0.7;
+    }
+
+
+
+
+    /* PROFITS DESERVE BLOCK */
+
+    .profits-container-pictures-pic {
+        background-color: #35393F;
+    }
+    
+    .profits-container-pictures-pic:before {
+        background-image: url(../Media/4/1-dark.png);
+    }
+    
+    .profits-container-pictures-pic:after {
+        background-image: url(../Media/4/2-dark.png);
+    }
+    
+    /* TEXT BLOCK */
+    
+    .profits-container-text {
+        opacity: 0.9;
+    }
+    
+    .profits-container-text h2 {
+        color: white;
+    }
+    
+    .profits-container-text h6 {
+        color: white;
+        opacity: 0.7;
+    }
+
+
+
+
+    /* COMMENTS BLOCK */
+    
+    .comments-slide .quote-text {
+        background-color: #35393F;
+        color: rgb(255, 255, 255);
+    }
+    
+    .comments-slide .quote-text:before {
+        color: black;
+    }
+    
+    .comments-slide .quote-arrow {
+        background-color: #35393F;
+    }
+    
+    .comments-slide .name {
+        color: white;
+    }
+    
+    .comments-slide .profession {
+        color: white;
+        opacity: 0.7;
+    }
+    
+    /* NOT ZOOM SLIDE */
+    
+    #notzoom-text {
+        background-color: white;
+        color: rgb(59, 66, 75);
+    }
+    
+    #notzoom-slide {
+        opacity: 0.3;
+    }
+
+    .item {
+        background-color: gray;
+    }
+    
+    .item h1 {
+        color: white;
+    }
+    
+    .item p {
+        color: white;
+    }
+
+    
+    /* PSEUDO CLASS FOR ITEMS */
+    
+    .item-oe::after {
+        background: #24272B;
+    }
+      
+    .item-ue::before {
+        background: #52AA91;
+    }
+
+
+
+
+    /* DARKROOM+ */
+
+    .darkroom-container-style {
+        border: 1px solid #35393F;
+    }
+    
+    .darkroom-container-style::before {
+        background-color: #79CAB5;
+    }
+    
+    .darkroom-container a {
+        color: #79CAB5;
+    }
+    
+    /* TEXT BLOCK */
+    
+    .darkroom-container p {
+        opacity: 0.7;
+    }
+    
+    .darkroom-container-style h3 {
+        color: rgb(255, 255, 255);
+    }
+    
+    .darkroom-container-style .free::before {
+        opacity: 0.7;
+        background-image: url(../Media/9/basic-stack-01-dark.png);
+    }
+    
+    .darkroom-container-style .plus::before {
+        opacity: 0.7;
+        background-image: url(../Media/9/pro-stack-01-dark.png);
+    }
+    
+    .darkroom-container-style h4 {
+        opacity: 1;
+        color: white;
+    }
+
+    .darkroom-container-style ul {
+        color: white;
+        opacity: 0.7;
+    }
+
+
+
+
+    /* PODCASTS */
+    
+    /* PODCAST STRUCTURE */
+
+    .podcast {
+        box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.100);
+    }
+
+    .podcast .link {
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        background-color: rgb(158, 196, 183, 0);
+    }
+
+    .podcast .link:hover {
+        border: 2px solid #52AA91;
+        background-color: #52AA91;
+    }
+
+    .podcast .date {
+        color: rgb(153, 153, 153);
+    }
+
+    .podcast .title {
+        color: rgb(153, 153, 153);
+    }
+
+    .podcast .text {
+        color: rgb(136, 136, 136);
+    }
+
+    .podcast .author {
+        border-top: 1px solid rgba(128, 128, 128, 0.1);
+    }
+
+    .podcast .author a {
+        color: rgb(185, 185, 185);
+    }
+
+    .podcast .author::before {
+        background-image: url(../Media/10/author-na.png);
+    }
+
+    .podcast .author:hover::before {
+        background-image: url(../Media/10/author-a.png);
+    }
+
+    /* TEXT BLOCK */
+
+    .darkroom-podcasts h3 {
+        color: white;
+    }
+
+    .darkroom-podcasts p {
+        opacity: 0.7;
+    }
+
+    .view-all-posts {
+        color: white;
+        background-color: #52AA91;
+        opacity: 1;
+        box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
+    }
+
+    .view-all-posts:hover {
+        opacity: 1;
+        background-color: #52AA91;
+    }
+
+    .view-all-posts p {
+        color: white;
+    }
+
+    .view-all-posts:hover img {
+        right: 22px;
+        opacity: 1;
+    }
+
+    
+
+    /* FOOTER */
+    
+    footer .button-link {
+        opacity: 0.9;
+        color: white;
+        background-color: #52AA91;
+
+    }
+    
+    footer ul {
+        background-image: url(../Media/11/footer-back.png);
+        opacity: 0.7;
+    }
+
+    footer ul li a {
+        color: rgb(255, 255, 255);
+    }
+    
+    footer ul li a:hover {
+        color: rgb(119, 207, 178);
+    }
+    
+    
+}

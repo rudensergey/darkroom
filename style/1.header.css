@@ -1,0 +1,181 @@
+.header {
+    height: 70px;
+    width: 100%;
+    padding: 15px 28px 15px 28px;
+    border-bottom: solid 1px rgb(236, 236, 236);
+    background-color: white;
+
+    justify-content: space-between;
+
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+
+    z-index: 5;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 30px;
+}
+
+.header-buttons {
+    height: 40px;
+    width: 540px;
+    margin-top: 1px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-explore {
+    width: 86px;
+}
+
+.menu-cart {
+    width: 63px;
+}
+
+.menu-login {
+    width: 112px;
+}
+
+.menu-gallery {
+    width: 192px;
+}
+
+.menu-text {
+    display: block;
+    margin: 9px 0px 20px 0px;
+    color: rgb(136, 136, 136);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dark-mode-button {
+    height: 20px;
+    width: auto;
+    margin: 1px auto;
+    padding: 8px 20px 9px 20px;
+    color: rgb(27, 27, 27);
+    opacity: 1;
+
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+
+    opacity: 1;
+    transform: translateY(0px);
+    transition-property: padding, opacity, background-color, color, transform;
+    transition-duration: 0.5s;
+    animation-timing-function: 0,.51,1,.21;
+    user-select: none;
+    cursor: pointer;
+
+    display: block;
+}
+    
+.dark-mode-button:hover {
+    opacity: 0.9;
+    background-color: rgb(34, 34, 34);
+    color: rgb(254, 255, 195);
+    padding: 8px 25px 9px 15px;
+}
+
+.dark-mode-button:active {
+    transform: translateY(2px);
+}
+
+.dark-mode-button::after {
+    content: "";
+    position: absolute;
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+
+    background-image: url(../Media/moon.png);
+    background-size: cover;
+
+    transform: translateX(0px);
+    opacity: 0;
+
+    transition-duration: 0.5s;
+    transition-property: transform, opacity;
+
+    animation-timing-function: 0,.51,1,.21;
+}
+
+.dark-mode-button:hover::after {
+    transform: translateX(3px);
+    opacity: 1;
+}
+
+
+
+
+/* UNDERLINE EFFECT */
+
+.menu-underlined::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: rgb(168, 207, 194);
+    width: 0;
+    transition: width 0.35s;
+    margin: auto;
+    margin-top: 5px;
+    transition-timing-function: ease;
+}
+  
+.menu-underlined-explore:hover::after {
+    width: 54px;
+}
+      
+.menu-underlined-cart:hover::after {
+    width: 34px;
+}
+
+/* END */
+
+#menu-login {
+    height: 20px;
+    width: 41px;
+    margin: 1px auto;
+    padding: 6px 18px 7px 18px;
+    color: rgb(136, 136, 136);
+
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 4px;
+
+    transition-property: color, border-color;
+    transition-duration: 0.35s;
+
+    display: block;
+}
+
+#menu-login:hover {
+    color: rgb(168, 207, 194);
+    border-color: rgb(168, 207, 194);
+}
+
+#menu-gallery {
+    height: 20px;
+    width: 120.5px;
+    margin: 1px auto;
+    padding: 8px 20px 9px 20px;
+    color: white;
+    opacity: 1;
+
+    border-radius: 4px;
+    background-color: rgb(168, 207, 194);
+
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 0.35s;
+
+    display: block;
+}
+
+#menu-gallery:hover{
+    opacity: 0.9;
+}

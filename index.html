@@ -6,65 +6,295 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="./style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="./style/index.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
     <div class="header">
-        <img class="logo" src="https://www.darkroom.tech/wp-content/uploads/2018/07/LogoV2.png"/>
+        <img class="logo" src="https://www.darkroom.tech/wp-content/uploads/2018/07/LogoV2.png" alt="logo"/>
             
         <div class="header-buttons">
             <a href="http://explore.darkroom.tech/" class="menu-text menu-explore menu-underlined menu-underlined-explore">Explore</a>
             <a href="http://checkout.darkroom.tech/" class="menu-text menu-cart menu-underlined menu-underlined-cart">Cart</a>   
             <a href="https://login.darkroom.tech/" class="menu-text menu-login" id="menu-login">Login</a> 
             <a href="https://login.darkroom.tech/" class="menu-text menu-gallery" id="menu-gallery">Create A Gallery</a>
+            <p class="dark-mode-button" id="activate-button">Dark</p>
         </div>
     </div>
 
     <div class="screen-container">
-        <h6>Print shops made simple</h6>
-        <p>The easiest way to sell your art</p>
-        <a href="https://login.darkroom.tech" class="screen-button">Create A Gallery</a>
+        <h6 class="title">Print shops made simple</h6>
+        <p class="description">The easiest way to sell your art</p>
+        <a href="https://login.darkroom.tech" class="create-button position-button">Create A Gallery</a>
         <div class="aspect-ration"></div>
     </div>
 
+    <div class="workblock-container">
+        <div class="aspect-ration"></div>
+        <div class="workblock-container-pictures">
+            <div class="aspect-ration"></div>
+            <div class="workblock-container-pictures-pic"></div>
+        </div>
+    
+        <div class="workblock-container-text">
+            <h2 class="title">How does it work?</h2>
+                
+            <img src="./Media/1/11-dark.png" class="image-upload image" alt="upload">
+            <h6 class="topic-upload">Upload Your Photos</h6>
+            <p class="text-upload">Upload your best work to be in your Darkroom gallery.</p>
+                
+            <img src="./Media/1/12-dark.png" class="image-customize image" alt="customize">
+            <h6 class="topic-customize">Customize</h6>
+            <p class="text-customize">Choose from our themes and pick your prices.</p>
+                
+            <img src="./Media/1/13-dark.png" class="image-sell image" alt="sell">
+            <h6 class="topic-sell">Share & Sell</h6>
+            <p class="text-sell">Let your audience know that you’ve launched and track your sales.</p>
+    
+            <img src="./Media/1/14-dark.png" class="image-sleep image" alt="sleep">
+            <h6 class="topic-sleep">Sleep Easy</h6>
+            <p class="text-sleep">We’ll handle the transactions, printing, shipping, and customer service.</p>
+        </div>
+    </div>
+
+    <div class="dashboard-container">
+        <div class="aspect-ration"></div>
+        <div class="dashboard-container-pictures">
+            <div class="aspect-ration"></div>
+            <div class="dashboard-container-pictures-pic"></div>
+        </div>
+    
+        <div class="dashboard-container-text">
+            <h2 class="title">Your Dashboard</h2>
+            <h6 class="description">Everything in one place. Upload images, set prices, track sales & more.</h6>
+            <ul>
+                <li>Uploader</li>
+                <li>Pricing</li>
+                <li>Analytics</li>
+                <li>Design</li>
+                <li>Discounts</li>
+            </ul>
+
+            <a href="https://login.darkroom.tech" class="create-button position-button">Create A Gallery</a>
+        </div>
+    </div>
+
+    <div class="easypeasy-container">
+        <div class="aspect-ration"></div>
+        <div class="easypeasy-container-pictures">
+            <div class="aspect-ration"></div>
+            <div class="easypeasy-container-pictures-pic"></div>
+        </div>
+    
+        <div class="easypeasy-container-text">
+            <h2 class="title">Easy Peasy</h2>
+            <h6 class="description">You create, upload, and share – that’s it! We’ll handle the transactions, printing, shipping, and customer service.</h6>
+            <a href="https://login.darkroom.tech" class="create-button position-button">Create A Gallery</a>
+        </div>
+    </div>
+
+    <div class="profits-container">
+        <div class="aspect-ration"></div>
+        <div class="profits-container-pictures">
+            <div class="aspect-ration"></div>
+            <div class="profits-container-pictures-pic"></div>
+        </div>
+    
+        <div class="profits-container-text">
+            <h2 class="title">Profits You Deserve</h2>
+            <h6 class="description">You choose your own prices and will be in control of what your profit margin is. On average, Darkroom artists make a 73% profit margin.</h6>
+            <a href="https://login.darkroom.tech" class="create-button position-button">Create A Gallery</a>
+        </div>
+    </div>
+
+    <div class="comments-block">
+        <div class="aspect-ration"></div>
+        <h1 class="comments-topic title">Trusted By The Best</h1>
+        <h2 class="comments-text description">Don’t listen to us, listen to our growing community of photographers and artists.</h2>
+        
+        <div class="comments-slider">
+            <div class="comments-slide">
+                <p class="quote-text">Darkroom made it so easy to share and sell my work to my audience, I literally had my shop launched in minutes. </p>
+                <div class="quote-arrow"></div>
+                <img src="./Media/5/photo_2019-07-08_16-35-11.jpg" alt="Eugenii">
+                <p class="name">Eugenii Shukin</p>
+                <p class="profession">Musician</p>
+            </div>
+
+            <div class="comments-slide">
+                <p class="quote-text">Darkroom gives me the ability to focus on creating great content without worrying about print quality, fulfillment or customer service.</p>
+                <div class="quote-arrow"></div>
+                <img src="./Media/5/photo_2019-07-08_19-50-45.jpg" alt="Yurii">
+                <p class="name">Yurii Savin</p>
+                <p class="profession">Front-End Developer</p>
+            </div>
+
+            <div class="comments-slide">
+                <p class="quote-text">I’ve had difficulty over the last few years finding the best way to make, sell, and ship prints... Until Darkroom came along.</p>
+                <div class="quote-arrow"></div>
+                <img src="./Media/5/photo_2019-07-08_19-52-23.jpg" alt="Dmitrii">
+                <p class="name">Dmitrii Beloborodov</p>
+                <p class="profession">Videomaker</p>
+            </div>
+
+            <div class="comments-slide">
+                <p class="quote-text">I love how easy Darkroom makes it to sell my prints. They're fast, efficient, and great to work with.</p>
+                <div class="quote-arrow"></div>
+                <img src="./Media/5/photo_2019-07-08_19-53-04.jpg" alt="Sergey">
+                <p class="name">Sergey Rudenko</p>
+                <p class="profession">Creator</p>
+            </div>
+        </div>
+    </div>
+
     <div class="services-container">
-        <h1 class="m-font services-topic">Museum Quality Products</h1>
-        <h2 class="m-font services-text">See for yourself.</h2>
+        <h1 class="title">Museum Quality Products</h1>
+        <h2 class="description">See for yourself.</h2>
 
         <div class="item item-oe item-oea item-ue item-uea">
             <h1>Lustre Paper</h1>
             <p>Satin-like sheen with a modestly textured surface. This paper type is very durable and is wonderful at hiding fingerprints and minor scratches. Mounting & framing options available.</p>
-            <img src="./Media/lustre.jpg">
+            <img src="./Media/lustre.jpg" alt="lustre">
             <div class="square"></div>
         </div>
           
         <div class="item item-oe item-oea item-ue item-uea">
             <h1>Canvas</h1>
             <p>High quality cotton professionally mounted to solid wood with tight, clean corners.</p>    
-            <img src="./Media/canvas.jpg">
+            <img src="./Media/canvas.jpg" alt="canvas">
         </div>
             
         <div class="item item-oe item-oea item-ue item-uea">
             <h1>Framing</h1>
             <p>High quality modern frames with protective, clear acrylic, which blocks up to 92% of UV rays. Available in 6 different styles.</p>
-            <img src="./Media/framing.jpg">
+            <img src="./Media/framing.jpg" alt="framing">
         </div>
             
         <div class="item item-oe item-oea item-ue item-uea">
             <h1>Metal</h1>
             <p>Made from 100% recycled ChromaLuxe aluminum that is fully waterproof and easy to clean. Comes with a built in mount, floating the print 1.2″ from the wall.</p>
-            <img src="./Media/metal.png">
+            <img src="./Media/metal.png" alt="metal">
         </div>
-            
+        
         <div class="item item-oe item-oea item-ue item-uea">
             <h1>Framed Canvas</h1>
             <p>Modern frames surrounding tight-edge canvas with scratch resistant UV protection and bumpers to protect your walls.</p>
-            <img src="./Media/framed.png">
+            <img src="./Media/framed.png" alt="framed">
+        </div>
+    </div>
+
+    <div class="darkroom-container">
+        <h3 class="title">Introducing Darkroom Plus</h3>
+        <p class="description">The best way to experience Darkroom.</p>
+        <div class="darkroom-container-free darkroom-container-style">
+            <h3 class="free">Free</h3>
+            <h4>$0 <span>MONTH</span></h4>
+            <ul>
+                <li>15% Darkroom Fee</li>
+                <li>No Custom Logo</li>
+                <li> Three Theme Options</li>
+                <li>Worldwide Fulfillment</li>
+                <li>Basic Customization</li>
+                <li>Three Collections</li>
+            </ul>
         </div>
 
-  </div>
+        <div class="darkroom-container-plus darkroom-container-style pic">
+            <h3 class="plus">Plus +</h3>
+            <h4>$11 <span>MONTH</span></h4>
+            <ul>
+                <li>5% Darkroom Fee</li>
+                <li>Custom Logo</li>
+                <li>Six Theme Options</li>
+                <li>Worldwide Fulfillment</li>
+                <li>Enhanced Customization</li>
+                <li>Unlimited Collections</li>
+            </ul>
+        </div>
+
+        <a href="https://www.darkroom.tech/pages/memberships/">Learn More</a>
+    </div>
+
+    <div class="darkroom-podcasts">
+        <h3 class="title">Welcome to The Darkroom Podcast</h3>
+        <p class="description">Stories from the world’s best innovators, disruptors and artists</p>
+
+        <div class="podcast podcast-position-first">
+            <a class="biglink" href="https://instagram.com/rudensergey"></a>
+            <div class="aspect-ration"></div>
+            <a class="link" href="https://www.darkroom.tech/category/the-darkroom-podcast">The Darkroom Podcast</a>
+            
+            <div class="img-container">
+                <img src="./Media/10/1.png" alt="first podcast">
+            </div>
+
+            <div class="aspect-ration-second"></div>
+            <h6 class="date">July 11, 2019</h6>
+            <h5 class="title">Soundtracking the World with Epidemic Sound CEO Oscar Höglund</h5>
+            <p class="text">Listen on: Apple Podcast Spotify Stitcher In this episode of The Darkroom Podcast we spoke to the CEO and Co-founder of Epidemic Sound, Oscar Höglund. Over…</p>
+
+            <div class="author">
+                <a href="https://instagram.com/rudensergey">Sergey Rudenko</a>
+            </div>
+        </div>
+
+        <div class="podcast podcast-position-second">
+            <a class="biglink" href="https://instagram.com/rudensergey"></a>
+            <div class="aspect-ration"></div>
+            <a class="link" href="https://www.darkroom.tech/category/the-darkroom-podcast">The Darkroom Podcast</a>
+            
+            <div class="img-container">
+                <img src="./Media/10/2.jpg" alt="second podcast">
+            </div>
+
+            <div class="aspect-ration-second"></div>
+            <h6 class="date">July 5, 2019</h6>
+            <h5 class="title">In the Mix with the Creator of Chef’s Table David Gelb</h5>
+            <p class="text">
+                    Listen on: Apple Podcasts Spotify Stitcher In this episode of The Darkroom Podcast we spoke to the creator and director of Chef’s Table, David Gelb, at his production…</p>
+            <div class="author">
+                <a href="https://instagram.com/rudensergey">Yurii Savin</a>
+            </div>
+        </div>
+
+        <div class="podcast podcast-position-third">
+            <a class="biglink" href="https://instagram.com/rudensergey"></a>
+            <div class="aspect-ration"></div>
+            <a class="link" href="https://www.darkroom.tech/category/the-darkroom-podcast">The Darkroom Podcast</a>
+            
+            <div class="img-container">
+                <img src="./Media/10/3.jpg" alt="third podcast">
+            </div>
+
+            <div class="aspect-ration-second"></div>
+            <h6 class="date">June 27, 2019</h6>
+            <h5 class="title">Searching for Moments with Street Dreams Magazine Co-founder Steven “Sweatpants” Irby</h5>
+            <p class="text">Listen on: Apple Podcast Spotify Stitcher In this episode of The Darkroom Podcast we spoke to photographer, creative director and Co-founder of Street Dreams Magazine Steven “Sweatpants”…</p>
+            <div class="author">
+                <a href="https://instagram.com/rudensergey">Dmitrii Beloborodov</a>
+            </div>
+        </div>
+
+        <div class="view-all-posts">
+            <a href="https://login.darkroom.tech"></a>
+            <p>View All Posts</p>
+            <img src="./Media/10/arrow.png" alt="arrow">
+        </div>
+    </div>
+
+    <footer>
+        <a class="button-link" href="https://login.darkroom.tech/">Create A Gallery</a>
+        <ul>
+            <li><a href="https://www.darkroom.tech/pages/team/">About</a></li>
+            <li><a href="https://www.darkroom.tech/careers">Careers</a></li>
+            <li><a href="https://www.darkroom.tech/pages/creator-guide/">Creator Guide</a></li>
+            <li><a href="https://www.darkroom.tech/pages/faq/">FAQ</a></li>
+            <li><a href="https://www.darkroom.tech/pages/terms/">Terms</a></li>
+            <li><a href="https://login.darkroom.tech/">® 2019 Darkroom Technologies All Rights Reserved</a></li>
+        </ul>
+    </footer>
+
+    <script src="/main.js" rel="text/javascript"></script>
 </body>
 
 </html>

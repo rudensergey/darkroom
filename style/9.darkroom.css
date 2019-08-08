@@ -1,0 +1,128 @@
+.darkroom-container {
+    height: 100%;
+    width: 100%;
+    padding: 67px 0px 100px 0px;
+
+    display: grid;
+    grid-template-columns: 22.5% 26% 3% 26% 22.5%; 
+    grid-template-rows: 56px min-content 63px 1fr 50px min-content 0px 20px;
+
+    justify-items: center;
+}
+
+.darkroom-container-free {
+    grid-column: 2 / 3;
+    grid-row: 4;
+}
+
+.darkroom-container-plus {
+    grid-column: 4 / 5;
+    grid-row: 4;
+}
+
+.darkroom-container-style {
+    height: 100%;
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 50px 189px 63px 1fr 40px;
+
+    justify-items: center;
+
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.darkroom-container-style::before {
+    height: 7px;
+    width: 100%;
+
+    content: "";
+    background-color: rgb(168, 207, 194);
+
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.darkroom-container a {
+    color: rgb(81, 81, 81);
+
+    grid-column: 1 / -1;
+    grid-row: 8;
+}
+
+/* TEXT BLOCK */
+
+.darkroom-container h3 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.darkroom-container p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+}
+
+.darkroom-container-style h3 {
+    height: 24px;
+    width: 100%;
+    font-size: 27px;
+    color: rgb(81, 81, 81);
+
+    text-align: center;
+    display: block;
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.darkroom-container-style .free::before {
+    content: "";
+    height: 124px;
+    width: 200px;
+    margin: 0px auto 12px auto;
+
+    display: block;
+    background-size: cover;
+    background-image: url(../Media/9/basic-stack-01.png);
+}
+
+.darkroom-container-style .plus::before {
+    content: "";
+    height: 124px;
+    width: 200px;
+    margin: 0px auto 12px auto;
+
+    display: block;
+    background-size: cover;
+    background-image: url(../Media/9/pro-stack-01.png);
+}
+
+.darkroom-container-style h4 {
+    font-size: 22px;
+
+    opacity: 0.7;
+
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.darkroom-container-style h4 span {
+    font-size: 12px;
+}
+
+.darkroom-container-style ul {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.darkroom-container-style li {
+    height: 34px;
+
+    list-style: none;
+    text-align: center;
+}
