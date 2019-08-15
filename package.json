@@ -1,0 +1,22 @@
+{
+  "name": "darkroom",
+  "version": "1.0.0",
+  "description": "DARKROOM",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rudensergey/darkroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudensergey/darkroom/issues"
+  },
+  "homepage": "https://github.com/rudensergey/darkroom#readme",
+  "dependencies": {
+    "stylelint": "^10.1.0"
+  }
+}
