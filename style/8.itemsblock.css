@@ -41,7 +41,7 @@
 }
 
 .services-container {
-    height: auto;
+    height: 700px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 56px 53px 1fr 1fr;
