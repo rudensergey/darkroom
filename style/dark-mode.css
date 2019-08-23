@@ -1,26 +1,26 @@
-@media (prefers-color-scheme: dark) {
+@media only screen {
 
     body {
-        background-color: #060A0F !important;
+        background-color: #060A0F;
     }
 
     .create-button {
-        color: white !important;
-        background-color: #79CAB5 !important;
+        color: white;
+        background-color: #79CAB5;
     }
     
     .create-button:hover {
-        background-color: #79CAB5 !important;
+        background-color: #79CAB5;
     }
 
     .title {
-        font-size: 32px !important;
-        color: #ffffff !important;
+        font-size: 32px;
+        color: #ffffff;
     }
     
     .description {
-        font-size: white !important;
-        color: white !important;
+        font-size: white;
+        color: white;
         opacity: 0.7;
     }
 
