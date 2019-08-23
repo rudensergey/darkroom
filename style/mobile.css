@@ -291,9 +291,15 @@
     /* CONTAINER - ITEMS */
 
     .services-container {
+        height: 1200px;
+
         grid-template-columns: 1fr;
         grid-template-rows: 56px 53px 1fr 1fr 1fr 1fr 1fr; 
         grid-auto-flow: column;
+    }
+
+    .item {
+        grid-template-rows: 4px 43px 1fr;
     }
 
     .services-topic {

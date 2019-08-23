@@ -1,1 +1,1 @@
-let darkModeButton = document.getElementById('activate-button');a
+let darkModeButton = document.getElementById('activate-button');
