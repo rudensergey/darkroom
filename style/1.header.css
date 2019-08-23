@@ -2,15 +2,13 @@
     height: 70px;
     width: 100%;
     padding: 15px 28px 15px 28px;
+    
     border-bottom: solid 1px rgb(236, 236, 236);
     background-color: white;
-
     justify-content: space-between;
-
     display: flex;
     position: fixed;
     box-sizing: border-box;
-
     z-index: 5;
 }
 
@@ -23,7 +21,6 @@
     height: 40px;
     width: 540px;
     margin-top: 1px;
-
     display: flex;
     justify-content: flex-end;
 }
@@ -60,12 +57,9 @@
     padding: 8px 20px 9px 20px;
     color: rgb(27, 27, 27);
     opacity: 1;
-
     border-radius: 4px;
     background-color: rgb(240, 240, 240);
-
-    opacity: 1;
-    transform: translateY(0px);
+    transform: translateY(0);
     transition-property: padding, opacity, background-color, color, transform;
     transition-duration: 0.5s;
     animation-timing-function: 0,.51,1,.21;

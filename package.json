@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rudensergey/darkroom#readme",
   "dependencies": {
-    "stylelint": "^10.1.0"
+    "stylelint": "^10.1.0",
+    "stylelint-config-standard": "^18.3.0"
   }
 }
