@@ -240,7 +240,7 @@
 .view-all-posts:hover {
     opacity: 0.8;
     box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.400);
-    background-color: var(--title-text-grey);
+    background-color: var(--viewallpost-green);
 
     bottom: 3px;
 }
