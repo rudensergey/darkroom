@@ -28,6 +28,7 @@ footer ul {
     grid-row: 2;
 
     background-image: url(../Media/11/footer-back.png);
+    opacity: 1;
     background-size: cover;
 }
 

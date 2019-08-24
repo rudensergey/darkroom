@@ -367,26 +367,6 @@
         background-color: #52AA91;
     }
 
-    .podcast .date {
-        color: #999999;
-    }
-
-    .podcast .title {
-        color: #999999;
-    }
-
-    .podcast .text {
-        color: #888888;
-    }
-
-    .podcast .author {
-        border-top: 1px solid rgba(128, 128, 128, 0.1);
-    }
-
-    .podcast .author a {
-        color: #B9B9B9;
-    }
-
     .podcast .author::before {
         background-image: url(../Media/10/author-na.png);
     }
@@ -403,6 +383,7 @@
 
     .darkroom-podcasts p {
         opacity: 0.7;
+        color: #FFFFFF
     }
 
     .view-all-posts {
@@ -447,7 +428,7 @@
     }
     
     footer ul li a:hover {
-        color: rgb(119, 207, 178);
+        color: #79CAB5;
     }
     
     
