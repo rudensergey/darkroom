@@ -196,11 +196,15 @@
 .darkroom-podcasts h3 {
     grid-column: 1 / -1;
     grid-row: 1;
+
+    color: #FFFFFF;
 }
 
 .darkroom-podcasts p {
     grid-column: 1 / -1;
     grid-row: 2;
+
+    color: #FFFFFF;
 }
 
 .view-all-posts {
@@ -246,6 +250,8 @@
     width: 100px;
     position: relative;
     right: 0px;
+
+    color: #444444;
 
     grid-column: 1 / -1;
     grid-row: 1 / -1;
