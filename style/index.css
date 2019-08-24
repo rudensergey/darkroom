@@ -46,7 +46,29 @@
 rules for better navigation: property: color bright mode // color for dark-mode - in comment on right side */
 
 :root {
-    --back-color: #FFFFFF; /* #060A0F */
+    --border-grey: #E6E6E6;
+    --bottom-grey: #ECECEC;
+    --comment-grey: #3B424B;
+    --dark-mode-yellow: #1B1B1B;
+    --darkmode-bottom-black: #222222;
+    --darkmode-text-white: #FEFF9B;
+    --header-backcolor-white: #FFFFFF;
+    --link-footer-green: #CCCCCC;
+    --link-hover-green: #77CFB2;
+    --list-grey: #676767;
+    --middle-green: #A8CFC2;
+    --middle-green-link: #515151;
+    --middle-grey: #888888;
+    --opacity-color: #888888;
+    --pastel-green: #9EC4B7;
+    --podcast-green: #9EC4B7;
+    --quote-text-before: rgba(0,0,0,0.27);
+    --screen-gradient: linear-gradient(to top right, rgb(77, 85, 92), rgb(211, 211, 211));;
+    --square-template-grey: #F1F1F1;
+    --title-text-grey: #444444;
+    --topic-title-grey: #515151;
+    --underline-green: #A8CFC2;
+    --viewallpost-green: #79CAB5;
 }
 
 body {
