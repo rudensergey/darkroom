@@ -30,7 +30,7 @@
 
     justify-items: center;
 
-    border: 1px solid rgb(230, 230, 230);
+    border: 1px solid #E6E6E6;
 }
 
 .darkroom-container-style::before {
@@ -38,14 +38,14 @@
     width: 100%;
 
     content: "";
-    background-color: rgb(168, 207, 194);
+    background-color: #A8CFC2;
 
     grid-column: 1 / -1;
     grid-row: 1;
 }
 
 .darkroom-container a {
-    color: rgb(81, 81, 81);
+    color: #515151;
 
     grid-column: 1 / -1;
     grid-row: 8;
@@ -67,7 +67,7 @@
     height: 24px;
     width: 100%;
     font-size: 27px;
-    color: rgb(81, 81, 81);
+    color: #515151;
 
     text-align: center;
     display: block;

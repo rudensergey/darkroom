@@ -24,7 +24,7 @@
     width: 100%;
     height: 100%;
 
-    background-color: rgb(241, 241, 241);
+    background-color: #F1F1F1;
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -133,7 +133,7 @@
     height: 26px;
 
     font-size: 16px;
-    color: rgb(103, 103, 103);
+    color: #676767;
     z-index: 2;
 }
 

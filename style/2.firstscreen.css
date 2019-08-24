@@ -33,7 +33,7 @@
     grid-row: 2 / 3;
 
     font-size: 40px;
-    color: white;
+    color: #FFFFFF;
 }
 
 .screen-container p {
@@ -43,7 +43,7 @@
     grid-row: 3;
 
     font-size: 26px;
-    color: white;
+    color: #FFFFFF;
 }
 
 .aspect-ration {
@@ -55,7 +55,7 @@
 }
 
 .screen-container .position-button {
-    background-color: rgb(168, 207, 194);
+    background-color: #79CAB5;
     opacity: 0.8;
 
     transition-property: opacity, bottom;

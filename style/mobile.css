@@ -151,7 +151,7 @@
 
     .dashboard-container-text h2 {
         font-size: 32px;
-        color: rgb(81, 81, 81);
+        color: #515151;
     
         grid-column: 1 / -1;
         grid-row: 1 / 2;
@@ -208,7 +208,7 @@
 
     .easypeasy-container-text h2 {
         font-size: 32px;
-        color: rgb(81, 81, 81);
+        color: #515151;
     
         grid-column: 1 / -1;
         grid-row: 1 / 2;
@@ -264,7 +264,7 @@
 
     .profits-container-text h2 {
         font-size: 32px;
-        color: rgb(81, 81, 81);
+        color: #515151;
     
         grid-column: 1 / -1;
         grid-row: 1 / 2;

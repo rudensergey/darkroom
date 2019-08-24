@@ -2,7 +2,7 @@
     display: grid;
 
     width: 100%;
-    background-color: gray;
+    background-color: #808080;
     
     grid-template-columns: 13% 74% 13%;
     grid-template-rows: 64px 43px 1fr;
@@ -17,7 +17,7 @@
 
     font-size: 20px;
     font-weight: 400;
-    color: white;
+    color: #FFFFFF;
 
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -31,7 +31,7 @@
 
     font-size: 16px;
     font-weight: 400;
-    color: white;
+    color: #FFFFFF;
     line-height: 26px;
 
     grid-column: 2 / 3;
@@ -76,7 +76,7 @@ item-uea - itemu-underline-effect-after
     padding-top: 12px;
     opacity: 0.5;
 
-    background: rgb(51, 51, 51);
+    background: #333333;
     
     grid-column: 1 / -1;
     grid-row: 1 / -1;
@@ -95,7 +95,7 @@ item-uea - itemu-underline-effect-after
     width: 0;
     margin-right: auto;
     
-    background: rgb(168, 207, 194);
+    background: #A8CFC2;
     
     content: "";
     display: block;
