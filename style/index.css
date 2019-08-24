@@ -47,13 +47,13 @@ rules for better navigation: property: color bright mode // color for dark-mode 
 
 :root {
     --back-color: #FFFFFF; /* #060A0F */
-    --middle-green: #9EC4B7; /* #79CAB5 */
 }
 
 body {
     margin: 0px;
     max-width: 1920px;
     min-width: 400px;
+    background-color: var(--back-color);
 
     display: flex;
 
@@ -94,7 +94,7 @@ body {
 
 .description {
     font-size: 16px;
-    color: #676767;
+    color: #515151;
 }
 
 .create-button {

@@ -102,6 +102,7 @@
     font-size: 22px;
 
     opacity: 0.7;
+    color: #444444;
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
@@ -115,6 +116,9 @@
     width: 100%;
     padding: 0px;
     margin: 0px;
+
+    color: #444444;
+    opacity: 1;
 
     grid-column: 2 / 3;
     grid-row: 4 / 5;

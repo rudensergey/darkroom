@@ -112,12 +112,16 @@
 .easypeasy-container-text h2 {
     grid-column: 2 / -1;
     grid-row: 2 / 3;
+
+    color: #444444;
 }
 
 .easypeasy-container-text h6 {
     line-height: 26px;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+
+    color: #444444;
 }
 
 /* BUTTTON IN DASHBOARD */

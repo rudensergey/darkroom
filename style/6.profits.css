@@ -112,12 +112,16 @@
 .profits-container-text h2 {
     grid-column: 1 / -1;
     grid-row: 2 / 3;
+
+    color: #444444;
 }
 
 .profits-container-text h6 {
     line-height: 26px;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+
+    color: #444444;
 }
 
 /* BUTTTON IN DASHBOARD */
