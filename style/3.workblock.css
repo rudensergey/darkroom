@@ -24,7 +24,7 @@
     width: 100%;
     height: 100%;
 
-    background-color: #F1F1F1;
+    background-color: var(--square-template-grey);
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
@@ -116,7 +116,7 @@
 
 .workblock-container-text h6 {
     font-size: 18px;
-    color: #444444;
+    color: var(--title-text-grey);
     grid-column: 3 / 4;
 }
 
@@ -124,7 +124,7 @@
     grid-column: 3 / 4;
 
     font-size: 14px;
-    color: #444444;;
+    color: var(--title-text-grey);
 }
 
 .topic-upload,

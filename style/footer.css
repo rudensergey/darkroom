@@ -13,7 +13,7 @@ footer .button-link {
 
     opacity: 0.8;
     color: #FFFFFF;
-    background-color: #9EC4B7;
+    background-color: var(--podcast-green);
 
     grid-row: 1;
 }
@@ -38,7 +38,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #CCCCCC;
+    color: var(--link-footer-grey);
     font-size: 16px;
     text-decoration: none;
 
@@ -48,7 +48,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #77CFB2;
+    color: (--link-hover-green);
     font-size: 16px;
     text-decoration: none;
 }

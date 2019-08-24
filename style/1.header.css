@@ -3,8 +3,8 @@
     width: 100%;
     padding: 15px 28px 15px 28px;
     
-    border-bottom: solid 1px #ECECEC;
-    background-color: #FFFFFF;
+    border-bottom: solid 1px var(--bottom-grey);
+    background-color: var(--header-backcolor-white);
     justify-content: space-between;
     display: flex;
     position: fixed;
@@ -44,7 +44,7 @@
 .menu-text {
     display: block;
     margin: 9px 0px 20px 0px;
-    color: #888888 /* #FFFFFF */;
+    color: var(--middle-grey);
     font-size: 16px;
     text-decoration: none;
     text-align: center;
@@ -55,10 +55,10 @@
     width: auto;
     margin: 1px auto;
     padding: 8px 20px 9px 20px;
-    color: #1B1B1B;
+    color: var(--dark-mode-yellow);
     opacity: 1;
     border-radius: 4px;
-    background-color: #ECECEC;
+    background-color: var(--bottom-grey);
     transform: translateY(0);
     transition-property: padding, opacity, background-color, color, transform;
     transition-duration: 0.5s;
@@ -71,8 +71,8 @@
     
 .dark-mode-button:hover {
     opacity: 0.9;
-    background-color: #222222;
-    color: #FEFF9B;
+    background-color: var(--darkmode-bottom-black);
+    color: var(--darkmode-text-white);
     padding: 8px 25px 9px 15px;
 }
 
@@ -113,7 +113,7 @@
     content: "";
     display: block;
     height: 2px;
-    background: #A8CFC2 /* #79CAB5 */;
+    background: var(--middle-green);
     width: 0;
     transition: width 0.35s;
     margin: auto;
@@ -136,9 +136,9 @@
     width: 41px;
     margin: 1px auto;
     padding: 6px 18px 7px 18px;
-    color: #888888 /* #FFFFFF */;
+    color: var(--middle-gray);
 
-    border: 2px solid #888888 /* #FFFFFF */;
+    border: 2px solid var(--middle-grey);
     border-radius: 4px;
 
     transition-property: color, border-color;
@@ -148,8 +148,8 @@
 }
 
 #menu-login:hover {
-    color: #A8CFC2 /* #79CAB5 */;
-    border-color: #A8CFC2 /* #79CAB5 */;
+    color: var(--middle-green);
+    border-color: var(--middle-green);
 }
 
 #menu-gallery {
@@ -161,7 +161,7 @@
     opacity: 1;
 
     border-radius: 4px;
-    background-color: #A8CFC2 /* #79CAB5 */;
+    background-color: var(--middle-green);
 
     opacity: 1;
     transition-property: opacity;

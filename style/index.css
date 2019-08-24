@@ -46,6 +46,7 @@
 rules for better navigation: property: color bright mode // color for dark-mode - in comment on right side */
 
 :root {
+    --body-changes: #FFFFFF;
     --border-grey: #E6E6E6;
     --bottom-grey: #ECECEC;
     --comment-grey: #3B424B;
@@ -59,7 +60,7 @@ rules for better navigation: property: color bright mode // color for dark-mode 
     --middle-green: #A8CFC2;
     --middle-green-link: #515151;
     --middle-grey: #888888;
-    --opacity-color: #888888;
+    --opacity-color: #333333;
     --pastel-green: #9EC4B7;
     --podcast-green: #9EC4B7;
     --quote-text-before: rgba(0,0,0,0.27);
@@ -75,7 +76,7 @@ body {
     margin: 0px;
     max-width: 1920px;
     min-width: 400px;
-    background-color: var(--back-color);
+    background-color: var(--body-changes);
 
     display: flex;
 
@@ -99,24 +100,14 @@ li,
     margin-bottom: 0px;
 }
 
-
-::-webkit-scrollbar { 
-    display: none; 
-}
-
-body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
 .title {
     font-size: 32px;
-    color: #515151;
+    color: var(--topic-title-grey);
 }
 
 .description {
     font-size: 16px;
-    color: #515151;
+    color: var(--topic-title-grey);
 }
 
 .create-button {
@@ -129,7 +120,7 @@ body {
     color: #FFFFFF;
     font-weight: 400;
     text-decoration: none;
-    background-color: #9EC4B7;
+    background-color: var(--pastel-green);
     opacity: 1;
     box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
     text-align: center;
@@ -147,7 +138,7 @@ body {
 .create-button:hover {
     opacity: 1;
     box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.300);
-    background-color: #A8CFC2;
+    background-color: var(--middle-green);d
 
     bottom: 5px;
 }
