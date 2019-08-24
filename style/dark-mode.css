@@ -1,11 +1,11 @@
-@media only screen {
+@media (prefers-color-scheme: dark) {
 
     body {
         background-color: #060A0F;
     }
 
     .create-button {
-        color: white;
+        color: #FFFFFF;
         background-color: #79CAB5;
     }
     
@@ -19,8 +19,8 @@
     }
     
     .description {
-        font-size: white;
-        color: white;
+        font-size: #FFFFFF;
+        color: #FFFFFF;
         opacity: 0.7;
     }
 
@@ -30,17 +30,17 @@
     }
 
     .menu-text {
-        color: white;
+        color: #FFFFFF;
     }
     
     .dark-mode-button {
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
         background-color: #35393F;
     }
         
     .dark-mode-button:hover {
-        background-color: rgb(255, 255, 255);
-        color: rgb(36, 36, 36);
+        background-color: #FFFFFF;
+        color: #242424;
     }
 
     .dark-mode-button::after {
@@ -56,8 +56,8 @@
     /* END */
     
     #menu-login {
-        color: rgb(255, 255, 255); 
-        border: 2px solid rgb(255, 255, 255);
+        color: #FFFFFF; 
+        border: 2px solid #FFFFFF;
     }
     
     #menu-login:hover {
@@ -66,7 +66,7 @@
     }
     
     #menu-gallery {
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
         background-color: #79CAB5;
     }
 
@@ -80,11 +80,11 @@
     }
     
     .screen-container h6 {
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
     }
     
     .screen-container p {
-        color: white;
+        color: #FFFFFF;
     }
     
     .screen-container .position-button {
@@ -120,17 +120,17 @@
     /* TEXT BLOCK */
     
     .workblock-container-text h2 {
-        color: white;
+        color: #FFFFFF;
         opacity: 1;
     }
     
     .workblock-container-text h6 {
-        color: white;
+        color: #FFFFFF;
         opacity: 0.7;
     }
     
     .workblock-container-text p {
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
         opacity: 0.8;
     }
 
@@ -154,25 +154,25 @@
     /* TEXT BLOCK */
     
     .dashboard-container-text {
-        color: white;
+        color: #FFFFFF;
         opacity: 0.9;
     }
     
     .dashboard-container-text h2 {
-        color: white;
+        color: #FFFFFF;
     }
     
     .dashboard-container-text h6 {
-        color: white;
+        color: #FFFFFF;
         opacity: 0.7;
     }
     
     .dashboard-container-text ul {
-        color: white;
+        color: #FFFFFF;
     }
     
     .dashboard-container-text li {
-        color: white;
+        color: #FFFFFF;
     }
     
     .dashboard-container-text li:after {
@@ -205,11 +205,11 @@
     }
     
     .easypeasy-container-text h2 {
-        color: white;
+        color: #FFFFFF;
     }
     
     .easypeasy-container-text h6 {
-        color: white;
+        color: #FFFFFF;
         opacity: 0.7;
     }
 
@@ -237,11 +237,11 @@
     }
     
     .profits-container-text h2 {
-        color: white;
+        color: #FFFFFF;
     }
     
     .profits-container-text h6 {
-        color: white;
+        color: #FFFFFF;
         opacity: 0.7;
     }
 
@@ -252,11 +252,11 @@
     
     .comments-slide .quote-text {
         background-color: #35393F;
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
     }
     
     .comments-slide .quote-text:before {
-        color: black;
+        color: #000000;
     }
     
     .comments-slide .quote-arrow {
@@ -264,19 +264,19 @@
     }
     
     .comments-slide .name {
-        color: white;
+        color: #FFFFFF;
     }
     
     .comments-slide .profession {
-        color: white;
+        color: #FFFFFF;
         opacity: 0.7;
     }
     
     /* NOT ZOOM SLIDE */
     
     #notzoom-text {
-        background-color: white;
-        color: rgb(59, 66, 75);
+        background-color: #FFFFFF;
+        color: #3B424B;
     }
     
     #notzoom-slide {
@@ -284,15 +284,15 @@
     }
 
     .item {
-        background-color: gray;
+        background-color: #808080;
     }
     
     .item h1 {
-        color: white;
+        color: #FFFFFF;
     }
     
     .item p {
-        color: white;
+        color: #FFFFFF;
     }
 
     
@@ -330,7 +330,7 @@
     }
     
     .darkroom-container-style h3 {
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
     }
     
     .darkroom-container-style .free::before {
@@ -345,11 +345,11 @@
     
     .darkroom-container-style h4 {
         opacity: 1;
-        color: white;
+        color: #FFFFFF;
     }
 
     .darkroom-container-style ul {
-        color: white;
+        color: #FFFFFF;
         opacity: 0.7;
     }
 
@@ -375,15 +375,15 @@
     }
 
     .podcast .date {
-        color: rgb(153, 153, 153);
+        color: #999999;
     }
 
     .podcast .title {
-        color: rgb(153, 153, 153);
+        color: #999999;
     }
 
     .podcast .text {
-        color: rgb(136, 136, 136);
+        color: #888888;
     }
 
     .podcast .author {
@@ -391,7 +391,7 @@
     }
 
     .podcast .author a {
-        color: rgb(185, 185, 185);
+        color: #B9B9B9;
     }
 
     .podcast .author::before {
@@ -405,7 +405,7 @@
     /* TEXT BLOCK */
 
     .darkroom-podcasts h3 {
-        color: white;
+        color: #FFFFFF;
     }
 
     .darkroom-podcasts p {
@@ -413,7 +413,7 @@
     }
 
     .view-all-posts {
-        color: white;
+        color: #FFFFFF;
         background-color: #52AA91;
         opacity: 1;
         box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
@@ -425,7 +425,7 @@
     }
 
     .view-all-posts p {
-        color: white;
+        color: #FFFFFF;
     }
 
     .view-all-posts:hover img {
@@ -439,7 +439,7 @@
     
     footer .button-link {
         opacity: 0.9;
-        color: white;
+        color: #FFFFFF;
         background-color: #52AA91;
 
     }
@@ -450,7 +450,7 @@
     }
 
     footer ul li a {
-        color: rgb(255, 255, 255);
+        color: #FFFFFF;
     }
     
     footer ul li a:hover {

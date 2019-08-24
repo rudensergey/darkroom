@@ -66,12 +66,12 @@
     height: auto;
     width: auto;
 
-    background-color: rgb(59, 66, 75);
+    background-color: #3B424B;
     border-radius: 10px;
     padding: 50px 50px 50px 100px; 
 
     font-size: 16px;
-    color: rgb(255, 255, 255);
+    color: #FFFFFF;
     letter-spacing: 0.5px;
     line-height: 40px;
 
@@ -99,7 +99,7 @@
     height: 40px;
     width: 40px;
     border-radius: 5px;
-    background-color: rgb(59, 66, 75);
+    background-color: #3B424B;
 
     position: relative;
     top: -34px;
@@ -138,8 +138,8 @@
 /* NOT ZOOM SLIDE */
 
 #notzoom-text {
-    background-color: white;
-    color: rgb(59, 66, 75);
+    background-color: #FFFFFF;
+    color: #3B424B;
 }
 
 #notzoom-slide {

@@ -12,8 +12,8 @@ footer .button-link {
     text-align: center;
 
     opacity: 0.8;
-    color: white;
-    background-color: rgb(158, 196, 183);
+    color: #FFFFFF;
+    background-color: #9EC4B7;
 
     grid-row: 1;
 }
@@ -37,7 +37,7 @@ footer ul li {
 }
 
 footer ul li a {
-    color: rgb(204, 204, 204);
+    color: #CCCCCC;
     font-size: 16px;
     text-decoration: none;
 
@@ -47,7 +47,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: rgb(119, 207, 178);
+    color: #77CFB2;
     font-size: 16px;
     text-decoration: none;
 }

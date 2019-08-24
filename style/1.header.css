@@ -3,8 +3,8 @@
     width: 100%;
     padding: 15px 28px 15px 28px;
     
-    border-bottom: solid 1px rgb(236, 236, 236);
-    background-color: white;
+    border-bottom: solid 1px #ECECEC;
+    background-color: #FFFFFF;
     justify-content: space-between;
     display: flex;
     position: fixed;
@@ -44,7 +44,7 @@
 .menu-text {
     display: block;
     margin: 9px 0px 20px 0px;
-    color: rgb(136, 136, 136);
+    color: #888888 /* #FFFFFF */;
     font-size: 16px;
     text-decoration: none;
     text-align: center;
@@ -55,10 +55,10 @@
     width: auto;
     margin: 1px auto;
     padding: 8px 20px 9px 20px;
-    color: rgb(27, 27, 27);
+    color: #1B1B1B;
     opacity: 1;
     border-radius: 4px;
-    background-color: rgb(240, 240, 240);
+    background-color: #ECECEC;
     transform: translateY(0);
     transition-property: padding, opacity, background-color, color, transform;
     transition-duration: 0.5s;
@@ -71,8 +71,8 @@
     
 .dark-mode-button:hover {
     opacity: 0.9;
-    background-color: rgb(34, 34, 34);
-    color: rgb(254, 255, 195);
+    background-color: #222222;
+    color: #FEFF9B;
     padding: 8px 25px 9px 15px;
 }
 
@@ -113,7 +113,7 @@
     content: "";
     display: block;
     height: 2px;
-    background: rgb(168, 207, 194);
+    background: #A8CFC2 /* #79CAB5 */;
     width: 0;
     transition: width 0.35s;
     margin: auto;
@@ -136,9 +136,9 @@
     width: 41px;
     margin: 1px auto;
     padding: 6px 18px 7px 18px;
-    color: rgb(136, 136, 136);
+    color: #888888 /* #FFFFFF */;
 
-    border: 2px solid rgb(136, 136, 136);
+    border: 2px solid #888888 /* #FFFFFF */;
     border-radius: 4px;
 
     transition-property: color, border-color;
@@ -148,8 +148,8 @@
 }
 
 #menu-login:hover {
-    color: rgb(168, 207, 194);
-    border-color: rgb(168, 207, 194);
+    color: #A8CFC2 /* #79CAB5 */;
+    border-color: #A8CFC2 /* #79CAB5 */;
 }
 
 #menu-gallery {
@@ -157,11 +157,11 @@
     width: 120.5px;
     margin: 1px auto;
     padding: 8px 20px 9px 20px;
-    color: white;
+    color: #FFFFFF;
     opacity: 1;
 
     border-radius: 4px;
-    background-color: rgb(168, 207, 194);
+    background-color: #A8CFC2 /* #79CAB5 */;
 
     opacity: 1;
     transition-property: opacity;
