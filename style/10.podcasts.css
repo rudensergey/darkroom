@@ -216,7 +216,7 @@
     color: #FFFFFF;
     font-weight: 400;
     text-decoration: none;
-    background-color: #79CAB5;
+    background-color: #9EC4B7;
     opacity: 1;
     box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
 
@@ -251,7 +251,7 @@
     position: relative;
     right: 0px;
 
-    color: #444444;
+    color: #FFFFFF;
 
     grid-column: 1 / -1;
     grid-row: 1 / -1;
