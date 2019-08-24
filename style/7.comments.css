@@ -66,7 +66,7 @@
     height: auto;
     width: auto;
 
-    background-color: #3B424B;
+    background-color: var(--comment-grey);
     border-radius: 10px;
     padding: 50px 50px 50px 100px; 
 
@@ -88,7 +88,7 @@
     font-family: sans-serif;
     content: '“';
     font-size: 130px;
-    color: rgba(0,0,0,0.27);
+    color: var(--quote-text-before);
 
     position: relative;
     left: -70px;
@@ -99,7 +99,7 @@
     height: 40px;
     width: 40px;
     border-radius: 5px;
-    background-color: #3B424B;
+    background-color: var(--comment-grey);
 
     position: relative;
     top: -34px;

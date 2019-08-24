@@ -264,7 +264,7 @@
 
     .profits-container-text h2 {
         font-size: 32px;
-        color: #515151;
+        color: var(--title-text-grey);
     
         grid-column: 1 / -1;
         grid-row: 1 / 2;

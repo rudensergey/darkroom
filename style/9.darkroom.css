@@ -30,7 +30,7 @@
 
     justify-items: center;
 
-    border: 1px solid #E6E6E6;
+    border: 1px solid var(--border-grey);
 }
 
 .darkroom-container-style::before {
@@ -38,14 +38,14 @@
     width: 100%;
 
     content: "";
-    background-color: #A8CFC2;
+    background-color: var(--middle-green);
 
     grid-column: 1 / -1;
     grid-row: 1;
 }
 
 .darkroom-container a {
-    color: #515151;
+    color: var(--middle-green-link);
 
     grid-column: 1 / -1;
     grid-row: 8;
@@ -61,13 +61,15 @@
 .darkroom-container p {
     grid-column: 1 / -1;
     grid-row: 2;
+
+    color: var(--topic-title-grey);
 }
 
 .darkroom-container-style h3 {
     height: 24px;
     width: 100%;
     font-size: 27px;
-    color: #515151;
+    color: var(--topic-title-grey);
 
     text-align: center;
     display: block;
@@ -102,7 +104,7 @@
     font-size: 22px;
 
     opacity: 0.7;
-    color: #444444;
+    color: var(--title-text-grey);
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
@@ -117,7 +119,7 @@
     padding: 0px;
     margin: 0px;
 
-    color: #444444;
+    color: var(--title-text-grey);
     opacity: 1;
 
     grid-column: 2 / 3;

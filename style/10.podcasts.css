@@ -110,8 +110,8 @@
 }
 
 .podcast .link:hover {
-    border: 2px solid #9EC4B7;
-    background-color: #9EC4B7;
+    border: 2px solid var(--pastel-green);
+    background-color: var(--pastel-green);
 }
 
 .podcast .aspect-ration-second {
@@ -197,14 +197,14 @@
     grid-column: 1 / -1;
     grid-row: 1;
 
-    color: #FFFFFF;
+    color: var(--topic-title-grey);
 }
 
 .darkroom-podcasts p {
     grid-column: 1 / -1;
     grid-row: 2;
 
-    color: #FFFFFF;
+    color: var(--topic-title-grey);
 }
 
 .view-all-posts {
@@ -216,7 +216,7 @@
     color: #FFFFFF;
     font-weight: 400;
     text-decoration: none;
-    background-color: #9EC4B7;
+    background-color: var(--podcast-green);
     opacity: 1;
     box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
 
@@ -240,7 +240,7 @@
 .view-all-posts:hover {
     opacity: 0.8;
     box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.400);
-    background-color: #79CAB5;
+    background-color: var(--title-text-grey);
 
     bottom: 3px;
 }
