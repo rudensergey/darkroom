@@ -68,6 +68,7 @@
 
     background-image: var(--profits-template-second-pic);
     background-size: cover;
+    opacity: var(--opacity-descrease);
 
     z-index: 1;
 }
