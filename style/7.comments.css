@@ -21,6 +21,8 @@
 .comments-topic {
     grid-row: 1;
     grid-column: 2 / 3;
+
+    opacity: var(--opacity-descrease);
 }
 
 .comments-text {
@@ -128,12 +130,16 @@
 .comments-slide .name {
     grid-row: 5 / 6;
     font-size: 16px;
+
+    color: var(--title-text-grey);
 }
 
 .comments-slide .profession {
     grid-row: 6 / 7;
     font-size: 14px;
     opacity: var(--opacity-descrease);
+
+    color: var(--title-text-grey);
 }
 
 /* NOT ZOOM SLIDE */
