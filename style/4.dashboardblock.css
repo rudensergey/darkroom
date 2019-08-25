@@ -28,6 +28,8 @@
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+
+    transition-duration: 1s;
 }
 
 .dashboard-container-pictures-pic:before {
@@ -45,6 +47,8 @@
     background-size: cover;
 
     z-index: 2;
+
+    transition-duration: 1s;
 }
 
 .dashboard-container-pictures-pic:after {
@@ -62,6 +66,8 @@
     background-size: cover;
 
     z-index: 1;
+
+    transition-duration: 1s;
 }
 
 .dashboard-container .aspect-ration {
@@ -96,6 +102,8 @@
     grid-template-rows: 193px 53px 66px min-content 25px min-content 1fr; 
     grid-column: 2 / 3;
     grid-row: 1;
+
+    transition-duration: 1s;
 }
 
 .dashboard-container-text * {
@@ -153,6 +161,8 @@
     background-size: cover;
 
     z-index: 3;
+
+    transition-duration: 1s;
 }
 
 /* BUTTTON IN DASHBOARD */

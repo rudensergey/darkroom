@@ -31,6 +31,8 @@
     justify-items: center;
 
     border: 1px solid var(--border-grey);
+
+    transition-duration: 1s;
 }
 
 .darkroom-container-style::before {
@@ -42,6 +44,8 @@
 
     grid-column: 1 / -1;
     grid-row: 1;
+
+    transition-duration: 1s;
 }
 
 .darkroom-container a {
@@ -49,6 +53,8 @@
 
     grid-column: 1 / -1;
     grid-row: 8;
+
+    transition-duration: 1s;
 }
 
 /* TEXT BLOCK */
@@ -58,6 +64,7 @@
     grid-row: 1;
 
     opacity: var(--opacity-descrease);
+    transition-duration: 1s;
 }
 
 .darkroom-container p {
@@ -65,8 +72,9 @@
     grid-row: 2;
 
     opacity: var(--opacity-descrease);
-
     color: var(--topic-title-grey);
+
+    transition-duration: 1s;
 }
 
 .darkroom-container-style h3 {
@@ -93,6 +101,8 @@
     display: block;
     background-size: cover;
     background-image: var(--free-template-pic);
+
+    transition-duration: 1s;
 }
 
 .darkroom-container-style .plus::before {
@@ -106,6 +116,8 @@
     display: block;
     background-size: cover;
     background-image: var(--plus-template-pic);
+
+    transition-duration: 1s;
 }
 
 .darkroom-container-style h4 {
@@ -116,6 +128,8 @@
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+
+    transition-duration: 1s;
 }
 
 .darkroom-container-style h4 span {
@@ -132,6 +146,8 @@
 
     grid-column: 2 / 3;
     grid-row: 4 / 5;
+
+    transition-duration: 1s;
 }
 
 .darkroom-container-style li {

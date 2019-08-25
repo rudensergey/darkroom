@@ -23,6 +23,8 @@
     grid-column: 2 / 3;
 
     opacity: var(--opacity-descrease);
+
+    transition-duration: 1s;
 }
 
 .comments-text {
@@ -79,6 +81,8 @@
 
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+
+    transition-duration: 1s;
 }
 
 .comments-slide .quote-text:before {
@@ -95,6 +99,8 @@
     position: relative;
     left: -70px;
     top: 40px;
+
+    transition-duration: 1s;
 }
 
 .comments-slide .quote-arrow {
@@ -109,6 +115,8 @@
 
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+
+    transition-duration: 1s;
 }
 
 .comments-slide img {
@@ -132,6 +140,8 @@
     font-size: 16px;
 
     color: var(--title-text-grey);
+
+    transition-duration: 1s;
 }
 
 .comments-slide .profession {
@@ -140,6 +150,8 @@
     opacity: var(--opacity-descrease);
 
     color: var(--title-text-grey);
+
+    transition-duration: 1s;
 }
 
 /* NOT ZOOM SLIDE */

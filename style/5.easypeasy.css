@@ -36,6 +36,8 @@
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+
+    transition-duration: 1s;
 }
 
 .easypeasy-container-pictures-pic:before {
@@ -53,6 +55,8 @@
     background-size: cover;
 
     z-index: 2;
+
+    transition-duration: 1s;
 }
 
 .easypeasy-container-pictures-pic:after {
@@ -70,6 +74,8 @@
     background-size: cover;
 
     z-index: 1;
+
+    transition-duration: 1s;
 }
 
 .easypeasy-container-pictures .aspect-ration {
@@ -96,6 +102,8 @@
     grid-template-rows: 28% 7% min-content 3% 36% 21%; 
     grid-column: 3 / 4;
     grid-row: 1;
+
+    transition-duration: 1s;
 }
 
 .easypeasy-container-text * {

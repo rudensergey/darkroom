@@ -54,12 +54,16 @@
     align-items: start;
 
     opacity: var(--opacity-descrease);
+
+    transition-duration: 1s;
 }
 
 .services-container h2 {
     grid-column: span 3;
 
     opacity: var(--opacity-descrease);
+
+    transition-duration: 1s;
 }
 
 /* PSEUDO CLASS FOR ITEMS */

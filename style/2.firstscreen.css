@@ -24,6 +24,8 @@
 
     grid-column: 1 / -1;
     grid-row: 1 / -1;
+
+    transition-duration: 1s;
 }
 
 .screen-container h6 {
@@ -62,6 +64,8 @@
     
     grid-column: 2 / 3;
     grid-row: 4;
+
+    transition-duration: 1s;
 }
 
 .screen-container .create-button:hover {

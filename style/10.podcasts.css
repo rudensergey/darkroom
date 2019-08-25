@@ -112,6 +112,8 @@
 .podcast .link:hover {
     border: 2px solid var(--pastel-green);
     background-color: var(--pastel-green);
+
+    transition-duration: 1s;
 }
 
 .podcast .aspect-ration-second {
@@ -129,6 +131,8 @@
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+
+    transition-duration: 1s;
 }
 
 .podcast .title {
@@ -148,6 +152,8 @@
 
     grid-column: 2 / 3;
     grid-row: 7 / 8;
+
+    transition-duration: 1s;
 }
 
 .podcast .author {
@@ -201,6 +207,8 @@
 
     color: var(--topic-title-grey);
     opacity: var(--opacity-descrease);
+
+    transition-duration: 1s;
 }
 
 .darkroom-podcasts p {
@@ -208,6 +216,8 @@
     grid-row: 2;
 
     color: var(--topic-title-grey);
+
+    transition-duration: 1s;
 }
 
 .view-all-posts {
@@ -246,6 +256,8 @@
     background-color: var(--viewallpost-green);
 
     bottom: 3px;
+
+    transition-duration: 1s;
 }
 
 .view-all-posts p {

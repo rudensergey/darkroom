@@ -104,6 +104,8 @@ body {
 
     flex-wrap: wrap;
     flex-direction: column;
+
+    transition-duration: 1s;
 }
 
 p,
@@ -125,12 +127,16 @@ li,
 .title {
     font-size: 32px;
     color: var(--topic-title-grey);
+
+    transition-duration: 1s;
 }
 
 .description {
     font-size: 16px;
     color: var(--topic-title-grey);
     opacity: var(--opacity-descrease);
+
+    transition-duration: 1s;
 }
 
 .create-button {
@@ -164,4 +170,6 @@ li,
     background-color: var(--middle-green);
 
     bottom: 5px;
+
+    transition-duration: 1s;
 }

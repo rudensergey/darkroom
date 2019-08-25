@@ -34,7 +34,7 @@ darkModeButton.onclick = () => {
         // list of picture properties
 
         document.documentElement.style.setProperty('--author-face-pic', 'url(../Media/10/author-na.png)');
-        document.documentElement.style.setProperty('--dark-mode-pic', 'url(../Media/moon.png);');
+        document.documentElement.style.setProperty('--dark-mode-pic', 'url(../Media/moon.png)');
         document.documentElement.style.setProperty('--dashboard-template-first-pic', 'url(../Media/2/1.png)');
         document.documentElement.style.setProperty('--dashboard-template-second-pic', 'url(../Media/2/1.png)');
         document.documentElement.style.setProperty('--easypeasy-template-first-pic', 'url(../Media/3/1.png)');
