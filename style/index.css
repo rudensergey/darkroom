@@ -73,7 +73,6 @@ rules for better navigation: property: color bright mode // color for dark-mode 
 
     /* IMAGES */
 
-    --author-face-pic: url(../Media/10/author-na.png);
     --dark-mode-pic: url(../Media/moon.png);
     --dashboard-template-first-pic: url(../Media/2/1.png);
     --dashboard-template-second-pic: url(../Media/2/2.jpg);
@@ -89,6 +88,10 @@ rules for better navigation: property: color bright mode // color for dark-mode 
     --done-pic: url(../Media/2/done.png);
 
     /* EFFECTS */
+    
+    --opacity-descrease: 1;
+    --opacity-increase: 0.7;
+
 }
 
 body {
@@ -127,6 +130,7 @@ li,
 .description {
     font-size: 16px;
     color: var(--topic-title-grey);
+    opacity: var(--opacity-descrease);
 }
 
 .create-button {

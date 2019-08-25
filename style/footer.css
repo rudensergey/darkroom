@@ -11,7 +11,7 @@ footer .button-link {
     text-decoration: none;
     text-align: center;
 
-    opacity: 0.8;
+    opacity: var(--opacity-increase);
     color: #FFFFFF;
     background-color: var(--podcast-green);
 
@@ -28,7 +28,7 @@ footer ul {
     grid-row: 2;
 
     background-image: var(--footer-back-image);
-    opacity: 1;
+    opacity: var(--opacity-descrease);
     background-size: cover;
 }
 

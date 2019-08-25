@@ -90,7 +90,7 @@
     max-width: 1000px;
     height: 100%;
 
-    opacity: 0.8;
+    opacity: var(--opacity-increase);
 
     grid-template-columns: 38px 1fr 20%;
     grid-template-rows: 193px 53px 66px min-content 25px min-content 1fr; 
@@ -148,7 +148,7 @@
     left: -37px;
     bottom: 17px;
 
-    opacity: 0.8;
+    opacity: var(--opacity-increase);
 
     content: "";
     display: block;
