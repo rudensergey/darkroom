@@ -28,6 +28,8 @@
     background-size: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+
+    transition-duration: 1s;
 }
 
 .workblock-container-pictures-pic:before {
@@ -45,6 +47,8 @@
     background-size: cover;
 
     z-index: 2;
+
+    transition-duration: 1s;
 }
 
 .workblock-container-pictures-pic:after {
@@ -62,6 +66,8 @@
     background-size: cover;
 
     z-index: 1;
+
+    transition-duration: 1s;
 }
 
 .workblock-container .aspect-ration {
@@ -96,6 +102,8 @@
     grid-template-rows: 224px 70px repeat(8, 34px 26px); 
     grid-column: 3 / 4;
     grid-row: 1;
+
+    transition-duration: 1s;
 }
 
 .workblock-container-text * {
@@ -118,6 +126,8 @@
     font-size: 18px;
     color: var(--title-text-grey);
     grid-column: 3 / 4;
+
+    transition-duration: 1s;
 }
 
 .workblock-container-text p {
@@ -125,6 +135,8 @@
 
     font-size: 14px;
     color: var(--title-text-grey);
+
+    transition-duration: 1s;
 }
 
 .topic-upload,

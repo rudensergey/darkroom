@@ -10,6 +10,8 @@
     position: fixed;
     box-sizing: border-box;
     z-index: 5;
+
+    transition-duration: 1s;
 }
 
 .logo {
@@ -48,6 +50,8 @@
     font-size: 16px;
     text-decoration: none;
     text-align: center;
+
+    transition-duration: 1s;
 }
 
 .dark-mode-button {
@@ -74,6 +78,8 @@
     background-color: var(--darkmode-bottom-black);
     color: var(--darkmode-text-white);
     padding: 8px 25px 9px 15px;
+
+    transition-duration: 1s;
 }
 
 .dark-mode-button:active {
@@ -150,6 +156,8 @@
 #menu-login:hover {
     color: var(--middle-green);
     border-color: var(--middle-green);
+
+    transition-duration: 1s;
 }
 
 #menu-gallery {

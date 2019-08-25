@@ -16,6 +16,8 @@ footer .button-link {
     background-color: var(--podcast-green);
 
     grid-row: 1;
+
+    transition-duration: 1s;
 }
 
 footer ul {
@@ -30,6 +32,8 @@ footer ul {
     background-image: var(--footer-back-image);
     opacity: var(--opacity-descrease);
     background-size: cover;
+
+    transition-duration: 1s;
 }
 
 footer ul li {
@@ -51,5 +55,7 @@ footer ul li a:hover {
     color: var(--link-hover-green);
     font-size: 16px;
     text-decoration: none;
+
+    transition-duration: 1s;
 }
 
