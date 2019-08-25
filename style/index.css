@@ -45,7 +45,7 @@
 
 rules for better navigation: property: color bright mode // color for dark-mode - in comment on right side */
 
-:root {
+body.light {
     --body-changes: #FFFFFF;
     --border-grey: #E6E6E6;
     --bottom-grey: #ECECEC;
@@ -94,6 +94,55 @@ rules for better navigation: property: color bright mode // color for dark-mode 
 
 }
 
+body.dark {
+    --body-changes: #060A0F;
+    --border-grey: #35393F;
+    --bottom-grey: #35393F;
+    --comment-grey: #35393F;
+    --dark-mode-yellow: #FFFFFF;
+    --darkmode-bottom-black: #FFFFFF;
+    --darkmode-text-white: #000000;
+    --header-backcolor-white: #24272B;
+    --link-footer-grey: #FFFFFF;
+    --link-hover-green: #79CAB5;
+    --list-grey: #FFFFFF;
+    --middle-green: #79CAB5;
+    --middle-green-link: #79CAB5;
+    --middle-grey: #FFFFFF;
+    --opacity-color: #24272B;
+    --pastel-green: #79CAB5;
+    --podcast-green: #52AA91;
+    --quote-text-before: #000000;
+    --screen-gradient: linear-gradient(to top right, rgb(36, 39, 43), rgb(211, 211, 211));
+    --square-template-grey: #35393F;
+    --title-text-grey: #FFFFFF;
+    --topic-title-grey: #FFFFFF;
+    --underline-green: #52AA91;
+    --viewallpost-green: #52AA91;
+
+    /* IMAGES */
+
+    --author-face-pic: url(../Media/10/author-a.png);
+    --dark-mode-pic: url(../Media/Sun.png);
+    --dashboard-template-first-pic: url(../Media/2/1-dark.png);
+    --dashboard-template-second-pic: url(../Media/2/2-dark.png);
+    --easypeasy-template-first-pic: url(../Media/3/1-dark.png);
+    --easypeasy-template-second-pic: url(../Media/3/2-dark.png);
+    --footer-back-image: url(../Media/11/footer-back.png);
+    --free-template-pic: url(../Media/9/basic-stack-01-dark.png);
+    --plus-template-pic: url(../Media/9/pro-stack-01-dark.png);
+    --profits-template-first-pic: url(../Media/4/1-dark.png);
+    --profits-template-second-pic: url(../Media/4/2-dark.png);
+    --workblock-template-first-pic: url(../Media/1/1-dark.png);
+    --workblock-template-second-pic: url(../Media/1/1-dark.png);
+    --done-pic: url(../Media/2/done-dark.png);
+
+    /* EFFECTS */
+    
+    --opacity-descrease: 1;
+    --opacity-increase: 0.7;
+}
+
 body {
     margin: 0px;
     max-width: 1920px;
@@ -122,6 +171,7 @@ li,
     font-weight: 300;
     margin-top: 0px;
     margin-bottom: 0px;
+    --jhgj
 }
 
 .title {
