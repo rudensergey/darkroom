@@ -204,6 +204,7 @@
     grid-column: 1 / -1;
     grid-row: 2;
 
+    opacity: var(--opacity-descrease);
     color: var(--topic-title-grey);
 }
 
@@ -238,7 +239,7 @@
 }
 
 .view-all-posts:hover {
-    opacity: 0.8;
+    opacity: var(--opacity-increase);
     box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.400);
     background-color: var(--viewallpost-green);
 

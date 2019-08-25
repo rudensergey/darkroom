@@ -133,6 +133,7 @@
 .comments-slide .profession {
     grid-row: 6 / 7;
     font-size: 14px;
+    opacity: var(--opacity-descrease);
 }
 
 /* NOT ZOOM SLIDE */

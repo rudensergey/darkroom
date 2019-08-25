@@ -114,24 +114,21 @@
     }
 
     .workblock-container-text {
-        opacity: 0.9;
+        opacity: 0.7;
     }
     
     /* TEXT BLOCK */
     
     .workblock-container-text h2 {
         color: #FFFFFF;
-        opacity: 1;
     }
     
     .workblock-container-text h6 {
         color: #FFFFFF;
-        opacity: 0.7;
     }
     
     .workblock-container-text p {
         color: #FFFFFF;
-        opacity: 0.8;
     }
 
 
@@ -155,7 +152,7 @@
     
     .dashboard-container-text {
         color: #FFFFFF;
-        opacity: 0.9;
+        opacity: 0.7;
     }
     
     .dashboard-container-text h2 {
@@ -164,7 +161,6 @@
     
     .dashboard-container-text h6 {
         color: #FFFFFF;
-        opacity: 0.7;
     }
     
     .dashboard-container-text ul {
@@ -201,7 +197,7 @@
     /* TEXT BLOCK */
     
     .easypeasy-container-text {
-        opacity: 0.9;
+        opacity: 0.7;
     }
     
     .easypeasy-container-text h2 {
@@ -210,7 +206,6 @@
     
     .easypeasy-container-text h6 {
         color: #FFFFFF;
-        opacity: 0.7;
     }
 
 
@@ -233,7 +228,7 @@
     /* TEXT BLOCK */
     
     .profits-container-text {
-        opacity: 0.9;
+        opacity: 0.7;
     }
     
     .profits-container-text h2 {
@@ -242,7 +237,6 @@
     
     .profits-container-text h6 {
         color: #FFFFFF;
-        opacity: 0.7;
     }
 
 
@@ -412,7 +406,7 @@
     /* FOOTER */
     
     footer .button-link {
-        opacity: 0.9;
+        opacity: 1;
         color: #FFFFFF;
         background-color: #52AA91;
 

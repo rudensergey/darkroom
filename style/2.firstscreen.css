@@ -56,7 +56,7 @@
 
 .screen-container .position-button {
     background-color: var(--pastel-green);
-    opacity: 0.8;
+    opacity: var(--opacity-increase);
 
     transition-property: opacity, bottom;
     

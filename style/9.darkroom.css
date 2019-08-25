@@ -62,6 +62,8 @@
     grid-column: 1 / -1;
     grid-row: 2;
 
+    opacity: var(--opacity-descrease);
+
     color: var(--topic-title-grey);
 }
 
@@ -84,6 +86,8 @@
     width: 200px;
     margin: 0px auto 12px auto;
 
+    opacity: var(--opacity-descrease);
+
     display: block;
     background-size: cover;
     background-image: var(--free-template-pic);
@@ -95,6 +99,8 @@
     width: 200px;
     margin: 0px auto 12px auto;
 
+    opacity: var(--opacity-descrease);
+
     display: block;
     background-size: cover;
     background-image: var(--plus-template-pic);
@@ -103,7 +109,7 @@
 .darkroom-container-style h4 {
     font-size: 22px;
 
-    opacity: 0.7;
+    opacity: var(--opacity-increase);
     color: var(--title-text-grey);
 
     grid-column: 2 / 3;
@@ -120,7 +126,7 @@
     margin: 0px;
 
     color: var(--title-text-grey);
-    opacity: 1;
+    opacity: var(--opacity-descrease);
 
     grid-column: 2 / 3;
     grid-row: 4 / 5;

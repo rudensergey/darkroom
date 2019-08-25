@@ -90,7 +90,7 @@
     max-width: 1000px;
     height: 100%;
 
-    opacity: 0.8;
+    opacity: var(--opacity-descrease);
 
     grid-template-columns: 1fr 25%;
     grid-template-rows: 26% 7% min-content 3% 36% 23%; 
