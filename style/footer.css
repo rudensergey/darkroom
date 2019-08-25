@@ -27,7 +27,7 @@ footer ul {
 
     grid-row: 2;
 
-    background-image: url(../Media/11/footer-back.png);
+    background-image: var(--footer-back-image);
     opacity: 1;
     background-size: cover;
 }

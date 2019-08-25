@@ -41,7 +41,7 @@
 
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
-    background-image: url(../Media/2/1.png);
+    background-image: var(--dashboard-template-first-pic);
     background-size: cover;
 
     z-index: 2;
@@ -58,7 +58,7 @@
 
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
-    background-image: url(../Media/2/2.jpg);
+    background-image: var(--dashboard-template-second-pic);
     background-size: cover;
 
     z-index: 1;
@@ -153,7 +153,7 @@
     content: "";
     display: block;
 
-    background-image: url(../Media/2/done.png);
+    background-image: var(--done-pic);
     background-size: cover;
 
     z-index: 3;

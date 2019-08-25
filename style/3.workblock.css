@@ -41,7 +41,7 @@
 
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
-    background-image: url(../Media/1/1.png);
+    background-image: var(--workblock-template-first-pic);
     background-size: cover;
 
     z-index: 2;
@@ -58,7 +58,7 @@
 
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
-    background-image: url(../Media/1/2.png);
+    background-image: var(--workblock-template-second-pic);
     background-size: cover;
 
     z-index: 1;

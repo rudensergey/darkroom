@@ -86,7 +86,7 @@
 
     display: block;
     background-size: cover;
-    background-image: url(../Media/9/basic-stack-01.png);
+    background-image: var(--free-template-pic);
 }
 
 .darkroom-container-style .plus::before {
@@ -97,7 +97,7 @@
 
     display: block;
     background-size: cover;
-    background-image: url(../Media/9/pro-stack-01.png);
+    background-image: var(--plus-template-pic);
 }
 
 .darkroom-container-style h4 {

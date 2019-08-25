@@ -70,6 +70,25 @@ rules for better navigation: property: color bright mode // color for dark-mode 
     --topic-title-grey: #515151;
     --underline-green: #A8CFC2;
     --viewallpost-green: #79CAB5;
+
+    /* IMAGES */
+
+    --author-face-pic: url(../Media/10/author-na.png);
+    --dark-mode-pic: url(../Media/moon.png);
+    --dashboard-template-first-pic: url(../Media/2/1.png);
+    --dashboard-template-second-pic: url(../Media/2/2.jpg);
+    --easypeasy-template-first-pic: url(../Media/3/1.png);
+    --easypeasy-template-second-pic: url(../Media/3/2.jpg);
+    --footer-back-image: url(../Media/11/footer-back.png);
+    --free-template-pic: url(../Media/9/basic-stack-01.png);
+    --plus-template-pic: url(../Media/9/pro-stack-01.png);
+    --profits-template-first-pic: url(../Media/4/1.png);
+    --profits-template-second-pic: url(../Media/4/2.jpg);
+    --workblock-template-first-pic: url(../Media/1/1.png);
+    --workblock-template-second-pic: url(../Media/1/2.png);
+    --done-pic: url(../Media/2/done.png);
+
+    /* EFFECTS */
 }
 
 body {
@@ -138,7 +157,7 @@ li,
 .create-button:hover {
     opacity: 1;
     box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.300);
-    background-color: var(--middle-green);d
+    background-color: var(--middle-green);
 
     bottom: 5px;
 }
