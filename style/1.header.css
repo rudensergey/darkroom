@@ -87,7 +87,7 @@
     height: 15px;
     width: 15px;
 
-    background-image: url(../Media/moon.png);
+    background-image: var(--dark-mode-pic);
     background-size: cover;
 
     transform: translateX(0px);
