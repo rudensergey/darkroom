@@ -52,10 +52,14 @@
 .services-container h1 {
     grid-column: span 3;
     align-items: start;
+
+    opacity: var(--opacity-descrease);
 }
 
 .services-container h2 {
     grid-column: span 3;
+
+    opacity: var(--opacity-descrease);
 }
 
 /* PSEUDO CLASS FOR ITEMS */
