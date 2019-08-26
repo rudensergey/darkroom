@@ -129,7 +129,7 @@
 }
 
 .podcast .title {
-    color:var(--middle-grey);
+    color: var(--middle-grey);
     font-size: 20px;
     line-height: 30px;
 
@@ -272,7 +272,7 @@
 .view-all-posts img {
     position: absolute;
     right: 40px;
-    top: 14px;    
+    top: 14px; 
     height: 25px;
     width: 25px;
 
@@ -296,4 +296,3 @@
     
     z-index: 3;
 }
-

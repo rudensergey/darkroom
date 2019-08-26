@@ -33,7 +33,7 @@
     grid-row: 2 / 3;
 }
 
-.dashboard-container-pictures-pic:before {
+.dashboard-container-pictures-pic::before {
     content: "";
     position: relative;
     right: 15%;
@@ -50,7 +50,7 @@
     z-index: 2;
 }
 
-.dashboard-container-pictures-pic:after {
+.dashboard-container-pictures-pic::after {
     content: "";
     position: relative;
     left: 25%;
@@ -129,7 +129,7 @@
     margin: 0px 0px 0px 0px;
 
     grid-column: 2 / -1;
-    grid-row: 4 / 5
+    grid-row: 4 / 5;
 }
 
 .dashboard-container-text li {
@@ -141,7 +141,7 @@
     z-index: 2;
 }
 
-.dashboard-container-text li:after {
+.dashboard-container-text li::after {
     content: "";
     position: relative;
     left: -37px;

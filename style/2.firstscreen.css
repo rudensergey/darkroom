@@ -13,8 +13,8 @@
     z-index: 1;
 }
 
-.screen-container:after {
-    content:'';
+.screen-container::after {
+    content: '';
     height: 620px;
     width: 100%;
 

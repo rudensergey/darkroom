@@ -41,7 +41,7 @@
     grid-row: 2 / 3;
 }
 
-.easypeasy-container-pictures-pic:before {
+.easypeasy-container-pictures-pic::before {
     content: "";
     position: relative;
     right: 15%;
@@ -60,7 +60,7 @@
     
 }
 
-.easypeasy-container-pictures-pic:after {
+.easypeasy-container-pictures-pic::after {
     content: "";
     position: relative;
     left: 25%;

@@ -42,7 +42,7 @@
     grid-row: 2 / 3;
 }
 
-.profits-container-pictures-pic:before {
+.profits-container-pictures-pic::before {
     content: "";
     position: relative;
     right: 15%;
@@ -59,7 +59,7 @@
     z-index: 2;
 }
 
-.profits-container-pictures-pic:after {
+.profits-container-pictures-pic::after {
     content: "";
     position: relative;
     left: 25%;
