@@ -1,6 +1,64 @@
 {
-  "extends": ["stylelint-config-standard"],
-  "rules": {
-    "indentation": 4,
-  }
+	"plugins": [
+		"stylelint-order"
+  ],
+  
+	"rules": {
+
+		"order/order": [
+			"custom-properties",
+      "declarations"
+    ],
+
+    "order/properties-order": [
+      "content",
+      "position",
+      "right",
+      "left",
+      "top",
+      "bottom",
+      "height",
+      "width",
+      "padding",
+      "border",
+      "margin",
+      "border",
+      "border-radius",
+      "box-shadow",
+
+      "color",
+      "font",
+      "font-family",
+      "font-size",
+      "font-height",
+      "text-align",
+      "opacity",
+      "background-color",
+      "background-image",
+      "background-size",
+      "background-position",
+
+      "transform",
+      "transition-property",
+      "transition-duration",
+      "animation-timing-function",
+      "user-select",
+      "cursor",
+
+      "display",
+      "align-content",
+      "align-items",
+      "justify-content",
+      "justidy-items",
+      "grid-column",
+      "grid-row",
+      "grid-template-column",
+      "grid-template-row",
+      "grid-area",
+
+      "z-index"
+    ],
+    
+		"order/properties-alphabetical-order": null
+	}
 }
