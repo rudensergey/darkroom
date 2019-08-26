@@ -1,5 +1,7 @@
 @media (max-width: 1150px) {
     .darkroom-container {
+        padding: 67px 0px 30px 0px;
+
         grid-template-columns: 1fr 70% 1fr; 
         grid-template-rows: 56px min-content 63px 1fr 50px min-content 0px 40px 1fr 50px min-content 0px 20px 40px;
     }
@@ -17,14 +19,9 @@
     .darkroom-container a {
         grid-row: 13;
     }
-
-    .darkroom-container {
-        padding: 67px 0px 30px 0px;
-    }
 }
 
 @media (max-width: 1000px) {
-
     /* HEADER */
 
     .header {
@@ -224,7 +221,7 @@
         margin: 0px 0px 0px 26px;
     
         grid-column: 2 / -1;
-        grid-row: 4 / 5
+        grid-row: 4 / 5;
     }
 
     .easypeasy-container-text .position-button {
@@ -280,7 +277,7 @@
         margin: 0px 0px 0px 26px;
     
         grid-column: 2 / -1;
-        grid-row: 4 / 5
+        grid-row: 4 / 5;
     }
 
     .profits-container-text .screen-button {
@@ -346,7 +343,7 @@
     }
     
     /* PODCAST STRUCTURE */
-    
+
     .podcast-position-first {
         grid-column: 2 / 3;
         grid-row: 5 / 6;
@@ -361,7 +358,7 @@
         grid-column: 2 / 3;
         grid-row: 9 / 10;
     }
-    
+
     .view-all-posts {
         grid-row: 11;
     }
