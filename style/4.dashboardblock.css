@@ -1,6 +1,6 @@
 .dashboard-container {
-    width: 100%;
     height: auto;
+    width: 100%;
 
     display: grid;
     grid-template-columns: 98px 1fr 1fr 98px;
@@ -10,64 +10,61 @@
 /* PICTIRE BLOCK */
 
 .dashboard-container-pictures {
-    width: 100%;
     height: 100%;
+    width: 100%;
 
+    display: grid;
     grid-column: 3 / 4;
     grid-row: 1;
-    display: grid;
     grid-template-columns: 20% 58% 22%;
     grid-template-rows: 0.5fr min-content 1.50fr;
 }
 
 .dashboard-container-pictures-pic {
-    width: 100%;
     height: 100%;
+    width: 100%;
 
     background-color: var(--square-template-grey);
     background-size: cover;
+    
+    transition-duration: 1s;
+
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-
-    transition-duration: 1s;
 }
 
 .dashboard-container-pictures-pic:before {
     content: "";
-    display: block;
-    height: 82%;
-    
     position: relative;
-    top: -17%;
     right: 15%;
-
+    top: -17%;
+    height: 82%;
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
     background-image: var(--dashboard-template-first-pic);
     background-size: cover;
 
-    z-index: 2;
-
     transition-duration: 1s;
+
+    display: block;
+    z-index: 2;
 }
 
 .dashboard-container-pictures-pic:after {
-    position: relative;
-    top: -55%;
-    left: 25%;
-    height: 95%;
-
     content: "";
-    display: block;
-
+    position: relative;
+    left: 25%;
+    top: -55%;
+    height: 95%;
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
-
+    
     background-image: var(--dashboard-template-second-pic);
     background-size: cover;
 
-    z-index: 1;
-
     transition-duration: 1s;
+
+    display: block;
+    z-index: 1;
 }
 
 .dashboard-container .aspect-ration {
@@ -90,20 +87,19 @@
 /* TEXT BLOCK */
 
 .dashboard-container-text {
-    display: grid;
-
+    height: 100%;
     min-width: 400px;
     max-width: 1000px;
-    height: 100%;
 
     opacity: var(--opacity-descrease);
 
-    grid-template-columns: 38px 1fr 20%;
-    grid-template-rows: 193px 53px 66px min-content 25px min-content 1fr; 
+    transition-duration: 1s;
+
+    display: grid;
     grid-column: 2 / 3;
     grid-row: 1;
-
-    transition-duration: 1s;
+    grid-template-columns: 38px 1fr 20%;
+    grid-template-rows: 193px 53px 66px min-content 25px min-content 1fr; 
 }
 
 .dashboard-container-text * {
@@ -129,8 +125,8 @@
 }
 
 .dashboard-container-text ul {
-    margin: 0px 0px 0px 0px;
     padding: 0px;
+    margin: 0px 0px 0px 0px;
 
     grid-column: 2 / -1;
     grid-row: 4 / 5
@@ -140,29 +136,27 @@
     list-style: none;
     height: 26px;
 
-    font-size: 16px;
     color: var(--list-grey);
+    font-size: 16px;
     z-index: 2;
 }
 
 .dashboard-container-text li:after {
+    content: "";
     position: relative;
-    height: 50%;
-    width: 16px;
     left: -37px;
     bottom: 17px;
-
+    height: 50%;
+    width: 16px;
+    
     opacity: var(--opacity-increase);
-
-    content: "";
-    display: block;
-
     background-image: var(--done-pic);
     background-size: cover;
 
-    z-index: 3;
-
     transition-duration: 1s;
+
+    display: block;
+    z-index: 3;
 }
 
 /* BUTTTON IN DASHBOARD */

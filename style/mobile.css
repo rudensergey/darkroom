@@ -84,8 +84,8 @@
     /* (1) HOW DOES IT WORK BLOCK */
 
     .workblock-container {
-        width: 100%;
         height: auto;
+        width: 100%;
         margin-bottom: 60px;
         
         grid-template-columns: 1fr 393px 1fr;
@@ -95,8 +95,8 @@
     /* PICTURE BLOCK */
 
     .workblock-container-pictures {
-        width: 0px;
         height: 0px;
+        width: 0px;
 
         visibility: hidden;
     }
@@ -105,24 +105,23 @@
     /* TEXT BLOCK */
 
     .workblock-container-text {
-        display: grid;
-
-        width: 100%;
         height: 100%;
+        width: 100%;
 
         opacity: 0.8;
 
-        grid-template-columns: 13px 80px 300px;
-        grid-template-rows: 10% 70px repeat(8, 34px 26px); 
+        display: grid;
         grid-column: 2 / 3;
         grid-row: 1;
+        grid-template-columns: 13px 80px 300px;
+        grid-template-rows: 10% 70px repeat(8, 34px 26px); 
     }
 
     /* DACHBOARD BLOCK */
 
     .dashboard-container {
-        width: 100%;
         height: auto;
+        width: 100%;
         margin-top: 40px;
         
         grid-template-columns: 1fr 393px 1fr;
@@ -132,8 +131,8 @@
     /* PICTIRE BLOCK */
 
     .dashboard-container-pictures {
-        width: 100%;
         height: 100%;
+        width: 100%;
 
         grid-column: 2 / 3;
         grid-row: 1;
@@ -142,16 +141,16 @@
 
     /* TEXT BLOCK */
 
-    .dashboard-container-text {
-        grid-template-columns: 13px 80px 300px;
-        grid-template-rows: 70px repeat(5, 34px 26px); 
+    .dashboard-container-text { 
         grid-column: 2 / 3;
         grid-row: 3;
+        grid-template-columns: 13px 80px 300px;
+        grid-template-rows: 70px repeat(5, 34px 26px);
     }
 
     .dashboard-container-text h2 {
-        font-size: 32px;
         color: #515151;
+        font-size: 32px;
     
         grid-column: 1 / -1;
         grid-row: 1 / 2;
@@ -163,8 +162,8 @@
     }
     
     .dashboard-container-text ul {
-        margin: 0px 0px 0px 26px;
         padding: 0px;
+        margin: 0px 0px 0px 26px;
     
         grid-column: 2 / -1;
         grid-row: 4 / 5
@@ -178,8 +177,9 @@
     /* EASY PEASY BLOCK */
 
     .easypeasy-container {
-        width: 100%;
         height: auto;
+        width: 100%;
+        
         margin-top: 80px;
         
         grid-template-columns: 1fr 393px 1fr;
@@ -189,8 +189,8 @@
     /* PICTIRE BLOCK */
 
     .easypeasy-container-pictures {
-        width: 100%;
         height: 100%;
+        width: 100%;
 
         grid-column: 2 / 3;
         grid-row: 1;
@@ -200,15 +200,15 @@
     /* TEXT BLOCK */
 
     .easypeasy-container-text {
-        grid-template-columns: 13px 80px 300px;
-        grid-template-rows: 70px repeat(3, 34px 26px); 
         grid-column: 2 / 3;
         grid-row: 3;
+        grid-template-columns: 13px 80px 300px;
+        grid-template-rows: 70px repeat(3, 34px 26px); 
     }
 
     .easypeasy-container-text h2 {
-        font-size: 32px;
         color: #515151;
+        font-size: 32px;
     
         grid-column: 1 / -1;
         grid-row: 1 / 2;
@@ -220,8 +220,8 @@
     }
     
     .easypeasy-container-text ul {
-        margin: 0px 0px 0px 26px;
         padding: 0px;
+        margin: 0px 0px 0px 26px;
     
         grid-column: 2 / -1;
         grid-row: 4 / 5
@@ -235,8 +235,8 @@
     /* PROFITS BLOCK */
 
     .profits-container {
-        width: 100%;
         height: auto;
+        width: 100%;
         margin-top: 25px;
         
         grid-template-columns: 1fr 393px 1fr;
@@ -246,8 +246,8 @@
     /* PICTIRE BLOCK */
 
     .profits-container-pictures {
-        width: 100%;
         height: 100%;
+        width: 100%;
 
         grid-column: 2 / 3;
         grid-row: 1;
@@ -256,15 +256,15 @@
     /* TEXT BLOCK */
 
     .profits-container-text {
-        grid-template-columns: 13px 80px 300px;
-        grid-template-rows: 70px repeat(3, 34px 26px); 
         grid-column: 2 / 3;
         grid-row: 3;
+        grid-template-columns: 13px 80px 300px;
+        grid-template-rows: 70px repeat(3, 34px 26px); 
     }
 
     .profits-container-text h2 {
-        font-size: 32px;
         color: var(--title-text-grey);
+        font-size: 32px;
     
         grid-column: 1 / -1;
         grid-row: 1 / 2;
@@ -276,16 +276,16 @@
     }
     
     .profits-container-text ul {
-        margin: 0px 0px 0px 26px;
         padding: 0px;
+        margin: 0px 0px 0px 26px;
     
         grid-column: 2 / -1;
         grid-row: 4 / 5
     }
 
     .profits-container-text .screen-button {
-        grid-row: 6;
         grid-column: 1;
+        grid-row: 6;
     }
 
     /* CONTAINER - ITEMS */
@@ -326,7 +326,6 @@
         display: grid;
         grid-template-columns: 98px 1fr 98px; 
         grid-template-rows: min-content 10px min-content 47px 1fr 50px 1fr 50px 1fr 40px min-content;
-    
         justify-items: center;
     }
 

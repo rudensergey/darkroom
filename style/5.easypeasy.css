@@ -1,6 +1,6 @@
 .easypeasy-container {
-    width: 100%;
     height: auto;
+    width: 100%;
 
     display: grid;
     grid-template-columns: 98px 1fr 1fr 98px;
@@ -18,64 +18,63 @@
 /* PICTIRE BLOCK */
 
 .easypeasy-container-pictures {
-    width: 100%;
     height: 100%;
+    width: 100%;
 
+    display: grid;
     grid-column: 2 / 3;
     grid-row: 1;
-    display: grid;
     grid-template-columns: 20% 58% 22%;
     grid-template-rows: 0.5fr min-content 1.50fr;
 }
 
 .easypeasy-container-pictures-pic {
-    width: 100%;
     height: 100%;
+    width: 100%;
 
     background-color: var(--square-template-grey);
     background-size: cover;
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
 
     transition-duration: 1s;
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
 }
 
 .easypeasy-container-pictures-pic:before {
     content: "";
-    display: block;
-    height: 82%;
-    
     position: relative;
-    top: -17%;
     right: 15%;
-
+    top: -17%;
+    height: 82%;
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
 
     background-image: var(--easypeasy-template-first-pic);
     background-size: cover;
 
+    transition-duration: 1s;
+
+    display: block;
     z-index: 2;
 
-    transition-duration: 1s;
+    
 }
 
 .easypeasy-container-pictures-pic:after {
-    position: relative;
-    top: -50%;
-    left: 25%;
-    height: 95%;
-
     content: "";
-    display: block;
-
+    position: relative;
+    left: 25%;
+    top: -50%;
+    height: 95%;
     box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
-
+    
     background-image: var(--easypeasy-template-second-pic);
     background-size: cover;
 
-    z-index: 1;
-
     transition-duration: 1s;
+
+    display: block;
+    z-index: 1;
 }
 
 .easypeasy-container-pictures .aspect-ration {
@@ -90,20 +89,19 @@
 /* TEXT BLOCK */
 
 .easypeasy-container-text {
-    display: grid;
-
+    height: 100%;
     min-width: 400px;
     max-width: 1000px;
-    height: 100%;
-
+    
     opacity: var(--opacity-descrease);
 
-    grid-template-columns: 13px 1fr 20%;
-    grid-template-rows: 28% 7% min-content 3% 36% 21%; 
+    transition-duration: 1s;
+
+    display: grid;
     grid-column: 3 / 4;
     grid-row: 1;
-
-    transition-duration: 1s;
+    grid-template-columns: 13px 1fr 20%;
+    grid-template-rows: 28% 7% min-content 3% 36% 21%; 
 }
 
 .easypeasy-container-text * {
@@ -124,6 +122,7 @@
 
 .easypeasy-container-text h6 {
     line-height: 26px;
+    
     grid-column: 2 / 3;
     grid-row: 3 / 4;
 }

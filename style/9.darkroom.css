@@ -23,69 +23,67 @@
 .darkroom-container-style {
     height: 100%;
     width: 100%;
+    border: 1px solid var(--border-grey);
+
+    transition-duration: 1s;
 
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     grid-template-rows: 50px 189px 63px 1fr 40px;
-
-    justify-items: center;
-
-    border: 1px solid var(--border-grey);
-
-    transition-duration: 1s;
 }
 
 .darkroom-container-style::before {
+    content: "";
     height: 7px;
     width: 100%;
-
-    content: "";
+    
     background-color: var(--middle-green);
+
+    transition-duration: 1s;
 
     grid-column: 1 / -1;
     grid-row: 1;
-
-    transition-duration: 1s;
 }
 
 .darkroom-container a {
     color: var(--middle-green-link);
 
+    transition-duration: 1s;
+
     grid-column: 1 / -1;
     grid-row: 8;
-
-    transition-duration: 1s;
 }
 
 /* TEXT BLOCK */
 
 .darkroom-container h3 {
+    opacity: var(--opacity-descrease);
+    
+    transition-duration: 1s;
+
     grid-column: 1 / -1;
     grid-row: 1;
-
-    opacity: var(--opacity-descrease);
-    transition-duration: 1s;
 }
 
 .darkroom-container p {
-    grid-column: 1 / -1;
-    grid-row: 2;
-
-    opacity: var(--opacity-descrease);
     color: var(--topic-title-grey);
+    opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
+
+    grid-column: 1 / -1;
+    grid-row: 2;
 }
 
 .darkroom-container-style h3 {
     height: 24px;
     width: 100%;
-    font-size: 27px;
+
     color: var(--topic-title-grey);
-
+    font-size: 27px;
     text-align: center;
-    display: block;
 
+    display: block;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 }
@@ -97,12 +95,12 @@
     margin: 0px auto 12px auto;
 
     opacity: var(--opacity-descrease);
-
-    display: block;
-    background-size: cover;
     background-image: var(--free-template-pic);
+    background-size: cover;
 
     transition-duration: 1s;
+
+    display: block;
 }
 
 .darkroom-container-style .plus::before {
@@ -112,24 +110,23 @@
     margin: 0px auto 12px auto;
 
     opacity: var(--opacity-descrease);
-
-    display: block;
-    background-size: cover;
     background-image: var(--plus-template-pic);
+    background-size: cover;
 
     transition-duration: 1s;
+
+    display: block;
 }
 
 .darkroom-container-style h4 {
-    font-size: 22px;
-
-    opacity: var(--opacity-increase);
     color: var(--title-text-grey);
+    font-size: 22px;
+    opacity: var(--opacity-increase);
+
+    transition-duration: 1s;
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-
-    transition-duration: 1s;
 }
 
 .darkroom-container-style h4 span {
@@ -144,10 +141,10 @@
     color: var(--title-text-grey);
     opacity: var(--opacity-descrease);
 
+    transition-duration: 1s;
+
     grid-column: 2 / 3;
     grid-row: 4 / 5;
-
-    transition-duration: 1s;
 }
 
 .darkroom-container-style li {
