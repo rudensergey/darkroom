@@ -1,13 +1,12 @@
 .item {
-    display: grid;
-
     width: 100%;
+
     background-color: #808080;
     
+    display: grid;
+    align-items: start;
     grid-template-columns: 13% 74% 13%;
     grid-template-rows: 64px 43px 1fr;
-    align-items: start;
-
     overflow: hidden;
 }
 
@@ -15,13 +14,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
 
+    color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
-    color: #FFFFFF;
 
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-
     z-index: 1;
 }
 
@@ -29,14 +27,13 @@
     margin-top: 0px;
     margin-bottom: 0px;
 
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF;
     line-height: 26px;
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-
     z-index: 1;
 }
 
@@ -50,20 +47,20 @@
 }
 
 .services-container h1 {
-    grid-column: span 3;
-    align-items: start;
-
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
+
+    align-items: start;
+    grid-column: span 3;
 }
 
 .services-container h2 {
-    grid-column: span 3;
-
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
+
+    grid-column: span 3;
 }
 
 /* PSEUDO CLASS FOR ITEMS */
@@ -77,20 +74,19 @@ item-uea - itemu-underline-effect-after
 
 .item-oe::after {
     content: "";
-    display: block;
-    
     height: 100%;
     width: 100%;
     padding-top: 12px;
-    opacity: 0.5;
-
-    background: var(--opacity-color);
     
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
+    opacity: 0.5;
+    background: var(--opacity-color);
     
     transition: opacity 0.45s;
     transition-timing-function: ease;
+
+    display: block;
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
     z-index: 0;
 }
 
@@ -99,13 +95,13 @@ item-uea - itemu-underline-effect-after
 }
   
 .item-ue::before {
+    content: "";
     height: 6px;
     width: 0;
     margin-right: auto;
     
     background: var(--underline-green);
     
-    content: "";
     display: block;
     grid-column: 1 / -1;
 
@@ -124,15 +120,13 @@ item-uea - itemu-underline-effect-after
     height: 100%;
     width: 100%;
     
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
-    
-    overflow: hidden;
-
     transform: scale(1.0);
-
     transition-property: transform;
     transition-duration: 0.35s;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    overflow: hidden;
 }
 
 .item:hover img {

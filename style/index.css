@@ -149,12 +149,11 @@ body {
     min-width: 400px;
     background-color: var(--body-changes);
 
-    display: flex;
+    transition-duration: 1s;
 
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
-    transition-duration: 1s;
 }
 
 p,
@@ -171,41 +170,39 @@ li,
     font-weight: 300;
     margin-top: 0px;
     margin-bottom: 0px;
-    --jhgj
 }
 
 .title {
-    font-size: 32px;
     color: var(--topic-title-grey);
+    font-size: 32px;
 
     transition-duration: 1s;
 }
 
 .description {
-    font-size: 16px;
     color: var(--topic-title-grey);
+    font-size: 16px;
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
 }
 
 .create-button {
+    position: relative;
+    bottom: 0px;
     height: 19px;
     width: 108px;
     padding: 15px 22px 15px 22px;
     border-radius: 4px;
+    box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
 
-    font-size: 14px;
     color: #FFFFFF;
+    font-size: 14px;
     font-weight: 400;
     text-decoration: none;
-    background-color: var(--pastel-green);
-    opacity: 1;
-    box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
     text-align: center;
-
-    bottom: 0px;
-    position: relative;
+    opacity: 1;
+    background-color: var(--pastel-green);
 
     transition-property: opacity, bottom, box-shadow, color, background-color;
     transition-duration: 0.25s;
@@ -215,11 +212,11 @@ li,
 }
 
 .create-button:hover {
-    opacity: 1;
-    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.300);
-    background-color: var(--middle-green);
-
     bottom: 5px;
+    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.300);
+
+    opacity: 1;
+    background-color: var(--middle-green);
 
     transition-duration: 1s;
 }

@@ -7,33 +7,30 @@ footer {
 footer .button-link {
     padding-top: 26px;
 
+    color: #FFFFFF;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
-
     opacity: var(--opacity-increase);
-    color: #FFFFFF;
     background-color: var(--podcast-green);
-
-    grid-row: 1;
-
+    
     transition-duration: 1s;
+    grid-row: 1;
 }
 
 footer ul {
-    text-align: center;
-
     width: 100%;
-    margin: 0px auto 0px auto;
     padding: 55px 0px 55px 0px;
+    margin: 0px auto 0px auto;
+
+    text-align: center;
+    opacity: var(--opacity-descrease);
+    background-image: var(--footer-back-image);
+    background-size: cover;
+    
+    transition-duration: 1s;
 
     grid-row: 2;
-
-    background-image: var(--footer-back-image);
-    opacity: var(--opacity-descrease);
-    background-size: cover;
-
-    transition-duration: 1s;
 }
 
 footer ul li {

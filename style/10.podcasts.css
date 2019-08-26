@@ -32,16 +32,14 @@
 .podcast {
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
-
-    box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.100);
     border-radius: 4px;
+    box-shadow: 0px 1px 3px 1px rgba(128, 128, 128, 0.100);
 
     display: grid;
+    box-sizing: border-box;
+    align-items: center;
     grid-template-columns: 17% 66% 17%;
     grid-template-rows: min-content 70px min-content 10px min-content 20px max-content 20px 1fr;
-
-    align-items: center;
 }
 
 .podcast .biglink {
@@ -63,19 +61,18 @@
 }
 
 .podcast .img-container {
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
-
-    overflow: hidden;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+    
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    overflow: hidden;
 }
 
 .podcast .img-container img {
     width: 100%;
 
     transform: scale(1.04);
-
     transition-property: transform;
     transition-duration: 0.3s;
 }
@@ -85,27 +82,23 @@
 }
 
 .podcast .link {
+    position: absolute;
     height: 12px;
     width: 130px;
-    margin: 20px 0px 0px 20px;
     padding: 2px 10px 6px 10px;
-    
+    margin: 20px 0px 0px 20px;
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 4px;
     
-    text-decoration: none;
-
-    font-size: 12px;
     color: #FFFFFF;
+    font-size: 12px;
     font-weight: 400;
+    text-decoration: none;
     background-color: rgb(158, 196, 183, 0);
 
     transition-property: background-color, border;
     transition-duration: 0.3s;
     animation-timing-function: ease;
-
-    position: absolute;
-
     z-index: 2;
 }
 
@@ -125,19 +118,19 @@
 }
 
 .podcast .date {
-    font-size: 12px;
     color: var(--middle-grey);
+    font-size: 12px;
     opacity: var(--opacity-descrease);
+
+    transition-duration: 1s;
 
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-
-    transition-duration: 1s;
 }
 
 .podcast .title {
-    font-size: 20px;
     color:var(--middle-grey);
+    font-size: 20px;
     line-height: 30px;
 
     grid-column: 2 / 3;
@@ -145,49 +138,47 @@
 }
 
 .podcast .text {
-    font-size: 14px;
     color: var(--middle-grey);
+    font-size: 14px;
     opacity: var(--opacity-descrease);
     line-height: 26px;
 
+    transition-duration: 1s;
+
     grid-column: 2 / 3;
     grid-row: 7 / 8;
-
-    transition-duration: 1s;
 }
 
 .podcast .author {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-
     height: 45px;
     width: 100%;
     border-top: 1px solid rgba(128, 128, 128, 0.1);
 
-    grid-column: 1 / -1;
-
+    display: flex;
+    flex-direction: row;
     align-content: end;
     align-items: center;
+    justify-content: left;
+    grid-column: 1 / -1;
 }
 
 .podcast .author a {
     width: 160px;
     margin: 15px 0px 15px 0px;
 
+    color: #B9B9B9;
     font-size: 12px;
     font-weight: 400;
-
-    color: #B9B9B9;
     text-decoration: none;
 }
 
 .podcast .author::before {
-    width: 15px;
-    height: 15px;
-    margin: 0px 10px 0px 20px;
-
     content: "";
+
+    height: 15px;
+    width: 15px;
+    margin: 0px 10px 0px 20px;
+    
     background-image: url(../Media/10/author-na.png);
     background-size: cover;
 
@@ -202,78 +193,76 @@
 /* TEXT BLOCK */
 
 .darkroom-podcasts h3 {
-    grid-column: 1 / -1;
-    grid-row: 1;
-
     color: var(--topic-title-grey);
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
+
+    grid-column: 1 / -1;
+    grid-row: 1;
 }
 
 .darkroom-podcasts p {
-    grid-column: 1 / -1;
-    grid-row: 2;
-
     color: var(--topic-title-grey);
 
     transition-duration: 1s;
+
+    grid-column: 1 / -1;
+    grid-row: 2;
 }
 
 .view-all-posts {
+    position: relative;
+    bottom: 0px;
     height: 50px;
     width: 173px;
     border-radius: 4px;
-
-    font-size: 14px;
-    color: #FFFFFF;
-    font-weight: 400;
-    text-decoration: none;
-    background-color: var(--podcast-green);
-    opacity: 1;
     box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
 
-    bottom: 0px;
-    position: relative;
-
-    display: grid;
-    justify-items: center;
-    align-items: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    opacity: 1;
+    background-color: var(--podcast-green);
 
     transition-property: opacity, bottom, box-shadow, color, background-color;
     transition-duration: 0.3s;
     transition-timing-function: ease;
 
-    z-index: 3;
-
+    display: grid;
+    justify-items: center;
+    align-items: center;
     grid-column: 1 / -1;
     grid-row: 7;
+
+    z-index: 3;
 }
 
 .view-all-posts:hover {
-    opacity: var(--opacity-increase);
-    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.400);
-    background-color: var(--viewallpost-green);
-
     bottom: 3px;
+    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.400);
+
+    opacity: var(--opacity-increase);
+    background-color: var(--viewallpost-green);
 
     transition-duration: 1s;
 }
 
 .view-all-posts p {
-    height: 18px;
-    width: 100px;
     position: relative;
     right: 0px;
+    height: 18px;
+    width: 100px;
 
     color: #FFFFFF;
 
+    transition-property: right;
+    transition-duration: 0.3s;
+    animation-timing-function: ease-in;
+
     grid-column: 1 / -1;
     grid-row: 1 / -1;
-
-    transition-duration: 0.3s;
-    transition-property: right;
-    animation-timing-function: ease-in;
 }
 
 .view-all-posts:hover p {
@@ -281,12 +270,12 @@
 }
 
 .view-all-posts img {
-    top: 14px;
+    position: absolute;
     right: 40px;
+    top: 14px;    
     height: 25px;
     width: 25px;
 
-    position: absolute;
     opacity: 0;
 
     transition-property: right, opacity;
@@ -300,11 +289,11 @@
 }
 
 .view-all-posts a {
-    height: 50px;
-    width: 173px;
-
     position: absolute;
 
+    height: 50px;
+    width: 173px;
+    
     z-index: 3;
 }
 
