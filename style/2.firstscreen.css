@@ -11,11 +11,13 @@
     grid-template-columns: 98px 1fr;
     grid-template-rows: 144px 64px 64px 1fr;
     z-index: 1;
+
+    overflow: hidden;
 }
 
 .screen-container::after {
     content: '';
-    height: 620px;
+    height: 100%;
     width: 100%;
 
     opacity: 0.7;

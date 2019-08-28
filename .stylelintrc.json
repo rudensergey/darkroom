@@ -9,7 +9,6 @@
     "color-hex-length":"long",
     "selector-pseudo-element-colon-notation":"double",
     "length-zero-no-unit":null,
-    "no-eol-whitespace":true,
 
 		"order/order": [
 			"custom-properties",
