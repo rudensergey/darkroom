@@ -71,19 +71,19 @@ body.light {
 
     /* IMAGES */
 
-    --dark-mode-pic: url(../Media/moon.png);
-    --dashboard-template-first-pic: url(../Media/2/1.png);
-    --dashboard-template-second-pic: url(../Media/2/2.jpg);
-    --easypeasy-template-first-pic: url(../Media/3/1.png);
-    --easypeasy-template-second-pic: url(../Media/3/2.jpg);
-    --footer-back-image: url(../Media/11/footer-back.png);
-    --free-template-pic: url(../Media/9/basic-stack-01.png);
-    --plus-template-pic: url(../Media/9/pro-stack-01.png);
-    --profits-template-first-pic: url(../Media/4/1.png);
-    --profits-template-second-pic: url(../Media/4/2.jpg);
-    --workblock-template-first-pic: url(../Media/1/1.png);
-    --workblock-template-second-pic: url(../Media/1/2.png);
-    --done-pic: url(../Media/2/done.png);
+    --dark-mode-pic: url(./Media/moon.png);
+    --dashboard-template-first-pic: url(./Media/2/1.png);
+    --dashboard-template-second-pic: url(./Media/2/2.jpg);
+    --easypeasy-template-first-pic: url(./Media/3/1.png);
+    --easypeasy-template-second-pic: url(./Media/3/2.jpg);
+    --footer-back-image: url(./Media/11/footer-back.png);
+    --free-template-pic: url(./Media/9/basic-stack-01.png);
+    --plus-template-pic: url(./Media/9/pro-stack-01.png);
+    --profits-template-first-pic: url(./Media/4/1.png);
+    --profits-template-second-pic: url(./Media/4/2.jpg);
+    --workblock-template-first-pic: url(./Media/1/1.png);
+    --workblock-template-second-pic: url(./Media/1/2.png);
+    --done-pic: url(./Media/2/done.png);
 
     /* EFFECTS */
     --opacity-descrease: 1;
@@ -118,20 +118,20 @@ body.dark {
 
     /* IMAGES */
 
-    --author-face-pic: url(../Media/10/author-a.png);
-    --dark-mode-pic: url(../Media/Sun.png);
-    --dashboard-template-first-pic: url(../Media/2/1-dark.png);
-    --dashboard-template-second-pic: url(../Media/2/2-dark.png);
-    --easypeasy-template-first-pic: url(../Media/3/1-dark.png);
-    --easypeasy-template-second-pic: url(../Media/3/2-dark.png);
-    --footer-back-image: url(../Media/11/footer-back.png);
-    --free-template-pic: url(../Media/9/basic-stack-01-dark.png);
-    --plus-template-pic: url(../Media/9/pro-stack-01-dark.png);
-    --profits-template-first-pic: url(../Media/4/1-dark.png);
-    --profits-template-second-pic: url(../Media/4/2-dark.png);
-    --workblock-template-first-pic: url(../Media/1/1-dark.png);
-    --workblock-template-second-pic: url(../Media/1/1-dark.png);
-    --done-pic: url(../Media/2/done-dark.png);
+    --author-face-pic: url(./Media/10/author-a.png);
+    --dark-mode-pic: url(./Media/Sun.png);
+    --dashboard-template-first-pic: url(./Media/2/1-dark.png);
+    --dashboard-template-second-pic: url(./Media/2/2-dark.png);
+    --easypeasy-template-first-pic: url(./Media/3/1-dark.png);
+    --easypeasy-template-second-pic: url(./Media/3/2-dark.png);
+    --footer-back-image: url(./Media/11/footer-back.png);
+    --free-template-pic: url(./Media/9/basic-stack-01-dark.png);
+    --plus-template-pic: url(./Media/9/pro-stack-01-dark.png);
+    --profits-template-first-pic: url(./Media/4/1-dark.png);
+    --profits-template-second-pic: url(./Media/4/2-dark.png);
+    --workblock-template-first-pic: url(./Media/1/1-dark.png);
+    --workblock-template-second-pic: url(./Media/1/1-dark.png);
+    --done-pic: url(./Media/2/done-dark.png);
 
     /* EFFECTS */
     --opacity-descrease: 1;

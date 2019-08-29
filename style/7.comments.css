@@ -46,6 +46,7 @@
     grid-template-columns: repeat(auto-fill, 1fr);
     grid-template-rows: 1fr;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .comments-slide {
@@ -78,7 +79,7 @@
     grid-row: 1 / 2;
 }
 
-.comments-slide .quote-text:before {
+.comments-slide .quote-text::before {
     content: '“';
     position: relative;
     left: -70px;
