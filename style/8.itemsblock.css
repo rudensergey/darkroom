@@ -10,7 +10,7 @@
     overflow: hidden;
 }
 
-.item h1 {
+.item h4 {
     margin-top: 0px;
     margin-bottom: 0px;
 
@@ -46,7 +46,7 @@
     justify-items: center;
 }
 
-.services-container h1 {
+.services-container h2 {
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
@@ -55,7 +55,7 @@
     grid-column: span 3;
 }
 
-.services-container h2 {
+.services-container h3 {
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
