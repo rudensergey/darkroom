@@ -11,11 +11,16 @@
     grid-template-columns: 98px 1fr;
     grid-template-rows: 144px 64px 64px 1fr;
     z-index: 1;
+
+    overflow: hidden;
 }
 
 .screen-container::after {
     content: '';
+<<<<<<< HEAD
+=======
     height: 620px;
+>>>>>>> master
     width: 100%;
 
     opacity: 0.7;
@@ -38,7 +43,7 @@
     grid-row: 2 / 3;
 }
 
-.screen-container p {
+.screen-container h1 {
     margin: 0px;
 
     color: #FFFFFF;

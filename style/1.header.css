@@ -71,7 +71,7 @@
     transform: translateY(0);
     transition-property: padding, opacity, background-color, color, transform;
     transition-duration: 0.5s;
-    animation-timing-function: 0,.51,1,.21;
+    animation-timing-function: "1,-0.03,.38,-0.56";
     user-select: none;
     cursor: pointer;
 
