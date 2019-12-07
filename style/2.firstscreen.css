@@ -17,6 +17,10 @@
 
 .screen-container::after {
     content: '';
+<<<<<<< HEAD
+=======
+    height: 620px;
+>>>>>>> master
     width: 100%;
 
     opacity: 0.7;

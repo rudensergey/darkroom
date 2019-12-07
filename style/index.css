@@ -12,6 +12,31 @@
 @import url(./footer.css);
 @import url(./mobile.css);
 @import url(./keyframes.css);
+<<<<<<< HEAD
+=======
+@import url(./dark-mode.css);
+
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Fonts/Quicksand-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Fonts/Quicksand-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: light;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(./Fonts/Quicksand-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+>>>>>>> master
 
 /* CREATE CSS CUSTOP PROPERTIES PALLETTE FOR DARK MODE
 
@@ -64,6 +89,60 @@ body.light {
     --opacity-increase: 0.7;
 }
 
+<<<<<<< HEAD
+=======
+/* CREATE CSS CUSTOP PROPERTIES PALLETTE FOR DARK MODE
+
+rules for better navigation: property: color bright mode // color for dark-mode - in comment on right side */
+
+body.light {
+    --body-changes: #FFFFFF;
+    --border-grey: #E6E6E6;
+    --bottom-grey: #ECECEC;
+    --comment-grey: #3B424B;
+    --dark-mode-yellow: #1B1B1B;
+    --darkmode-bottom-black: #222222;
+    --darkmode-text-white: #FEFF9B;
+    --header-backcolor-white: #FFFFFF;
+    --link-footer-grey: #CCCCCC;
+    --link-hover-green: #77CFB2;
+    --list-grey: #676767;
+    --middle-green: #A8CFC2;
+    --middle-green-link: #515151;
+    --middle-grey: #888888;
+    --opacity-color: #333333;
+    --pastel-green: #9EC4B7;
+    --podcast-green: #9EC4B7;
+    --quote-text-before: rgba(0,0,0,0.27);
+    --screen-gradient: linear-gradient(to top right, rgb(77, 85, 92), rgb(211, 211, 211));;
+    --square-template-grey: #F1F1F1;
+    --title-text-grey: #444444;
+    --topic-title-grey: #515151;
+    --underline-green: #A8CFC2;
+    --viewallpost-green: #79CAB5;
+
+    /* IMAGES */
+
+    --dark-mode-pic: url(../Media/moon.png);
+    --dashboard-template-first-pic: url(../Media/2/1.png);
+    --dashboard-template-second-pic: url(../Media/2/2.jpg);
+    --easypeasy-template-first-pic: url(../Media/3/1.png);
+    --easypeasy-template-second-pic: url(../Media/3/2.jpg);
+    --footer-back-image: url(../Media/11/footer-back.png);
+    --free-template-pic: url(../Media/9/basic-stack-01.png);
+    --plus-template-pic: url(../Media/9/pro-stack-01.png);
+    --profits-template-first-pic: url(../Media/4/1.png);
+    --profits-template-second-pic: url(../Media/4/2.jpg);
+    --workblock-template-first-pic: url(../Media/1/1.png);
+    --workblock-template-second-pic: url(../Media/1/2.png);
+    --done-pic: url(../Media/2/done.png);
+
+    /* EFFECTS */
+    --opacity-descrease: 1;
+    --opacity-increase: 0.7;
+}
+
+>>>>>>> master
 body.dark {
     --body-changes: #060A0F;
     --border-grey: #35393F;
@@ -110,4 +189,85 @@ body.dark {
     /* EFFECTS */
     --opacity-descrease: 1;
     --opacity-increase: 0.7;
+<<<<<<< HEAD
+=======
+}
+
+body {
+    margin: 0px;
+    max-width: 1920px;
+    min-width: 400px;
+    background-color: var(--body-changes);
+
+    transition-duration: 1s;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li,
+.m-font {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title {
+    color: var(--topic-title-grey);
+    font-size: 32px;
+
+    transition-duration: 1s;
+}
+
+.description {
+    color: var(--topic-title-grey);
+    font-size: 16px;
+    opacity: var(--opacity-descrease);
+
+    transition-duration: 1s;
+}
+
+.create-button {
+    position: relative;
+    bottom: 0px;
+    height: 19px;
+    width: 108px;
+    padding: 15px 22px 15px 22px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 0px rgba(128, 128, 128, 0);
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    opacity: 1;
+    background-color: var(--pastel-green);
+
+    transition-property: opacity, bottom, box-shadow, color, background-color;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+
+    z-index: 3;
+}
+
+.create-button:hover {
+    bottom: 5px;
+    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.300);
+
+    opacity: 1;
+    background-color: var(--middle-green);
+
+    transition-duration: 1s;
+>>>>>>> master
 }

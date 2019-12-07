@@ -46,7 +46,10 @@
     grid-template-columns: repeat(auto-fill, 1fr);
     grid-template-rows: 1fr;
     overflow-x: scroll;
+<<<<<<< HEAD
     overflow-y: hidden;
+=======
+>>>>>>> master
 }
 
 .comments-slide {
@@ -79,7 +82,11 @@
     grid-row: 1 / 2;
 }
 
+<<<<<<< HEAD
 .comments-slide .quote-text::before {
+=======
+.comments-slide .quote-text:before {
+>>>>>>> master
     content: '“';
     position: relative;
     left: -70px;
