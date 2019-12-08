@@ -46,8 +46,8 @@
     /* SCREEN CONTAINER */
 
     .screen-container {
-        display: grid;
         height: 400px;
+        display: grid;
 
         grid-template-columns: 1px 1fr 1px;
         grid-template-rows: 1fr min-content 10px min-content 30px 1fr;
@@ -375,6 +375,57 @@
     
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+    /* MAIN */
+
+    body {
+        max-width: 100vw;
+    }
+
+    /* HEADER */
+
+    .header {
+        height: 60px;
+    }
+
+    .logo {
+        margin-top: 5px;
+        height: 20px;
+    }
+
+    /* SCREEN CONTAINER */
+
+    .screen-container {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    /* WORKBLOCK */
+
+    .workblock-container {
+        height: auto;
+        width: 100%;
+        margin-bottom: 60px;
+        
+        grid-template-columns: 1fr;
+    }
+
+    .workblock-container-text {
+        width: 100%;
+
+        grid-column: 1;
+        grid-template-columns: 10% 80px 1fr 10%;
+    }
+
+    /* PROFITS */
+
+
+
+    /* PODCASTS */
+
+    .darkroom-podcasts {
+        grid-template-columns: 10% 1fr 10%; 
+    }
+
 
 }
