@@ -142,8 +142,8 @@
     .dashboard-container-text { 
         grid-column: 1;
         grid-row: 3;
-        grid-template-columns: 10% 80px 1fr 10%;
-        grid-template-rows: 70px repeat(5, 34px 26px);
+        grid-template-columns: 10% 70px 1fr 10%;
+        grid-template-rows: 70px repeat(4, 34px 26px);
     }
 
     .dashboard-container-text h2 {
@@ -291,21 +291,32 @@
     .services-container {
         height: 1200px;
 
-        grid-template-columns: 1fr;
+        grid-template-columns: 10% 1fr 10%;
         grid-template-rows: 56px 53px 1fr 1fr 1fr 1fr 1fr; 
         grid-auto-flow: column;
     }
 
+    .services-container h2 {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+    .services-container h3 {
+        grid-column: 1 / -1;
+        grid-row: 2;
+    }
+
     .item {
-        grid-template-rows: 4px 43px 1fr;
+        grid-column: 1 / -1;
+        grid-template-rows: 15% min-content 10% 1fr 15%;
     }
 
-    .services-topic {
-        grid-column: span 1;
+    .item h4 {
+        grid-row: 2 / 3;
     }
-
-    .services-text {
-        grid-column: span 1;
+    
+    .item p {
+        grid-row: 4 / 5;
     }
 
     .square {
@@ -376,6 +387,23 @@
 }
 
 @media (max-width: 500px) {
+    .title {
+        color: var(--topic-title-grey);
+        font-size: 32px;
+        text-align: center;
+    
+        transition-duration: 1s;
+    }
+    
+    .description {
+        color: var(--topic-title-grey);
+        font-size: 15px;
+        text-align: center;
+        opacity: var(--opacity-descrease);
+    
+        transition-duration: 1s;
+    }
+
     /* HEADER */
 
     .header {
@@ -394,15 +422,144 @@
         width: 100%;
     }
 
+    .screen-container h6 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .screen-container h1 {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    /* WORK BLOCK */
+
+    .workblock-container-text h2 {
+        grid-column: 1 / -1;
+    }
+
+    .workblock-container-text {
+        grid-template-rows: 30px 70px repeat(8, 34px 26px);
+    }
+
+    /* DASHBOARD */
+
+    .dashboard-container-text { 
+        grid-template-rows: 60px min-content repeat(3, 34px 26px);
+    }
+
+    /* EASY PEASY */
+
+    .easypeasy-container-text {
+        grid-column: 1;
+        grid-row: 3;
+        grid-template-columns: 10% 80px 1fr 10%;
+        grid-template-rows: 60px min-content repeat(1, 34px 26px); 
+    }
+
+    .easypeasy-container-text .position-button {
+        grid-row: 4;
+    }
+
     /* PROFITS */
 
+    .profits-container-text {
+        grid-column: 1;
+        grid-row: 3;
+        grid-template-columns: 10% 80px 1fr 10%;
+        grid-template-rows: 60px min-content repeat(1, 34px 26px) 40px; 
+    }
+
+    .profits-container-text .position-button {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    /* COMMENTS */
+
+    .comments-block {
+        height: min-content;
+        width: 100%;
+        
+        display: grid;
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: 60px min-content 30px 1fr;
+        justify-items: center;
+    }
+    
+
+    /* ITEMS BLOCK */
+
+    .services-container {
+        height: 1700px;
+
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: min-content min-content 1fr 1fr 1fr 1fr 1fr; 
+        grid-auto-flow: column;
+    }
+
+    .item {
+        grid-column: span 3;
+        grid-template-rows: 15% min-content 10% 1fr 15%;
+    }
+
+    .services-container h2 {
+        margin-bottom: 10px;
+
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+
+    .services-container h3 {
+        margin-bottom: 30px;
+
+        grid-column: 2 / 3;
+        grid-row: 2;
+    }
+
+    .square {
+        width: 0px;
+        padding-bottom: 50%;
+    
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    }
+
+    /* DARKROOM */
+
+    .darkroom-container {
+        padding-top: 30px;
+
+        grid-template-columns: 10% 1fr 10%;
+        grid-template-rows: min-content min-content 30px 1fr 50px min-content 0px 20px;
+    }
+
+    .darkroom-container h3 {
+        margin-bottom: 10px;
+
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+    
+    .darkroom-container p {
+        margin-bottom: 10px;
+
+        grid-column: 2 / 3;
+        grid-row: 2;
+    }
 
 
     /* PODCASTS */
 
     .darkroom-podcasts {
+        padding: 0px 0px 100px 0px;
+    
+        display: grid;
         grid-template-columns: 10% 1fr 10%; 
+        grid-template-rows: min-content 10px min-content 47px 1fr 50px 1fr 50px 1fr 40px min-content;
     }
 
-
+    .podcast .title {
+        text-align: left;
+    }
 }

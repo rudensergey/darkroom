@@ -47,6 +47,7 @@
 }
 
 .services-container h2 {
+    text-align: center;
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
@@ -56,6 +57,7 @@
 }
 
 .services-container h3 {
+    text-align: center;
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
