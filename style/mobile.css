@@ -564,7 +564,7 @@
     /* PODCASTS */
 
     .darkroom-podcasts {
-        padding: 0px 0px 100px 0px;
+        padding: 0px 0px 35px 0px;
     
         display: grid;
         grid-template-columns: 10% 1fr 10%; 
@@ -590,17 +590,22 @@
         grid-row: 9;
     }
 
+    .view-all-posts p {
+        grid-column: 1 / -1;
+        grid-row: 1 / -1;
+    }
+
     .podcast .title {
         text-align: left;
     }
 
-    .darkroom-podcasts h3 {
+    .darkroom-podcasts>h3 {
         margin-bottom: 20px;
         grid-column: 2 / 3;
         grid-row: 1;
     }
     
-    .darkroom-podcasts p {
+    .darkroom-podcasts>p {
         margin-bottom: 20px;
         grid-column: 2 / 3;
         grid-row: 2;
