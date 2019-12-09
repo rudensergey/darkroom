@@ -9,6 +9,10 @@
     "color-hex-length":"long",
     "selector-pseudo-element-colon-notation":"double",
     "length-zero-no-unit":null,
+<<<<<<< HEAD
+=======
+    "no-eol-whitespace":true,
+>>>>>>> master
 
 		"order/order": [
 			"custom-properties",

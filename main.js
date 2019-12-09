@@ -1,5 +1,6 @@
 let darkModeButton = document.getElementById('activate-button');
 let darkModeStatus = false;
+<<<<<<< HEAD
 let switchToSafari = document.getElementById('pageBright');
 
 console.log(switchToSafari);
@@ -18,6 +19,8 @@ function isSafari() {
 
     console.log(browserName)
 }
+=======
+>>>>>>> master
 
 darkModeButton.onclick = () => {
     if (darkModeStatus) {
