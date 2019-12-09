@@ -571,6 +571,10 @@
         grid-template-rows: min-content min-content 1fr 50px 1fr 50px 1fr 40px min-content;
     }
 
+    .podcast {
+        grid-template-columns: 10% 80% 10%;
+    }
+
     .podcast-position-first {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
