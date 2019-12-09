@@ -27,7 +27,7 @@
 body {
     margin: 0px;
     max-width: 1920px;
-    min-width: 400px;
+    min-width: 300px;
     background-color: var(--body-changes);
 
     transition-duration: 1s;

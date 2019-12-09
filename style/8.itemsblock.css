@@ -46,11 +46,8 @@
     justify-items: center;
 }
 
-<<<<<<< HEAD
 .services-container h2 {
-=======
-.services-container h1 {
->>>>>>> master
+    text-align: center;
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
@@ -59,11 +56,8 @@
     grid-column: span 3;
 }
 
-<<<<<<< HEAD
 .services-container h3 {
-=======
-.services-container h2 {
->>>>>>> master
+    text-align: center;
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;

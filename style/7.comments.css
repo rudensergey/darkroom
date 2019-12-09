@@ -19,6 +19,7 @@
 /* TEXT BLOCK */
 
 .comments-topic {
+    text-align: center;
     opacity: var(--opacity-descrease);
 
     transition-duration: 1s;
@@ -28,6 +29,7 @@
 }
 
 .comments-text {
+    text-align: center;
     grid-column: 2 / 3;
     grid-row: 2;
 }
