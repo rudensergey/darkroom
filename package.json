@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/rudensergey/darkroom#readme",
   "dependencies": {
-    "stylelint-config-prettier": "^5.2.0"
+    "stylelint-config-prettier": "^5.3.0"
   },
   "devDependencies": {
     "stylelint": "^10.1.0",
-    "stylelint-order": "^3.0.1"
+    "stylelint-order": "^3.1.1"
   }
 }

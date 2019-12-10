@@ -1,142 +1,104 @@
 .profits-container {
-    height: auto;
-    width: 100%;
-
-    display: grid;
-    grid-template-columns: 98px 1fr 1fr 98px;
-    grid-template-rows: 1fr;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 98px 1fr 1fr 98px;
+  grid-template-rows: 1fr;
 }
-
 .profits-container .aspect-ration {
-    padding-bottom: 55%;
-    width: 0px;
-
-    grid-column: 1 / -1;
-    grid-row: 1 / -1;
+  padding-bottom: 55%;
+  width: 0px;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
 }
-
 /* PICTIRE BLOCK */
-
 .profits-container-pictures {
-    height: 100%;
-    width: 100%;
-
-    display: grid;
-    grid-column: 3 / 4;
-    grid-row: 1;
-
-    grid-template-columns: 20% 58% 22%;
-    grid-template-rows: 0.5fr min-content 1.50fr;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-column: 3/4;
+  grid-row: 1;
+  grid-template-columns: 20% 58% 22%;
+  grid-template-rows: 0.5fr min-content 1.5fr;
 }
-
 .profits-container-pictures-pic {
-    height: 100%;
-    width: 100%;
-
-    background-color: var(--square-template-grey);
-    background-size: cover;
-
-    transition-duration: 1s;
-
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+  height: 100%;
+  width: 100%;
+  background-color: var(--square-template-grey);
+  background-size: cover;
+  transition-duration: 1s;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
-
 .profits-container-pictures-pic::before {
-    content: "";
-    position: relative;
-    right: 15%;
-    top: -4%;
-    height: 65%;
-    box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
-
-    background-image: var(--profits-template-first-pic);
-    background-size: cover;
-
-    transition-duration: 1s;
-
-    display: block;
-    z-index: 2;
+  content: "";
+  position: relative;
+  right: 15%;
+  top: -4%;
+  height: 65%;
+  box-shadow: 0px 10px 30px 10px rgba(128,128,128,0.2);
+  background-image: var(--profits-template-first-pic);
+  background-size: cover;
+  transition-duration: 1s;
+  display: block;
+  z-index: 2;
 }
-
 .profits-container-pictures-pic::after {
-    content: "";
-    position: relative;
-    left: 25%;
-    top: -35%;
-    height: 95%;
-    box-shadow: 0px 10px 30px 10px rgba(128, 128, 128, 0.200);
-
-    opacity: var(--opacity-descrease);
-    background-image: var(--profits-template-second-pic);
-    background-size: cover;
-    
-    transition-duration: 1s;
-    
-    display: block;
-    z-index: 1;    
+  content: "";
+  position: relative;
+  left: 25%;
+  top: -35%;
+  height: 95%;
+  box-shadow: 0px 10px 30px 10px rgba(128,128,128,0.2);
+  opacity: var(--opacity-descrease);
+  background-image: var(--profits-template-second-pic);
+  background-size: cover;
+  transition-duration: 1s;
+  display: block;
+  z-index: 1;
 }
-
 .profits-container-pictures .aspect-ration {
-    padding-bottom: 140%;
-    width: 0px;
-
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+  padding-bottom: 140%;
+  width: 0px;
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
-
-
 /* TEXT BLOCK */
-
 .profits-container-text {
-    height: 100%;
-    min-width: 200px;
-    max-width: 1000px;
-
-    opacity: var(--opacity-descrease);
-
-    transition-duration: 1s;
-
-    display: grid;
-    grid-column: 2 / 3;
-    grid-row: 1;
-    grid-template-columns: 1fr 25%;
-    grid-template-rows: 26% 7% min-content 3% 36% 23%; 
+  height: 100%;
+  min-width: 200px;
+  max-width: 1000px;
+  opacity: var(--opacity-descrease);
+  transition-duration: 1s;
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 1;
+  grid-template-columns: 1fr 25%;
+  grid-template-rows: 26% 7% min-content 3% 36% 23%;
 }
-
 .profits-container-text * {
-    user-select: none;
+  user-select: none;
 }
-
 .profits-container-text .image {
-    width: 45px;
-
-    justify-items: start;
-    grid-column: 2 / 3;
+  width: 45px;
+  justify-items: start;
+  grid-column: 2/3;
 }
-
 .profits-container-text h2 {
-    color: var(--title-text-grey);
-
-    transition-duration: 1s;
-
-    grid-column: 1 / -1;
-    grid-row: 2 / 3;
+  color: var(--title-text-grey);
+  transition-duration: 1s;
+  grid-column: 1/-1;
+  grid-row: 2/3;
 }
-
 .profits-container-text h6 {
-    color: var(--title-text-grey);
-    line-height: 26px;
-
-    transition-duration: 1s;
-    
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+  color: var(--title-text-grey);
+  line-height: 26px;
+  transition-duration: 1s;
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
-
 /* BUTTTON IN DASHBOARD */
-
 .profits-container-text .position-button {
-    grid-column: 1 / -1;
-    grid-row: 5;
+  grid-column: 1/-1;
+  grid-row: 5;
 }

@@ -1,0 +1,78 @@
+.screen-container {
+    margin-top: 62px;
+    height: 100%;
+    width: 100%;
+    
+    background-image: url(../Media/screen.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    display: grid;
+    grid-template-columns: 98px 1fr;
+    grid-template-rows: 144px 64px 64px 1fr;
+    z-index: 1;
+
+    overflow: hidden;
+}
+
+.screen-container::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    
+
+    opacity: 0.7;
+    background-image: var(--screen-gradient);
+    
+    transition-duration: 1s;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+    z-index: -1;
+}
+
+.screen-container h6 {
+    margin: 0px;
+
+    color: #FFFFFF;
+    font-size: 40px;
+
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.screen-container h1 {
+    margin: 0px;
+
+    color: #FFFFFF;
+    font-size: 26px;
+    
+    grid-column: 2 / 3;
+    grid-row: 3;
+}
+
+.aspect-ration {
+    padding-bottom: 42%;
+    width: 0px;
+
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
+}
+
+.screen-container .position-button {
+    opacity: var(--opacity-increase);
+    background-color: var(--pastel-green);
+
+    transition-property: opacity, bottom;
+    transition-duration: 1s;
+
+    grid-column: 2 / 3;
+    grid-row: 4;
+}
+
+.screen-container .create-button:hover {
+    bottom: 5px;
+
+    box-shadow: 0px 10px 30px 3px rgba(128, 128, 128, 0.500);
+    opacity: 1;
+}
