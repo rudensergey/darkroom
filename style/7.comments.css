@@ -12,7 +12,6 @@
     grid-column: 1/-1;
     grid-row: 1/-1;
 }
-/* TEXT BLOCK */
 .comments-topic {
     text-align: center;
     opacity: var(--opacity-descrease);
@@ -25,7 +24,6 @@
     grid-column: 2/3;
     grid-row: 2;
 }
-/* SLIDER */
 .comments-slider {
     height: auto;
     width: 100%;
@@ -115,7 +113,6 @@
     transition-duration: 1s;
     grid-row: 6/7;
 }
-/* NOT ZOOM SLIDE */
 #notzoom-text {
     color: #3B424B;
     background-color: #FFFFFF;
