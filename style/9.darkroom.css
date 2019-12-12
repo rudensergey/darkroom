@@ -39,7 +39,6 @@
     grid-column: 1/-1;
     grid-row: 8;
 }
-/* TEXT BLOCK */
 .darkroom-container h3 {
     opacity: var(--opacity-descrease);
     transition-duration: 1s;
