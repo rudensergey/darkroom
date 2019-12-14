@@ -9,7 +9,19 @@
     grid-template-rows: 56px min-content 47px 1fr 100px min-content;
     justify-items: center;
 }
-/* PODCAST STRUCTURE */
+.darkroom-podcasts h3 {
+    color: var(--topic-title-grey);
+    opacity: var(--opacity-descrease);
+    transition-duration: 1s;
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+.darkroom-podcasts p {
+    color: var(--topic-title-grey);
+    transition-duration: 1s;
+    grid-column: 1/-1;
+    grid-row: 2;
+}
 .podcast-position-first {
     grid-column: 2/3;
     grid-row: 4/5;
@@ -74,7 +86,6 @@
     font-size: 12px;
     font-weight: 400;
     text-decoration: none;
-    background-color: #9EC4B7;
     transition-property: background-color, border;
     transition-duration: 0.3s;
     animation-timing-function: ease;
@@ -126,14 +137,6 @@
     justify-content: left;
     grid-column: 1/-1;
 }
-.podcast .author a {
-    width: 160px;
-    margin: 15px 0px 15px 0px;
-    color: #B9B9B9;
-    font-size: 12px;
-    font-weight: 400;
-    text-decoration: none;
-}
 .podcast .author::before {
     content: "";
     height: 15px;
@@ -144,22 +147,16 @@
     transition-property: background-image;
     transition-duration: 0.3s;
 }
+.podcast a {
+    width: 160px;
+    margin: 15px 0px 15px 0px;
+    color: #B9B9B9;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+}
 .podcast .author:hover::before {
     background-image: url("../Media/10/author-a.png");
-}
-/* TEXT BLOCK */
-.darkroom-podcasts h3 {
-    color: var(--topic-title-grey);
-    opacity: var(--opacity-descrease);
-    transition-duration: 1s;
-    grid-column: 1/-1;
-    grid-row: 1;
-}
-.darkroom-podcasts p {
-    color: var(--topic-title-grey);
-    transition-duration: 1s;
-    grid-column: 1/-1;
-    grid-row: 2;
 }
 .view-all-posts {
     position: relative;
@@ -203,9 +200,6 @@
     grid-column: 1/-1;
     grid-row: 1/-1;
 }
-.view-all-posts:hover p {
-    right: 15px;
-}
 .view-all-posts img {
     position: absolute;
     right: 40px;
@@ -217,13 +211,16 @@
     transition-duration: 0.3s;
     animation-timing-function: ease-in;
 }
-.view-all-posts:hover img {
-    right: 22px;
-    opacity: 1;
-}
 .view-all-posts a {
     position: absolute;
     height: 50px;
     width: 173px;
     z-index: 3;
+}
+.view-all-posts:hover p {
+    right: 15px;
+}
+.view-all-posts:hover img {
+    right: 22px;
+    opacity: 1;
 }

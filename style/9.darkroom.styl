@@ -66,81 +66,80 @@
         grid-row: 2
 
 
-.darkroom-container-style h3 
-    height: 24px
-    width: 100%
+.darkroom-container-style 
+    & h3 
+        height: 24px
+        width: 100%
 
-    color: var(--topic-title-grey)
-    font-size: 27px
-    text-align: center
+        color: var(--topic-title-grey)
+        font-size: 27px
+        text-align: center
 
-    display: block
-    grid-column: 2 / 3
-    grid-row: 2 / 3
+        display: block
+        grid-column: 2 / 3
+        grid-row: 2 / 3
 
+        & .free
+            &::before 
+            content: ""
+            height: 124px
+            width: 200px
+            margin: 0px auto 12px auto
 
-.darkroom-container-style .free::before 
-    content: ""
-    height: 124px
-    width: 200px
-    margin: 0px auto 12px auto
+            opacity: var(--opacity-descrease)
+            background-image: var(--free-template-pic)
+            background-size: cover
 
-    opacity: var(--opacity-descrease)
-    background-image: var(--free-template-pic)
-    background-size: cover
+            transition-duration: 1s
 
-    transition-duration: 1s
+            display: block
 
-    display: block
+    & .plus::before 
+            content: ""
+            height: 124px
+            width: 200px
+            margin: 0px auto 12px auto
 
+            opacity: var(--opacity-descrease)
+            background-image: var(--plus-template-pic)
+            background-size: cover
 
-.darkroom-container-style .plus::before 
-    content: ""
-    height: 124px
-    width: 200px
-    margin: 0px auto 12px auto
+            transition-duration: 1s
 
-    opacity: var(--opacity-descrease)
-    background-image: var(--plus-template-pic)
-    background-size: cover
+            display: block
 
-    transition-duration: 1s
+    & h4 
+        color: var(--title-text-grey)
+        font-size: 22px
+        text-align: center
+        opacity: var(--opacity-increase)
 
-    display: block
+        transition-duration: 1s
 
-
-.darkroom-container-style h4 
-    color: var(--title-text-grey)
-    font-size: 22px
-    text-align: center
-    opacity: var(--opacity-increase)
-
-    transition-duration: 1s
-
-    grid-column: 2 / 3
-    grid-row: 3 / 4
-
-
-.darkroom-container-style h4 span 
-    font-size: 12px
+        grid-column: 2 / 3
+        grid-row: 3 / 4
 
 
-.darkroom-container-style ul 
-    width: 100%
-    padding: 0px
-    margin: 0px
-
-    color: var(--title-text-grey)
-    opacity: var(--opacity-descrease)
-
-    transition-duration: 1s
-
-    grid-column: 2 / 3
-    grid-row: 4 / 5
+    & h4 span 
+        font-size: 12px
 
 
-.darkroom-container-style li 
-    height: 34px
+    & ul 
+        width: 100%
+        padding: 0px
+        margin: 0px
 
-    list-style: none
-    text-align: center
+        color: var(--title-text-grey)
+        opacity: var(--opacity-descrease)
+
+        transition-duration: 1s
+
+        grid-column: 2 / 3
+        grid-row: 4 / 5
+
+
+    & li 
+        height: 34px
+
+        list-style: none
+        text-align: center
