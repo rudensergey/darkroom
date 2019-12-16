@@ -3,55 +3,43 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 75px min-content;
 }
-
 footer .button-link {
     padding-top: 26px;
-
     color: #FFFFFF;
     font-size: 20px;
     text-decoration: none;
     text-align: center;
     opacity: var(--opacity-increase);
     background-color: var(--podcast-green);
-    
     transition-duration: 1s;
     grid-row: 1;
 }
-
 footer ul {
     width: 100%;
     padding: 55px 0px 55px 0px;
     margin: 0px auto 0px auto;
-
     text-align: center;
     opacity: var(--opacity-descrease);
     background-image: var(--footer-back-image);
     background-size: cover;
-    
     transition-duration: 1s;
-
     grid-row: 2;
 }
-
 footer ul li {
     padding-bottom: 15px;
     list-style: none;
 }
-
 footer ul li a {
     color: var(--link-footer-grey);
     font-size: 16px;
     text-decoration: none;
-
     transition-property: color;
     transition-duration: 0.3s;
     animation-timing-function: ease-in;
 }
-
 footer ul li a:hover {
     color: var(--link-hover-green);
     font-size: 16px;
     text-decoration: none;
-
     transition-duration: 1s;
 }

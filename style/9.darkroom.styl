@@ -1,0 +1,145 @@
+.darkroom-container 
+    height: 100%
+    width: 100%
+    padding: 67px 0px 100px 0px
+
+    display: grid
+    grid-template-columns: 22.5% 26% 3% 26% 22.5% 
+    grid-template-rows: 56px min-content 63px 1fr 50px min-content 0px 20px
+
+    justify-items: center
+
+    &-free 
+        grid-column: 2 / 3
+        grid-row: 4
+
+    &-plus 
+        grid-column: 4 / 5
+        grid-row: 4
+
+    &-style 
+        height: 100%
+        width: 100%
+        border: 1px solid var(--border-grey)
+
+        transition-duration: 1s
+
+        display: grid
+        grid-template-columns: 50px 1fr 50px
+        grid-template-rows: 50px 189px 63px 1fr 40px
+
+        &::before 
+            content: ""
+            height: 7px
+            width: 100%
+            
+            background-color: var(--middle-green)
+
+            transition-duration: 1s
+
+            grid-column: 1 / -1
+            grid-row: 1
+
+    & a 
+        color: var(--middle-green-link)
+
+        transition-duration: 1s
+
+        grid-column: 1 / -1
+        grid-row: 8
+
+    & h3 /* TEXT BLOCK */
+        opacity: var(--opacity-descrease)
+        
+        transition-duration: 1s
+
+        grid-column: 1 / -1
+        grid-row: 1
+
+    & p 
+        color: var(--topic-title-grey)
+        opacity: var(--opacity-descrease)
+
+        transition-duration: 1s
+
+        grid-column: 1 / -1
+        grid-row: 2
+
+
+.darkroom-container-style 
+    & h3 
+        height: 24px
+        width: 100%
+
+        color: var(--topic-title-grey)
+        font-size: 27px
+        text-align: center
+
+        display: block
+        grid-column: 2 / 3
+        grid-row: 2 / 3
+
+        & .free
+            &::before 
+            content: ""
+            height: 124px
+            width: 200px
+            margin: 0px auto 12px auto
+
+            opacity: var(--opacity-descrease)
+            background-image: var(--free-template-pic)
+            background-size: cover
+
+            transition-duration: 1s
+
+            display: block
+
+    & .plus::before 
+            content: ""
+            height: 124px
+            width: 200px
+            margin: 0px auto 12px auto
+
+            opacity: var(--opacity-descrease)
+            background-image: var(--plus-template-pic)
+            background-size: cover
+
+            transition-duration: 1s
+
+            display: block
+
+    & h4 
+        color: var(--title-text-grey)
+        font-size: 22px
+        text-align: center
+        opacity: var(--opacity-increase)
+
+        transition-duration: 1s
+
+        grid-column: 2 / 3
+        grid-row: 3 / 4
+
+
+    & h4 span 
+        font-size: 12px
+
+
+    & ul 
+        width: 100%
+        padding: 0px
+        margin: 0px
+
+        color: var(--title-text-grey)
+        opacity: var(--opacity-descrease)
+
+        transition-duration: 1s
+
+        grid-column: 2 / 3
+        grid-row: 4 / 5
+
+
+    & li 
+        height: 34px
+
+        list-style: none
+        text-align: center

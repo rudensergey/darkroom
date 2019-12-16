@@ -1,0 +1,142 @@
+.item 
+    width: 100%
+
+    background-color: #808080
+    
+    display: grid
+    align-items: start
+    grid-template-columns: 13% 74% 13%
+    grid-template-rows: 64px 43px 1fr
+    overflow: hidden
+
+    & h4 
+        margin-top: 0px
+        margin-bottom: 0px
+
+        color: #FFFFFF
+        font-size: 20px
+        font-weight: 400
+
+        grid-column: 2 / 3
+        grid-row: 2 / 3
+        z-index: 1
+
+    & p 
+        margin-top: 0px
+        margin-bottom: 0px
+
+        color: #FFFFFF
+        font-size: 16px
+        font-weight: 400
+        line-height: 26px
+
+        grid-column: 2 / 3
+        grid-row: 3 / 4
+        z-index: 1
+
+
+.services-container 
+    height: 700px
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-rows: 56px 53px 1fr 1fr
+
+    justify-items: center
+
+    & h2 
+        text-align: center
+        opacity: var(--opacity-descrease)
+
+        transition-duration: 1s
+
+        align-items: start
+        grid-column: span 3
+
+    & h3 
+        text-align: center
+        opacity: var(--opacity-descrease)
+
+        transition-duration: 1s
+
+        grid-column: span 3
+
+
+/* PSEUDO CLASS FOR ITEMS */
+
+/* SHORTCUTS
+item-oe - item-opacity-effect
+item-oea - item-opacity-effect-after
+item-uf - item-underline-effect
+item-uea - itemu-underline-effect-after
+*/
+
+.item
+    &-oe
+        &::after 
+            content: ""
+            height: 100%
+            width: 100%
+            padding-top: 12px
+            
+            opacity: 0.5
+            background: var(--opacity-color)
+            
+            transition: opacity 0.45s
+            transition-timing-function: ease
+
+            display: block
+            grid-column: 1 / -1
+            grid-row: 1 / -1
+            z-index: 0
+    &-oea
+        &:hover
+            &::after 
+                opacity: 0.2
+  
+    &-ue
+        &::before 
+            content: ""
+            height: 6px
+            width: 0
+            margin-right: auto
+            
+            background: var(--underline-green)
+            
+            display: block
+            grid-column: 1 / -1
+
+            transition: width 0.45s
+            transition-timing-function: ease
+            z-index: 2
+    
+    &-uea
+        &:hover
+            &::before 
+                width: 100%
+
+
+/* CREATE ZOOM EFFECT FOR BACKGROUND */
+
+.item 
+    & img 
+        height: 100%
+        width: 100%
+        
+        transform: scale(1.0)
+        transition-property: transform
+        transition-duration: 0.35s
+
+        grid-column: 1 / -1
+        grid-row: 1 / -1
+        overflow: hidden
+
+    &:hover
+        & img 
+            transform: scale(1.2)
+
+.square 
+    padding-bottom: 90%
+    width: 0px
+
+    grid-column: 1 / -1
+    grid-row: 1 / -1
