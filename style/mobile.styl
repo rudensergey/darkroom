@@ -295,11 +295,12 @@
 
     .darkroom-podcasts 
         padding: 0px 0px 100px 0px
-    
         display: grid
         grid-template-columns: 98px 1fr 98px 
         grid-template-rows: min-content 10px min-content 47px 1fr 50px 1fr 50px 1fr 40px min-content
-        justify-items: center       
+        
+        justify-items: center
+        
 
         & h3 
             text-align: center
@@ -311,20 +312,21 @@
             grid-column: 1 / -1
             grid-row: 3
         
-    .podcast 
-        align-items: end
+    .podcast
+        &-position
+            align-items: end
 
-        &-first /* PODCAST STRUCTURE */
-            grid-column: 2 / 3
-            grid-row: 5 / 6
-    
-        &-second 
-            grid-column: 2 / 3
-            grid-row: 7 / 8
+            &-first /* PODCAST STRUCTURE */
+                grid-column: 2 / 3
+                grid-row: 5 / 6
         
-        &-third 
-            grid-column: 2 / 3
-            grid-row: 9 / 10
+            &-second 
+                grid-column: 2 / 3
+                grid-row: 7 / 8
+            
+            &-third 
+                grid-column: 2 / 3
+                grid-row: 9 / 10
 
     .view-all-posts 
         grid-row: 11
@@ -332,7 +334,7 @@
         & p 
             grid-column: 1 / -1
             grid-row: 1 / -1
-        
+ 
     .podcast .aspect-ration-second 
         display: none
 
